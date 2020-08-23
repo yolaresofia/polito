@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { AiOutlineSearch } from "react-icons/ai";
 import "./../App.css";
-import Upselling from "../Components/Upselling";
+// import Upselling from "../Components/Upselling";
 import home from './../Assets/home.svg'
 
 
@@ -30,9 +30,6 @@ function Places() {
   const [allergyList, setAllergyList] = useState([]);
   const [showBack, setShowBack] = useState(false);
 
-  const showModal = () => {
-    setIsOpen(!isOpen);
-  };
 
   const categoryAndSearchSwitcher = () => {
     setBuscar(false);
@@ -69,8 +66,6 @@ function Places() {
                 isOpen
               }}
             >
-              <Upselling isOpen={isOpen} showModal={showModal} />
-
               <Helmet>
                 <style>{`body { background-color: ${foundPlace.backgroundColor}; min-height:100vh; font-family: ${foundPlace.font}; color: ${foundPlace.color}}`}</style>
               </Helmet>
@@ -81,18 +76,7 @@ function Places() {
                       <img className="homeIcon" src={home} alt=""/>
                     </Link>
                   </div>
-                ) : <div className="buttonDivUpselling">
-                <button
-                  style={{
-                    border: foundPlace.borderButton,
-                    color: foundPlace.color,
-                  }}
-                  className="buttonUpselling buttonSugerencia"
-                  onClick={showModal}
-                >
-                  Sugerencia del día
-                </button>
-              </div>}
+                ) : null }
               <div className="languages">
                 <div
                   className={lang === "ca" ? "perLanguage-act" : "perLanguage"}
