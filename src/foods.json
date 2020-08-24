@@ -30,7 +30,7 @@
         "nombre": "Els edamame de Ana",
         "nombre_en": "Ana's edamame",
         "nombre_es": "Los edamame de Ana",
-        "descripcion": "amb sée8sam i oli de tóf2fona",
+        "descripcion": "amb sésam i oli de tófona",
         "descripcion_en": "with sesame and truffle oil",
         "descripcion_es": "con sésamo y aceite de trufa",
         "precio": "5,50",
@@ -39,7 +39,7 @@
       }, {
         "nombre": "Braves de muntanya",
         "nombre_en": "Bravas of the mountain",
-        "nombre_es": "Bravas de monta´f1a",
+        "nombre_es": "Bravas de montaña",
         "descripcion": "les pots demanar molt picants!",
         "descripcion_en": "you can order them extra spicy!",
         "descripcion_es": "las puedes pedir muy picantes!",
@@ -107,10 +107,10 @@
         "allergen": []
       }, {
         "nombre": "Coca de vidre del Mossèn",
-        "nombre_en": "Coca de vidre bread from Mossèn",
+        "nombre_en": "Coca de vidre ",
         "nombre_es": "Coca de vidre del Mossèn",
         "descripcion": "amb tomàquet",
-        "descripcion_en": "with tomato",
+        "descripcion_en": "bread from Mossèn with tomato",
         "descripcion_es": "con tomate",
         "precio": "2,75",
         "tags": "",
@@ -173,22 +173,22 @@
         "tags": "",
         "allergen": [2]
       }, {
-        "nombre": "Amanida de tomàquet de temporada",
+        "nombre": "Amanida de tomàquet",
         "nombre_en": "Seasonal tomatoes salad",
-        "nombre_es": "Ensalada de tomate de temporada",
-        "descripcion": "i ventresca de atún",
+        "nombre_es": "Ensalada de tomate ",
+        "descripcion": "de temporada i ventresca de atún",
         "descripcion_en": "and tuna belly",
-        "descripcion_es": "y ventresca de atún",
+        "descripcion_es": "de temporada y ventresca de atún",
         "precio": "10",
         "tags": "",
         "allergen": []
       }, {
-        "nombre": "Clàssica amanida de formatge de cabra",
+        "nombre": "Clàssica amanida de ",
         "nombre_en": "Classic goat cheese salad",
-        "nombre_es": "Clásica ensalada de queso de cabra",
-        "descripcion": "amb vinagreta de mel, Módena i fruita seca",
+        "nombre_es": "Clásica ensalada de ",
+        "descripcion": "formatge de cabra amb vinagreta de mel, Módena i fruita seca",
         "descripcion_en": "with honey vinaigrette, Módena and nuts",
-        "descripcion_es": "con vinagreta de miel, Módena y frutos secos",
+        "descripcion_es": "queso de cabra con vinagreta de miel, Módena y frutos secos",
         "precio": "9,50",
         "tags": "",
         "allergen": [2]
@@ -307,12 +307,12 @@
       "nombre_es": "Carnes",
       "imagen": "",
       "data": [{
-        "nombre": "Tagliata de llangardaix ibèric",
-        "nombre_en": "Tagliata of ibèric lagarto",
-        "nombre_es": "Tagliata de lagarto ibérico",
+        "nombre": "Tagliata de llangardaix ",
+        "nombre_en": "Tagliata of ibèric ",
+        "nombre_es": "ibèric Tagliata de ",
         "descripcion": "amb patates de temporada",
-        "descripcion_en": "with seasonal potatoes",
-        "descripcion_es": "con patatas de temporada",
+        "descripcion_en": "lagarto with seasonal potatoes",
+        "descripcion_es": " con patatas de temporada",
         "precio": "9,50",
         "tags": "",
         "allergen": [2]
@@ -337,12 +337,12 @@
         "tags": "",
         "allergen": [2]
       }, {
-        "nombre": "Broquetes de vedella a la planxa",
+        "nombre": "Broquetes de vedella ",
         "nombre_en": "Grilled beef brochettes",
-        "nombre_es": "Brochetas de ternera a la plancha",
-        "descripcion": "amb patatetes de muntanya acompanyades de salsa BBQ",
+        "nombre_es": "Brochetas de ternera ",
+        "descripcion": "a la planxa amb patatetes de muntanya acompanyades de salsa BBQ",
         "descripcion_en": "with mountain potatoes and BBQ sauce",
-        "descripcion_es": "con patatitas de montaña acompañadas de salsa BBQ",
+        "descripcion_es": "a la plancha con patatitas de montaña acompañadas de salsa BBQ",
         "precio": "12,50",
         "tags": "",
         "allergen": []
@@ -420,21 +420,21 @@
         "precio": "13,50",
         "tags": ""
       }, {
-        "nombre": "Miranda D'Espiells Chardonnay",
-        "nombre_en": "Miranda D'Espiells Chardonnay",
-        "nombre_es": "Miranda D'Espiells Chardonnay",
-        "descripcion": "D.O Penedés",
-        "descripcion_en": "D.O Penedés",
-        "descripcion_es": "D.O Penedés",
+        "nombre": "Miranda D'Espiells ",
+        "nombre_en": "Miranda D'Espiells ",
+        "nombre_es": "Miranda D'Espiells ",
+        "descripcion": "D.O Penedés Chardonnay",
+        "descripcion_en": "D.O Penedés Chardonnay",
+        "descripcion_es": "D.O Penedés Chardonnay",
         "precio": "15",
         "tags": ""
       }, {
         "nombre": "Nivarius Chardonnay Bóta",
         "nombre_en": "Nivarius Chardonnay Cask",
-        "nombre_es": "Nivarius Chardonnay Barrica",
+        "nombre_es": "Nivarius Chardonnay",
         "descripcion": "D.O Rioja",
         "descripcion_en": "D.O Rioja",
-        "descripcion_es": "D.O Rioja",
+        "descripcion_es": " Barrica D.O Rioja",
         "precio": "17,50",
         "tags": ""
       }, {
@@ -456,12 +456,12 @@
         "precio": "13,50",
         "tags": ""
       }, {
-        "nombre": "Gregal Gewürztraminer i Muscat",
-        "nombre_en": "Gregal Gewürztraminer and Muscat",
-        "nombre_es": "Gregal Gewürztraminer y Muscat",
-        "descripcion": "D.O Penedés",
-        "descripcion_en": "D.O Penedés",
-        "descripcion_es": "D.O Penedés",
+        "nombre": "Gregal Gewürztraminer",
+        "nombre_en": "Gregal Gewürztraminer ",
+        "nombre_es": "Gregal Gewürztraminer ",
+        "descripcion": " i Muscat D.O Penedés",
+        "descripcion_en": "D.O Penedés and Muscat",
+        "descripcion_es": "D.O Penedés y Muscat",
         "precio": "16,50",
         "tags": ""
       }, {
@@ -551,30 +551,30 @@
       "nombre_es": "Espumosos",
       "imagen": "",
       "data": [{
-        "nombre": "Cava Juvé Camps Cinta Púrpura",
-        "nombre_en": "Cava Juvé Camps Cinta Púrpura",
-        "nombre_es": "Cava Juvé Camps Cinta Púrpura",
-        "descripcion": "D.O Cava",
-        "descripcion_en": "D.O Cava",
-        "descripcion_es": "D.O Cava",
+        "nombre": "Cava Juvé Camps ",
+        "nombre_en": "Cava Juvé Camps ",
+        "nombre_es": "Cava Juvé Camps ",
+        "descripcion": "D.O Cava Cinta Púrpura",
+        "descripcion_en": "D.O Cava Cinta Púrpura",
+        "descripcion_es": "D.O Cava Cinta Púrpura",
         "precio": "19",
         "tags": ""
       }, {
-        "nombre": "Champagne Comte de Brismand",
-        "nombre_en": "Champagne Comte de Brismand",
-        "nombre_es": "Champagne Comte de Brismand",
-        "descripcion": "A.O.C Champagne",
-        "descripcion_en": "A.O.C Champagne",
-        "descripcion_es": "A.O.C Champagne",
+        "nombre": "Champagne Comte",
+        "nombre_en": "Champagne Comte",
+        "nombre_es": "Champagne Comte",
+        "descripcion": "A.O.C Champagne  de Brismand",
+        "descripcion_en": "A.O.C Champagne  de Brismand",
+        "descripcion_es": "A.O.C Champagne  de Brismand",
         "precio": "25",
         "tags": ""
       }, {
-        "nombre": "Champagne Tattinger 1/2 ampolla",
-        "nombre_en": "Champagne Tattinger 1/2 bottle",
-        "nombre_es": "Champagne Tattinger 1/2 botella",
-        "descripcion": "A.O.C Champagne",
-        "descripcion_en": "A.O.C Champagne",
-        "descripcion_es": "A.O.C Champagne",
+        "nombre": "Champagne Tattinger ",
+        "nombre_en": "Champagne Tattinger ",
+        "nombre_es": "Champagne Tattinger ",
+        "descripcion": "A.O.C Champagne 1/2 ampolla",
+        "descripcion_en": "A.O.C Champagne 1/2 bottle",
+        "descripcion_es": "A.O.C Champagne 1/2 botella",
         "precio": "25",
         "tags": ""
       }, {

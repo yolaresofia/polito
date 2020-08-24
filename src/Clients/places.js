@@ -10,7 +10,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import lupita from './../Assets/lupita.svg'
 import "./../App.css";
-// import Upselling from "../Components/Upselling";
 import home from './../Assets/home.svg'
 
 
@@ -25,7 +24,7 @@ let flattened = arrayOfMenu.flat();
 function Places() {
   const [buscar, setBuscar] = useState(false);
   const [lang, setLang] = useState("ca");
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen] = useState(false);
   const [showBack, setShowBack] = useState(false);
 
 
