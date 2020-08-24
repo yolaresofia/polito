@@ -3,7 +3,7 @@ import { DataContext } from '../Context/Context'
 
 const Division = (props) => {
 
-  const {foundPlace, lang} = useContext(DataContext)
+  const {lang} = useContext(DataContext)
     const nameFood = () => {
       switch (lang) {
         case "ca":
@@ -19,8 +19,9 @@ const Division = (props) => {
       <div
         className="box"
       >
+      
         <h1
-          className="headerCategory">
+          className="headerDivision">
           {nameFood()}
         </h1>
       </div>
