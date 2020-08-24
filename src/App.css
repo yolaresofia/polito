@@ -1,12 +1,40 @@
 /*   ---- ---GENERAL  ---- ------ */
 @font-face {
-    font-family: Tommaso;
-    src: url("./Assets/Tommaso.ttf");
+    font-family: Glacial Regular;
+    src: url("./Assets/GlacialIndifference-Regular.ttf");
 }
+
+@font-face {
+    font-family: Didot;
+    src: url("./Assets/Didot-HTF-M06-Medium.ttf");
+}
+
 body{
     animation: fadeIn ease forwards 1.3s;
-
+    background-image: url("./Assets/background-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
+
+.visitaweb {
+    margin: 7% auto;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    color: #02345d;
+    border-bottom: 1.5px solid #fff;
+    width: 54%;
+    padding: 2%;
+    font-family: Didot;
+}
+
+.olita {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+
 .fadeIn{
     animation: fadeIn ease  0.4s;
 
@@ -14,7 +42,8 @@ body{
 button, input {
     font-family: inherit;
 }
-a{
+
+a {
     color:inherit;
 }
 
@@ -44,20 +73,35 @@ a{
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+    justify-content: space-around;
     margin: 2%;
+    
+}
+
+.categoria {
+        min-height: 50vh;
+}
+
+.division {
+    min-height: 55vh;
+}
+
+.list-add {
+    min-height: 55vh;
 }
 
 .box {
     width: 100% !important;
     display: block;
     margin: auto;
+    align-items: "center";
+    display: "flex";
 }
 
 .isoTipo {
     max-height: 15vh;
     max-width: 85vw;
-    margin: 0.5rem auto 1rem auto;
-    justify-self: center;
+    margin: auto;
     display: block;
 }
 
@@ -90,6 +134,7 @@ a{
     margin: auto;
     border: none;
     outline: none;
+    background-color: transparent;
 }
 
 .iconos-filter {
@@ -108,11 +153,6 @@ a{
     padding: 0.3rem 1rem;
 }
 
-.icono-svg {
-    margin: auto;
-    width: 2.5rem;
-}
-
 /*   ---- ---FOOD BOX  ---- ------ */
 .food-box {
     display: flex;
@@ -123,11 +163,11 @@ a{
 }
 
 .food-box h4 {
-    font-family: Tommaso !important;
+    font-family: Didot !important;
     font-style: normal !important;
     margin: 0;
     padding-left: 0.2rem;
-    font-size: 2.3rem !important;
+    font-size: 1.6rem !important;
     font-weight: 100;
 }
 
@@ -145,14 +185,13 @@ a{
 }
 
 .title-category {
-    font-family: Tommaso !important;
+    font-family: Didot !important;
     font-style: normal !important;
     text-align: right;
     font-size: 1.6rem !important;
     margin: 0.7rem;
     margin-bottom: 0.5rem;
     font-weight: 300;
-    letter-spacing: 0.1rem;
 }
 
 .left-box {
@@ -162,7 +201,8 @@ a{
 .headerCategory {
     text-transform: uppercase !important;
     font-weight: 500;
-    letter-spacing: 1.2px;
+    margin-top: 10%;
+    font-family: Didot;
 }
 
 .languages {
@@ -173,24 +213,29 @@ a{
 }
 
 .perLanguage {
-    font-size: 1.6em;
+    font-size: 1.4em;
     padding-bottom: 2px;
-    margin: 1%;
+    margin: 5%;
     cursor: pointer;
     text-decoration: none;
+    color: #02345d;
+    font-family: Didot;
 }
 
 .perLanguage-act {
-    font-size: 1.6em;
+    font-size: 1.5em;
     padding-bottom: 2px;
-    margin: 1%;
-    border-bottom: 1px solid;
+    margin: 5%;
+    border-bottom: 1.3px solid white;
     cursor: pointer;
     text-decoration: none;
+    color: #02345d;
+    font-family: Didot;
 }
 
 .buscador {
     display: flex;
+    justify-content: center;
     font-size: 1.7em;
     margin: 2%;
 }
@@ -202,6 +247,8 @@ a{
 
 .buscador p {
     margin-left: 2%;
+    color: #02345d;
+    font-size: 0.8em;
 }
 
 a:link {
@@ -213,42 +260,7 @@ a:visited {
 }
 
 /*------------------------- MODAL--------------------------*/
-.buttonDivUpselling {
-    text-align: center;
-}
 
-.buttonUpselling {
-    background: transparent;
-    border-radius: 3px;
-}
-
-.buttonClose {
-    font-size: 7vw;
-    padding: .3rem .9rem;
-}
-
-.buttonSugerencia {
-    margin-top: 20px;
-    font-size: 20px;
-    padding: 5px 13px;
-}
-
-.guineu {
-    width: 30%;
-    display: block;
-    margin: 0 auto !important;
-}
-
-.parentModal {
-    position: absolute;
-    display: flex;
-    margin: 0 13px;
-    top: 50vh;
-    transform: translate(0, -50%);
-    height: 90vh;
-    width: 93vw;
-    animation: fadeIn ease forwards 0.7s;
-}
 
 .fadeOutPopUp {
     animation: fadeOut ease forwards 0.5s;
@@ -278,119 +290,27 @@ a:visited {
     }
 }
 
-.overlayModal {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+/*   ---- ---- allergens ---- ------ */
+
+.icono-svg {
+    width: 3.5rem;
     margin: auto;
-}
-
-.mymodal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-.mymodal h1 {
-    font-size: 2.4em;
-    letter-spacing: .05em
-}
-
-.mymodal p {
-    font-size: 1.3em;
-    margin-top: 10%;
-    letter-spacing: .03em;
-    width: 50%;
-    text-align: center;
-}
-
-.modalDivider {
-    width: 30%;
-    margin: 15px auto;
-}
-
-/*   ---- ---- allergen popup ---- ------ */
-.myPopUp {
-    margin: 10% auto;
-}
-
-.parentPopUp {
-    position: absolute;
-    display: flex;
-    margin: 0 13px;
-    top: 50vh;
-    transform: translate(0, -50%);
-    height: 83vh;
-    width: 93vw;
-    animation: fadeIn ease forwards 0.7s;
-}
-
-label {
-    padding: 0 10px;
+    filter: invert(14%) sepia(35%) saturate(3334%) hue-rotate(186deg) brightness(102%) contrast(99%);
 }
 
 .iconBoxContainer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
 }
 
 .iconBoxContainerChecked {
+    width: 3.3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     opacity: 0.4;
-}
-
-.iconBoxContainerChecked img {
-    width: 3.8rem
-}
-
-.iconBoxContainerChecked p {
-    font-size: 1.3em;
-    letter-spacing: 0.05em
-}
-
-.iconBoxContainer p {
-    font-size: 1.3em;
-}
-
-.allergenIcons {
-    width: 4rem;
-}
-
-.multiselect {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90vw;
-    height: 52vh;
-    justify-content: center;
-}
-
-.titleContainerPopUp {
-    padding-bottom: 5%;
-    text-align: center;
-}
-
-.titleContainerPopUp h3 {
-    font-size: 2.2em;
-    margin-bottom: 0.2em;
-    letter-spacing: 0.04em;
-}
-
-.titleContainerPopUp p {
-    font-size: 1.5em;
-    width: 70%;
-    margin: auto;
-    text-align: center;
-    letter-spacing: 0.04em;
 }
 
 /*//////////////////queries bb////////////////*/
@@ -398,117 +318,12 @@ label {
 @media only screen 
     and (device-width : 375px) { 
 
-.allergenIcons {
-    width: 3.3rem;
-}
-
-
-.iconBoxContainerChecked img {
-    width: 3.3rem
-}
-
-
-.iconBoxContainerChecked p {
-    font-size: 1.2em;
-}
-
-.multiselect {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90vw;
-    height: 50vh;
-    justify-content: center;
-}
-
-.mymodal h1 {
-    font-size: 2.5em;
-    letter-spacing: .05em
-}
-
-.mymodal p {
-    font-size: 1.4em;
-    margin-top: 10%;
-    letter-spacing: .03em;
-    width: 50%;
-    text-align: center;
-}
-
-
-.parentPopUp {
-    position: absolute;
-    display: flex;
-    margin: 0 13px;
-    top: 50vh;
-    transform: translate(0, -50%);
-    height: 90vh;
-    width: 93vw;
-    animation: fadeIn ease forwards 0.7s;
-}
 }
 
 
 @media only screen 
     and (max-width : 360px) { 
 
-.allergenIcons {
-    width: 3rem;
-}
-
-.iconBoxContainerChecked img {
-    width: 2.8rem
-}
-
-.iconBoxContainerChecked p {
-    font-size: 1em;
-}
-
-
-.multiselect {
-    display: flex;
-    flex-wrap: wrap;
-    width: 93vw;
-    height: 50vh;
-    justify-content: center;
-}
-
-
-.parentPopUp {
-    position: absolute;
-    display: flex;
-    margin: 0 13px;
-    top: 50vh;
-    transform: translate(0, -50%);
-    height: 90vh;
-    width: 93vw;
-    animation: fadeIn ease forwards 0.7s;
-}
-
-.iconBoxContainer p {
-    font-size: 1em;
-}
-
-
-.titleContainerPopUp h3 {
-    font-size: 2em;
-    margin-bottom: 0.2em;
-    letter-spacing: 0.03em;
-}
-
-.titleContainerPopUp p {
-    font-size: 1.1em;
-    letter-spacing: 0.03em;
-}
-
-.titleContainerPopUp h3 {
-    font-size: 2.3em;
-    margin-bottom: 0.2em;
-    letter-spacing: 0.04em;
-}
-
-.titleContainerPopUp p {
-    font-size: 1.4em;
-    letter-spacing: 0.04em;
-}
-
+        
 }
 

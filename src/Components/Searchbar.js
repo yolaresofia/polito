@@ -15,7 +15,6 @@ const SearchBar = ({inputValue, filterOnChange}) => {
           onChange={filterOnChange}
           placeholder="Buscar..."
           style={{
-            background: foundPlace.backgroundColor,
             color: foundPlace.color,
             zIndex: focus,
             borderBottom: `1px solid ${foundPlace.color}`

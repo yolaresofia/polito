@@ -8,10 +8,27 @@ import Tacc from './../Assets/Tacc.svg'
 
 const SearchComponent = () => {
   const [inputValue, setInputValue] = useState("");
-  const { lang, allergyList, flattened } = useContext(DataContext);
+  const { lang, flattened, foundPlace } = useContext(DataContext);
   const [filterFoods, setFilterFoods] = useState(flattened);
-
+  const [isLactoseChecked, setIsLactoseChecked] = useState(false)
+  const [isGlutenChecked, setIsGlutenChecked] = useState(false)
+  const [allergyList, setAllergyList] = useState([]);
   const [displayAllergList, setdisplayAllergList] = useState(false);
+
+  const arrayOfMenu = [];
+  foundPlace.categorias.map((x) => arrayOfMenu.push(x.data));
+
+  const handleLactose = () => {
+    setdisplayAllergList(true)
+    setIsLactoseChecked(!isLactoseChecked)
+    listHandler(!isLactoseChecked, 2)
+  }
+
+  const handleGluten = () => {
+    setdisplayAllergList(true)
+    setIsGlutenChecked(!isGlutenChecked)
+    listHandler(!isGlutenChecked, 1)
+  }
 
   const filterOnChange = (e) => {
     setInputValue(e.target.value);
@@ -31,13 +48,33 @@ const SearchComponent = () => {
     setFilterFoods(filteredFoods);
   };
 
-  const filterByTag = (tag) => {
-    setdisplayAllergList(false);
-    let filteredFoods = flattened.filter((food) =>
-      food.tags.toLowerCase().includes(tag) !== true
-    );
 
-    setFilterFoods(filteredFoods);
+  const listHandler = (isChecked, number) => {
+    const iterablesAlerg = flattened.filter((x) => x.allergen !== undefined);
+    console.log(iterablesAlerg);
+    const elements = iterablesAlerg.filter(
+      (el) => el.allergen.indexOf(number) === -1
+    );
+    // console.log(elements);
+    let newL = [...allergyList];
+    if (isChecked) {
+      if (newL.length <= 0) {
+        newL.push(elements);
+      } else {
+        // returning a list of all the elements in the menu that do not contain that particular allergen
+        newL = [...allergyList].filter(
+          (x) => x.allergen.indexOf(number) === -1
+        );
+        console.log(newL);
+      }
+      setAllergyList([...new Set(newL.flat())]);
+    } else {
+      const elemsToPush = iterablesAlerg.filter(
+        (el) => el.allergen.indexOf(number) !== -1
+      );
+      newL.push(elemsToPush);
+      setAllergyList([...new Set(newL.flat())]);
+    }
   };
 
   const switchLang = (parameter) => {
@@ -65,15 +102,15 @@ const SearchComponent = () => {
         lang={lang}
       />
       <div className="iconos-filter">
-        <div className="iconos-filter-text" onClick={() => filterByTag("gluten")}>
-          <img src={Tacc} className="allergenicons" alt=""/>
+        <div className={isGlutenChecked?"iconBoxContainerChecked":"iconBoxContainer"} onClick={() => handleGluten()}>
+          <img src={Tacc} className="icono-svg" alt=""/>
           {switchLang("gluten")}
         </div>
         <div
-          className="iconos-filter-text"
-          onClick={() => filterByTag("lactosa")}
+          className={isLactoseChecked?"iconBoxContainerChecked":"iconBoxContainer"}
+          onClick={() => handleLactose()}
         >
-          <img src={Lactosa} alt=""/>
+          <img src={Lactosa} className="icono-svg" alt=""/>
           {switchLang("lactosa")}
         </div>
       </div>

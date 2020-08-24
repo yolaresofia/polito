@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { DataContext } from "../Context/Context";
 import Division from "./Division";
 import { Link } from "react-router-dom";
+import olita from './../Assets/olita.png'
 
 const DivisionList = () => {
   const { foundPlace, lang } = useContext(DataContext);
@@ -10,7 +11,7 @@ const DivisionList = () => {
   return (
     <div className="centered fadeIn">
       <div className="list-add">
-        <ul className="list-food">
+        <ul className="list-food categoria">
           {divisions.map((division, index) => {
             return (
               <Link
@@ -18,11 +19,13 @@ const DivisionList = () => {
                 key={index}
                 to={`${foundPlace.place}/division/${division.url}`}
               >
+              <img className='olita' src={olita} alt=""/>
                 <Division {...division} lang={lang} />
               </Link>
             );
           })}
         </ul>
+      <img className='olita' src={olita} alt=""/>
       </div>
     </div>
   );

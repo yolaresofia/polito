@@ -8,7 +8,7 @@ const FoodList = ({ lang }) => {
 
     return (
       <div className="centered fadeIn">
-        <ul className="list-food">
+        <ul className="list-food categoria">
           {foundPlace.categorias.map((category, index) => {
             return (
               <Link

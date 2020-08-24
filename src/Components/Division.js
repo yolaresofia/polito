@@ -18,19 +18,9 @@ const Division = (props) => {
     return (
       <div
         className="box"
-        style={{
-          height: `calc(70vh/${foundPlace.categorias.length})`,
-          alignItems: "center",
-          display: "flex",
-        }}
       >
         <h1
-          className="headerCategory"
-          style={{
-            fontSize: `calc(62vh/${foundPlace.categorias.length}/2.5)`,
-            margin: "auto",
-            color: foundPlace.color,
-          }}>
+          className="headerCategory">
           {nameFood()}
         </h1>
       </div>

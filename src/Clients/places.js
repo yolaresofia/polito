@@ -6,10 +6,9 @@ import DividedFoodlist from "../Components/DividedFoodList";
 import { DataContext } from "./../Context/Context";
 import SearchComponent from "../Components/SearchComponent";
 import foods from "../foods.json";
-import Helmet from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
-import { AiOutlineSearch } from "react-icons/ai";
+import lupita from './../Assets/lupita.svg'
 import "./../App.css";
 // import Upselling from "../Components/Upselling";
 import home from './../Assets/home.svg'
@@ -27,7 +26,6 @@ function Places() {
   const [buscar, setBuscar] = useState(false);
   const [lang, setLang] = useState("ca");
   const [isOpen, setIsOpen] = useState(false);
-  const [allergyList, setAllergyList] = useState([]);
   const [showBack, setShowBack] = useState(false);
 
 
@@ -49,6 +47,19 @@ function Places() {
     }
   };
 
+  const visita = () => {
+    switch (lang) {
+      case "ca":
+        return "Visiti la nostra web";
+      case "en":
+        return "Visit our website";
+      case "es":
+        return "Visita nuestra web";
+      default:
+        return "Visiti la nostra web";
+    }
+  };
+
   return (
     <div className="App version-movil">
       <div className="contenedor-movil">
@@ -58,17 +69,12 @@ function Places() {
               value={{
                 lang,
                 buscar,
-                allergyList,
-                setAllergyList,
                 param,
                 foundPlace,
                 flattened,
                 isOpen
               }}
             >
-              <Helmet>
-                <style>{`body { background-color: ${foundPlace.backgroundColor}; min-height:100vh; font-family: ${foundPlace.font}; color: ${foundPlace.color}}`}</style>
-              </Helmet>
                 {showBack ? (
                   <div onClick={categoryAndSearchSwitcher}>
                     {" "}
@@ -76,7 +82,7 @@ function Places() {
                       <img className="homeIcon" src={home} alt=""/>
                     </Link>
                   </div>
-                ) : null }
+                ) : <a href="https://mpolito.com"><h6 className="visitaweb">{visita()}</h6></a> }
               <div className="languages">
                 <div
                   className={lang === "ca" ? "perLanguage-act" : "perLanguage"}
@@ -107,7 +113,7 @@ function Places() {
                     </div>
                   ) : (
                     <div className="buscador">
-                      <AiOutlineSearch />
+                      <img src={lupita} style={{width: '10%'}} alt=""/>
                       <p>{search()}</p>
                     </div>
                   )}

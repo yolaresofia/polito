@@ -13,7 +13,7 @@ const DividedFoodList = ({ lang, match }) => {
   return (
     <div className="centered fadeIn">
       <div className="list-add">
-        <ul className="list-food">
+        <ul className="list-food division">
           {selectedCategories.map((category, index) => {
             return (
               <Link
