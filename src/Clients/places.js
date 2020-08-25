@@ -112,7 +112,7 @@ function Places() {
                     </div>
                   ) : (
                     <div className="buscador">
-                      <img src={lupita} style={{width: '10%'}} alt=""/>
+                      {/* <img src={lupita} style={{width: '10%'}} alt=""/> */}
                       <p>{search()}</p>
                     </div>
                   )}
