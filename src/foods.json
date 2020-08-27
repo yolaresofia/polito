@@ -221,7 +221,7 @@
         "descripcion_es": "con aceite de trufa",
         "precio": "9,50",
         "tags": "",
-        "allergen": [2]
+        "allergen": [1,2]
       }, {
         "nombre": "Barreja andaluza",
         "nombre_en": "Andalusian barreja",

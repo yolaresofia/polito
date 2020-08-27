@@ -8,10 +8,11 @@ import SearchComponent from "../Components/SearchComponent";
 import foods from "../foods.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
-import lupita from './../Assets/lupita.svg'
+// import lupita from './../Assets/lupita.svg'
+ import Glass from './../Assets/search-outline.svg'
 import "./../App.css";
 import home from './../Assets/home.svg'
-
+// import { Ionicon } from 'react-icons/io';
 
 
 const param = window.location.pathname.slice(1);
@@ -81,7 +82,7 @@ function Places() {
                       <img className="homeIcon" src={home} alt=""/>
                     </Link>
                   </div>
-                ) : <a href="https://mpolito.com"><h6 className="visitaweb">{visita()}</h6></a> }
+                ) :  <a href="https://mpolito.com"><h6 className="visitaweb">{visita()}</h6><div className="visitaweb-container"> </div></a>}
               <div className="languages">
                 <div
                   className={lang === "ca" ? "perLanguage-act" : "perLanguage"}
@@ -107,12 +108,13 @@ function Places() {
                 <div className="search-bar" onClick={() => setBuscar(!buscar)}>
                   {buscar ? (
                     <div className="buscador">
-                      <FontAwesomeIcon icon={faAngleLeft} />
+                      <FontAwesomeIcon icon={faAngleLeft} color="white" />
                       <p>{lang === "en" ? "Back" : "Volver"}</p>
                     </div>
                   ) : (
                     <div className="buscador">
-                      {/* <img src={lupita} style={{width: '10%'}} alt=""/> */}
+                    
+                      <img src={Glass} className="search-glass" alt=""/> 
                       <p>{search()}</p>
                     </div>
                   )}

@@ -3,7 +3,7 @@ import { DataContext } from './../Context/Context'
 
 const FoodBox = ({lang, nombre, precio}) => {
 
-  const { foundPlace, flattened } = useContext(DataContext);
+  const {  flattened } = useContext(DataContext);
 
   const switchLang = (parameter) => {
     let product = flattened.find(el => el.nombre === nombre)
@@ -24,7 +24,7 @@ const FoodBox = ({lang, nombre, precio}) => {
     return (
       <div className="food-box" >
         <div className="left-box">
-          <h4 style={{color: foundPlace.color}}>{switchLang('nombre')}</h4>
+          <h4>{switchLang('nombre')}</h4>
           <p>{switchLang('descripcion')}</p>
         </div>
       <h3 className="h4-precio">€{precio}</h3>
