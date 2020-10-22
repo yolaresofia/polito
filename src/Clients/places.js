@@ -82,7 +82,7 @@ function Places() {
                       <img className="homeIcon" src={home} alt=""/>
                     </Link>
                   </div>
-                ) :  <a href="https://mpolito.com"><h6 className="visitaweb">{visita()}</h6><div className="visitaweb-container"> </div></a>}
+                ) :  <a href="https://politocastelldefels.com"><h6 className="visitaweb">{visita()}</h6><div className="visitaweb-container"> </div></a>}
               <div className="languages">
                 <div
                   className={lang === "ca" ? "perLanguage-act" : "perLanguage"}
