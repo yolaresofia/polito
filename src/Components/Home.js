@@ -1,12 +1,11 @@
 import React from "react";
-import Contact from "./Contact.jsx"
 import "./../../src/Home.css";
-
+import Places from "./../Clients/places.js"
 const Home = () => {
 
   return (
 <div className="home">
-      <Contact />
+      <Places />
     </div>
   );
 };

@@ -15,8 +15,8 @@ import home from './../Assets/home.svg'
 // import { Ionicon } from 'react-icons/io';
 
 
-const param = window.location.pathname.slice(1);
-const foundPlace =foods.places.find((x) => x.place === param) || foods.places[0];
+
+const foundPlace = foods.places[0];
 const option1 = foundPlace.place || "";
 const arrayOfMenu = [];
 foundPlace.categorias.map((x) => arrayOfMenu.push(x.data));
@@ -69,7 +69,6 @@ function Places() {
               value={{
                 lang,
                 buscar,
-                param,
                 foundPlace,
                 flattened,
                 isOpen

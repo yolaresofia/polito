@@ -1,39 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e94af6844fa9b538c041fc352a099a25",
+    "revision": "e4fc3fa89a77f5d72f1e5ce19e1531e9",
     "url": "/index.html"
   },
   {
-    "revision": "427ca09655b8533d62da",
-    "url": "/static/css/3.4c5855cc.chunk.css"
+    "revision": "b71a7ff9a38baa3d61a6",
+    "url": "/static/css/main.57fc025a.chunk.css"
   },
   {
-    "revision": "7cb41284be575603b9ec",
-    "url": "/static/css/main.02b517b4.chunk.css"
-  },
-  {
-    "revision": "c6d062bd152cce1ac881",
-    "url": "/static/js/2.d714a71c.chunk.js"
+    "revision": "12dd3229e5525c2702b1",
+    "url": "/static/js/2.4a6d3a4f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.d714a71c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4a6d3a4f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "427ca09655b8533d62da",
-    "url": "/static/js/3.73abaaca.chunk.js"
+    "revision": "b71a7ff9a38baa3d61a6",
+    "url": "/static/js/main.7f106f59.chunk.js"
   },
   {
-    "revision": "abce297f50bbf5922edc",
-    "url": "/static/js/4.99ba3631.chunk.js"
-  },
-  {
-    "revision": "7cb41284be575603b9ec",
-    "url": "/static/js/main.5330bd7b.chunk.js"
-  },
-  {
-    "revision": "3188bca810a3be89b5f4",
-    "url": "/static/js/runtime-main.d39c481e.js"
+    "revision": "0881f8df270acccadecc",
+    "url": "/static/js/runtime-main.0ac97744.js"
   },
   {
     "revision": "19dae88e711b82c8ced9bff1a5687339",
@@ -72,10 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Tacc.9218134a.svg"
   },
   {
-    "revision": "7ad24c2ed841a3aa43161f29836f84f2",
-    "url": "/static/media/background-image.7ad24c2e.jpg"
-  },
-  {
     "revision": "458fdcd13b41396491c497201f4a7601",
     "url": "/static/media/fondo-web.458fdcd1.png"
   },
@@ -84,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/home.4a62ecd7.svg"
   },
   {
-    "revision": "7b882aefab557607939d3e133684d906",
-    "url": "/static/media/logo-blanco.7b882aef.png"
-  },
-  {
     "revision": "fc2ae0784cca624cd58ac91f4d26e074",
     "url": "/static/media/plus-list.fc2ae078.png"
+  },
+  {
+    "revision": "99d7de8a28868eb7db3ae0cdd5667b2e",
+    "url": "/static/media/sand.99d7de8a.jpg"
   },
   {
     "revision": "b86f0455a2d8056c5b665fbedf0088a8",
