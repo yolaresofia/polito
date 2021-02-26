@@ -84,7 +84,7 @@
         "descripcion": "",
         "descripcion_en": "",
         "descripcion_es": "",
-        "precio": "7,50",
+        "precio": "9",
         "tags": "",
         "allergen": [2]
       }, {
@@ -114,7 +114,7 @@
         "descripcion": "del Mossèn, amb tomàquet",
         "descripcion_en": "bread from Mossèn, with tomato",
         "descripcion_es": " del Mossèn, con tomate",
-        "precio": "2,75",
+        "precio": "3",
         "tags": "",
         "allergen": [1]
       }, {
@@ -124,7 +124,7 @@
         "descripcion": "amb soja, ponzu i sèsam",
         "descripcion_en": "with soy sauce, ponzu and sesame",
         "descripcion_es": "con soja, ponzu y sésamo",
-        "precio": "5",
+        "precio": "6,50",
         "tags": "",
         "allergen": [1]
       }, {
@@ -144,7 +144,7 @@
         "descripcion": "p/p",
         "descripcion_en": "p/p",
         "descripcion_es": "p/p",
-        "precio": "17",
+        "precio": "18",
         "tags": "",
         "allergen": []
       }]
@@ -171,7 +171,7 @@
         "descripcion": "amb ceba trufada",
         "descripcion_en": "with truffled onions",
         "descripcion_es": "con cebolla trufada",
-        "precio": "6",
+        "precio": "7,50",
         "tags": "",
         "allergen": []
       }, {
@@ -190,7 +190,7 @@
         "nombre_es": "Ensalada de tomate confitado",
         "descripcion": "amb ventresca i ceba dolça",
         "descripcion_en": "with tuna belly and sweet onions",
-        "descripcion_es": "con ventrezca de atún y cebolla dulce",
+        "descripcion_es": "con ventresca de atún y cebolla dulce",
         "precio": "10",
         "tags": "",
         "allergen": [2]
@@ -278,7 +278,7 @@
         "descripcion": "amb Mòdena i vi blanc",
         "descripcion_en": "with Módena and white wine",
         "descripcion_es": "con Módena y vino blanco",
-        "precio": "9,50",
+        "precio": "10,50",
         "tags": "",
         "allergen": []
       }, {

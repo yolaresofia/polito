@@ -17,7 +17,7 @@ import home from './../Assets/home.svg'
 
 
 const foundPlace = foods.places[0];
-const option1 = foundPlace.place || "";
+const option1 = foundPlace.place;
 const arrayOfMenu = [];
 foundPlace.categorias.map((x) => arrayOfMenu.push(x.data));
 let flattened = arrayOfMenu.flat();
@@ -127,6 +127,11 @@ function Places() {
                     setShowBack(true);
                   }}
                 >
+                  <Route
+                    exact
+                    path="/"
+                    render={(props) => <DivisionList {...props} lang={lang} />}
+                  />
                   <Route
                     exact
                     path="/:place"
