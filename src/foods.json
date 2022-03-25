@@ -33,7 +33,7 @@
           "descripcion": "amb sèsam i oli de tòfona",
           "descripcion_en": "with sesame and truffle oil",
           "descripcion_es": "con sésamo y aceite de trufa",
-          "precio": "5,50",
+          "precio": "7,25",
           "tags": "",
           "allergen": []
         }, {
@@ -43,7 +43,7 @@
           "descripcion": "de muntanya, les pots demanar molt picants!",
           "descripcion_en": "of the mountain, you can order them extra spicy!",
           "descripcion_es": " de montaña, las puedes pedir muy picantes!",
-          "precio": "5,50",
+          "precio": "7,25",
           "tags": "",
           "allergen": [2]
         }, {
@@ -53,7 +53,7 @@
           "descripcion": "per mullar en vinagreta provençal",
           "descripcion_en": "to dip in provenzal vinaigrette",
           "descripcion_es": "para mojar en vinagreta provenzal",
-          "precio": "8,50",
+          "precio": "9,50",
           "tags": "",
           "allergen": [1]
         },
@@ -75,7 +75,7 @@
           "descripcion": "de les grosses",
           "descripcion_en": "the big ones",
           "descripcion_es": "de las gordas",
-          "precio": "3",
+          "precio": "3,25",
           "tags": ""
         }, {
           "nombre": "Patates butan",
@@ -84,7 +84,7 @@
           "descripcion": "amb havarti, pebrot escalivat i caienas",
           "descripcion_en": "with havarti, roasted pepper and cayennes",
           "descripcion_es": "con havarti, pimiento escalivado y cayenas",
-          "precio": "9",
+          "precio": "11",
           "tags": "",
           "allergen": [2]
         }, {
@@ -94,7 +94,7 @@
           "descripcion": "amb orenga i pebre negre",
           "descripcion_en": "with oregano and black pepper",
           "descripcion_es": "con orégano y pimienta negra",
-          "precio": "6,25",
+          "precio": "7",
           "tags": "",
           "allergen": [2]
         }, {
@@ -114,7 +114,7 @@
           "descripcion": "amb remolatxa fresca, sèsam, paprika i oli de kalamata.",
           "descripcion_en": "with fresh beet, sesame, paprika and kalamata oil",
           "descripcion_es": "con remolacha fresca, sésamo, paprika y aceite de kalamata",
-          "precio": "6,50",
+          "precio": "7,25",
           "tags": "",
           "allergen": []
         }, {
@@ -124,7 +124,7 @@
           "descripcion": "del Mossèn, amb tomàquet",
           "descripcion_en": "bread from Mossèn, with tomato",
           "descripcion_es": " del Mossèn, con tomate",
-          "precio": "3",
+          "precio": "4",
           "tags": "",
           "allergen": [1]
         }, {
@@ -134,7 +134,7 @@
           "descripcion": "amb soja, ponzu i sèsam",
           "descripcion_en": "with soy sauce, ponzu and sesame",
           "descripcion_es": "con soja, ponzu y sésamo",
-          "precio": "6,50",
+          "precio": "7,25",
           "tags": "",
           "allergen": [1]
         }
@@ -152,7 +152,7 @@
         "descripcion": "p/p",
         "descripcion_en": "p/p",
         "descripcion_es": "p/p",
-        "precio": "16",
+        "precio": "17",
         "tags": "",
         "allergen": []
       }, {
@@ -162,7 +162,7 @@
         "descripcion": "p/p",
         "descripcion_en": "p/p",
         "descripcion_es": "p/p",
-        "precio": "18",
+        "precio": "19",
         "tags": "",
         "allergen": []
       }, {
@@ -172,7 +172,7 @@
         "descripcion": "",
         "descripcion_en": "",
         "descripcion_es": "",
-        "precio": "10",
+        "precio": "11",
         "tags": "",
         "allergen": []
       }, {
@@ -182,7 +182,7 @@
         "descripcion": "com li agrada al Joan",
         "descripcion_en": "how Joan likes it",
         "descripcion_es": "como le agrada al Joan",
-        "precio": "5,50",
+        "precio": "6,25",
         "tags": "",
         "allergen": []
       }, {
@@ -192,7 +192,7 @@
         "descripcion": "by Polito",
         "descripcion_en": "by Polito",
         "descripcion_es": "by Polito",
-        "precio": "6,50",
+        "precio": "7,25",
         "tags": "",
         "allergen": []
       }, {
@@ -202,7 +202,7 @@
         "descripcion": "al forn amb ceba trufada",
         "descripcion_en": "baked with truffled onions",
         "descripcion_es": "al horno con cebolla trufada",
-        "precio": "7,50",
+        "precio": "9",
         "tags": "",
         "allergen": []
       }, {
@@ -212,7 +212,7 @@
         "descripcion": "amb pesto, mel i tomàquets",
         "descripcion_en": "with pesto, honey and tomatoes",
         "descripcion_es": "con pesto, miel y tomatitos",
-        "precio": "10,50",
+        "precio": "11,50",
         "tags": "",
         "allergen": [2]
       }, {
@@ -222,7 +222,7 @@
         "descripcion": "amb ventresca i ceba dolça",
         "descripcion_en": "with tuna belly and sweet onions",
         "descripcion_es": "con ventresca de atún y cebolla dulce",
-        "precio": "10",
+        "precio": "11",
         "tags": "",
         "allergen": [2]
       }, {
@@ -232,7 +232,7 @@
         "descripcion": "amb salmó fumat, iogurt i tartufato",
         "descripcion_en": "with smoked salmon, yogurt and tartufato",
         "descripcion_es": "con salmón ahumado, yogurt y tartufato",
-        "precio": "6",
+        "precio": "7",
         "tags": "",
         "allergen": [1, 2]
       }, {
@@ -252,7 +252,7 @@
         "descripcion": "amb soja i mel",
         "descripcion_en": "with honey and soy sauce",
         "descripcion_es": "con soja y miel",
-        "precio": "7",
+        "precio": "8,50",
         "tags": "",
         "allergen": []
       }]
@@ -269,7 +269,7 @@
         "descripcion": "",
         "descripcion_en": "",
         "descripcion_es": "",
-        "precio": "12",
+        "precio": "13,25",
         "tags": "",
         "allergen": []
       }, {
@@ -279,7 +279,7 @@
         "descripcion": "fregida amb farina de cigrons",
         "descripcion_en": "fried with chickpea flour",
         "descripcion_es": "frita y rebozada con harina de garbanzos",
-        "precio": "9,50",
+        "precio": "10,75",
         "tags": "",
         "allergen": [1]
       }, {
@@ -299,7 +299,7 @@
         "descripcion": "",
         "descripcion_en": "",
         "descripcion_es": "",
-        "precio": "15",
+        "precio": "16",
         "tags": "",
         "allergen": []
       }, {
@@ -309,7 +309,7 @@
         "descripcion": "amb Mòdena i vi blanc",
         "descripcion_en": "with Módena and white wine",
         "descripcion_es": "con Módena y vino blanco",
-        "precio": "10,50",
+        "precio": "11,50",
         "tags": "",
         "allergen": []
       }, {
@@ -319,7 +319,7 @@
         "descripcion": "només per a adults",
         "descripcion_en": "only for adults",
         "descripcion_es": "solo para adultos",
-        "precio": "12",
+        "precio": "13",
         "tags": "",
         "allergen": []
       } ,{
@@ -329,7 +329,7 @@
         "descripcion": "amb ruca i créixens",
         "descripcion_en": "with arugula and watercress",
         "descripcion_es": "con rúcula y berros",
-        "precio": "12",
+        "precio": "13",
         "tags": "",
         "allergen": []
       }, {
@@ -339,7 +339,7 @@
         "descripcion": "amb meunière de tàperes (dues persones)",
         "descripcion_en": "with capers meunière (two people)",
         "descripcion_es": "con meunière de alcaparras (dos personas)",
-        "precio": "13 p/p",
+        "precio": "14 p/p",
         "tags": "",
         "allergen": []
       }]
