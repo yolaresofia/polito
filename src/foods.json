@@ -356,7 +356,7 @@
         "descripcion": "amb rucula i parma",
         "descripcion_en": "with arugula and parmesan",
         "descripcion_es": "con rucula y parma",
-        "precio": "11",
+        "precio": "12",
         "tags": "",
         "allergen": [2]
       }, {
@@ -366,7 +366,7 @@
         "descripcion": "",
         "descripcion_en": "",
         "descripcion_es": "",
-        "precio": "10,50",
+        "precio": "11,50",
         "tags": "",
         "allergen": [1, 2]
       }, {
@@ -376,7 +376,7 @@
         "descripcion": "patata a l'forn i puré de moniato",
         "descripcion_en": "with bakes potatoes and sweet potato puree",
         "descripcion_es": "patata al horno y puré de boniato",
-        "precio": "10",
+        "precio": "11,50",
         "tags": "",
         "allergen": [1, 2]
       },{
