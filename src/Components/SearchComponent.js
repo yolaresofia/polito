@@ -65,7 +65,6 @@ const SearchComponent = () => {
         newL = [...allergyList].filter(
           (x) => x.allergen.indexOf(number) === -1
         );
-        console.log(newL);
       }
       setAllergyList([...new Set(newL.flat())]);
     } else {

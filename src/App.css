@@ -206,6 +206,10 @@ a {
     z-index: 4 !important;
 }
 
+.left-box h4 {
+    margin-top: 0;
+}
+
 .food-box .h4-precio {
     margin: 0;
     font-size: 1.4rem;
@@ -384,21 +388,26 @@ a:visited {
     .headerDivision {
         padding-top: 2%
     }
+
     .homeIcon {
         width: 3%
     }
+
     .input {
         width: 35%
     }
+
     .iconos-filter {
         width: 35%;
         margin: 0 auto;
         padding-top: 2%;
     }
+
     .list-food {
         width: 60%;
         margin: 0 auto
     }
+
     .headerCategory {
         padding-top: 3%
     }

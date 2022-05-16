@@ -106,7 +106,7 @@
           "descripcion_es": "con aceite de trufa",
           "precio": "9,50",
           "tags": "",
-          "allergen": [2]
+          "allergen": []
         }, {
           "nombre": "Hummus",
           "nombre_en": "Hummus",
@@ -500,7 +500,7 @@
         "descripcion": "Chardonnay D.O Navarra",
         "descripcion_en": "Chardonnay D.O Navarra",
         "descripcion_es": "Chardonnay D.O Navarra",
-        "precio": "13,50",
+        "precio": "14,50",
         "tags": ""
       }, {
         "nombre": "Miranda D'Espiells ",
@@ -518,7 +518,7 @@
         "descripcion": "Verdejo D.O Rueda",
         "descripcion_en": "Verdejo D.O Rueda",
         "descripcion_es": "Verdejo D.O Rueda",
-        "precio": "13,50",
+        "precio": "16",
         "tags": ""
       }, {
         "nombre": "La Camioneta Verdejo",
@@ -527,7 +527,7 @@
         "descripcion": "D.O Rueda",
         "descripcion_en": "D.O Rueda",
         "descripcion_es": "D.O Rueda",
-        "precio": "13,50",
+        "precio": "15",
         "tags": ""
       }, {
         "nombre": "Gregal Gewürztraminer",
@@ -545,7 +545,7 @@
         "descripcion": "D.O Rias Baixas",
         "descripcion_en": "D.O Rias Baixas",
         "descripcion_es": "D.O Rias Baixas",
-        "precio": "16",
+        "precio": "17",
         "tags": ""
       }, {
         "nombre": "Pulpo Albariño",
@@ -554,7 +554,7 @@
         "descripcion": "D.O Rias Baixas",
         "descripcion_en": "D.O Rias Baixas",
         "descripcion_es": "D.O Rias Baixas",
-        "precio": "18",
+        "precio": "21",
         "tags": ""
       }]
     }, {
@@ -570,7 +570,7 @@
         "descripcion": "D.O Empordà",
         "descripcion_en": "D.O Empordà",
         "descripcion_es": "D.O Empordà",
-        "precio": "13",
+        "precio": "14",
         "tags": ""
       }, {
         "nombre": "El Aviador",
@@ -579,7 +579,7 @@
         "descripcion": "V.T Castilla i León",
         "descripcion_en": "V.T Castilla y León",
         "descripcion_es": "V.T Castilla y León",
-        "precio": "13",
+        "precio": "14,50",
         "tags": ""
       }, {
         "nombre": "XII Lunas",
@@ -588,7 +588,7 @@
         "descripcion": "D.O Rioja",
         "descripcion_en": "D.O Rioja",
         "descripcion_es": "D.O Rioja",
-        "precio": "13",
+        "precio": "14",
         "tags": ""
       }, {
         "nombre": "Cantamañanas Roble",
@@ -622,7 +622,7 @@
         "descripcion": "D.O Cava Cinta Púrpura",
         "descripcion_en": "D.O Cava Cinta Púrpura",
         "descripcion_es": "D.O Cava Cinta Púrpura",
-        "precio": "19",
+        "precio": "20",
         "tags": ""
       }, {
         "nombre": "Champagne Taittinger ",

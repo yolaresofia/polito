@@ -1,8 +1,16 @@
-import React, { useContext } from "react";
+/* eslint-disable no-undef */
+import React, { useContext, useState, useEffect } from "react";
 import { DataContext } from "./../Context/Context";
 
 const FoodBox = ({ lang, nombre, precio }) => {
   const { flattened } = useContext(DataContext);
+  const [isSafari, setisSafari] = useState(false);
+  useEffect(() => {
+    var isSafariBrowser = /^((?!chrome|android).)*safari/i.test(
+      navigator.userAgent
+    );
+    setisSafari(isSafariBrowser);
+  }, []);
 
   const switchLang = (parameter) => {
     let product = flattened.find((el) => el.nombre === nombre);
@@ -23,7 +31,9 @@ const FoodBox = ({ lang, nombre, precio }) => {
   return (
     <div className="food-box">
       <div className="left-box">
-          <h4>{switchLang("nombre")}</h4>
+        <h4 style={{ marginTop: isSafari ? 0 : "1.1em" }}>
+          {switchLang("nombre")}
+        </h4>
         <p>{switchLang("descripcion")}</p>
       </div>
       <h3 className="h4-precio">{precio}€</h3>
