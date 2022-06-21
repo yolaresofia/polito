@@ -368,7 +368,7 @@
         "descripcion_es": "",
         "precio": "11,50",
         "tags": "",
-        "allergen": [1, 2]
+        "allergen": []
       }, {
         "nombre": "Costellam de porc amb salsa BBQ",
         "nombre_en": "BBQ pork ribs",
@@ -378,7 +378,7 @@
         "descripcion_es": "patata al horno y puré de boniato",
         "precio": "11,50",
         "tags": "",
-        "allergen": [1, 2]
+        "allergen": []
       },{
         "nombre": "Carpaccio de lacón",
         "nombre_en": "Lacon carpaccio",
@@ -388,7 +388,7 @@
         "descripcion_es": "",
         "precio": "11",
         "tags": "",
-        "allergen": [2]
+        "allergen": []
       }]
     }, {
       "division": "paracomer",
@@ -415,7 +415,7 @@
         "descripcion_es": "",
         "precio": "2 p/u",
         "tags": "",
-        "allergen": [1, 2]
+        "allergen": [ 2]
       }, {
         "nombre": "Coulant de xocolata",
         "nombre_en": "Chocolate coulant",
@@ -465,7 +465,7 @@
         "descripcion_es": "con vodka",
         "precio": "5,50",
         "tags": "",
-        "allergen": [1, 2]
+        "allergen": [0]
       }, {
         "nombre": "Saquets de vainilla",
         "nombre_en": "Vanilla pockets",
