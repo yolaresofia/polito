@@ -31,7 +31,7 @@ const FoodBox = ({ lang, nombre, precio }) => {
   return (
     <div className="food-box">
       <div className="left-box">
-        <h4 style={{ marginTop: isSafari ? 0 : "1.1em" }}>
+        <h4 style={{ marginTop: isSafari ? 0 : "1.1em", lineHeight:1 }}>
           {switchLang("nombre")}
         </h4>
         <p>{switchLang("descripcion")}</p>

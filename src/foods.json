@@ -106,7 +106,7 @@
           "descripcion_es": "con aceite de trufa",
           "precio": "9,50",
           "tags": "",
-          "allergen": []
+          "allergen": [1,2]
         }, {
           "nombre": "Hummus",
           "nombre_en": "Hummus",
@@ -174,7 +174,7 @@
         "descripcion_es": "",
         "precio": "11",
         "tags": "",
-        "allergen": []
+        "allergen": [1,2]
       }, {
         "nombre": "Ensaladilla rusa",
         "nombre_en": "Russian salad",
@@ -184,7 +184,7 @@
         "descripcion_es": "como le agrada al Joan",
         "precio": "6,25",
         "tags": "",
-        "allergen": []
+        "allergen": [1,2]
       }, {
         "nombre": "Guacamole",
         "nombre_en": "Guacamole",
@@ -224,7 +224,7 @@
         "descripcion_es": "con ventresca de atún y cebolla dulce",
         "precio": "11",
         "tags": "",
-        "allergen": [2]
+        "allergen": []
       }, {
         "nombre": "Biquini",
         "nombre_en": "Grilled cheese",
@@ -281,7 +281,7 @@
         "descripcion_es": "frita y rebozada con harina de garbanzos",
         "precio": "10,75",
         "tags": "",
-        "allergen": [1]
+        "allergen": []
       }, {
         "nombre": "'Closca a la planxa'",
         "nombre_en": "'Sauteed clams'",
@@ -321,7 +321,7 @@
         "descripcion_es": "solo para adultos",
         "precio": "13",
         "tags": "",
-        "allergen": []
+        "allergen": [1]
       } ,{
         "nombre": "Calamar a la barbacoa",
         "nombre_en": "BBQ squid",
@@ -341,7 +341,7 @@
         "descripcion_es": "con meunière de alcaparras (dos personas)",
         "precio": "14 p/p",
         "tags": "",
-        "allergen": []
+        "allergen": [2]
       }]
     }, {
       "division": "paracomer",

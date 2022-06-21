@@ -11,28 +11,46 @@ const Alergenos = () => {
   const flattened = arrayOfMenu.flat();
 
   const listHandler = (isChecked, number) => {
-    const iterablesAlerg = flattened.filter((x) => x.alergenos !== undefined);
-    const elements = iterablesAlerg.filter(
-      (el) => el.alergenos.indexOf(+number) === -1
-    );
-    let newL = [...allergyList];
-    if (isChecked) {
-      if (newL.length <= 0) {
-        newL.push(elements);
-      } else {
-        // returning a list of all the elements in the menu that do not contain that particular allergen
-        newL = [...allergyList].filter(
-          (x) => x.alergenos.indexOf(number) === -1
-        );
-      }
-      setAllergyList([...new Set(newL.flat())]);
-    } else {
-      const elemsToPush = iterablesAlerg.filter(
-        (el) => el.alergenos.indexOf(number) !== -1
-      );
-      newL.push(elemsToPush);
-      setAllergyList([...new Set(newL.flat())]);
-    }
+
+
+
+
+    console.log("objectaasd");
+
+   
+
+
+
+
+
+
+
+
+
+    // const elements = iterablesAlerg.filter(
+    //   (el) => el.alergenos.indexOf(number) === -1
+    // );
+    // let newL = [...allergyList];
+    // if (isChecked) {
+    //   if (newL.length <= 0) {
+    //     newL.push(elements);
+    //   } else {
+    //     // returning a list of all the elements in the menu that do not contain that particular allergen
+    //     newL = [...allergyList].filter(
+    //       (x) => x.alergenos.indexOf(number) === -1
+    //     );
+    //   }
+    //   setAllergyList([...new Set(newL.flat())]);
+    // } else {
+    //   const elemsToPush = iterablesAlerg.filter(
+    //     (el) => el.alergenos.indexOf(number) !== -1
+    //   );
+    //   const elemsToPush2 = allergyList.filter(
+    //     (el) => el.alergenos.indexOf(number) !== -1
+    //   );
+    //   newL.push(elemsToPush, elemsToPush2);
+    //   setAllergyList([...new Set(newL.flat())]);
+    // }
   };
 
   return (

@@ -2,33 +2,33 @@ import React, { useState, useContext } from "react";
 import Foodbox from "./Foodbox";
 import Searchbar from "./Searchbar";
 import { DataContext } from "./../Context/Context";
-import Lactosa from './../Assets/Lactosa.svg'
-import Tacc from './../Assets/Tacc.svg'
-
+import Lactosa from "./../Assets/Lactosa.svg";
+import Tacc from "./../Assets/Tacc.svg";
 
 const SearchComponent = () => {
   const [inputValue, setInputValue] = useState("");
   const { lang, flattened, foundPlace } = useContext(DataContext);
   const [filterFoods, setFilterFoods] = useState(flattened);
-  const [isLactoseChecked, setIsLactoseChecked] = useState(false)
-  const [isGlutenChecked, setIsGlutenChecked] = useState(false)
-  const [allergyList, setAllergyList] = useState([]);
+  const [isLactoseChecked, setIsLactoseChecked] = useState(false);
+  const [isGlutenChecked, setIsGlutenChecked] = useState(false);
+  const [allergyList, setAllergyList] = useState(flattened);
   const [displayAllergList, setdisplayAllergList] = useState(false);
 
   const arrayOfMenu = [];
   foundPlace.categorias.map((x) => arrayOfMenu.push(x.data));
 
   const handleLactose = () => {
-    setdisplayAllergList(true)
-    setIsLactoseChecked(!isLactoseChecked)
-    listHandler(!isLactoseChecked, 2)
-  }
+    setdisplayAllergList(true);
+    setIsLactoseChecked(!isLactoseChecked);
+    listHandler(!isLactoseChecked, isGlutenChecked);
+  };
 
   const handleGluten = () => {
-    setdisplayAllergList(true)
-    setIsGlutenChecked(!isGlutenChecked)
-    listHandler(!isGlutenChecked, 1)
-  }
+    setdisplayAllergList(true);
+    setIsGlutenChecked(!isGlutenChecked);
+    listHandler(isLactoseChecked, !isGlutenChecked);
+  };
+// gluten 1, lactose 2
 
   const filterOnChange = (e) => {
     setInputValue(e.target.value);
@@ -48,39 +48,40 @@ const SearchComponent = () => {
     setFilterFoods(filteredFoods);
   };
 
+  const listHandler = (a, b) => {
 
-  const listHandler = (isChecked, number) => {
-    const iterablesAlerg = flattened.filter((x) => x.allergen !== undefined);
-    console.log(iterablesAlerg);
-    const elements = iterablesAlerg.filter(
-      (el) => el.allergen.indexOf(number) === -1
-    );
-    // console.log(elements);
-    let newL = [...allergyList];
-    if (isChecked) {
-      if (newL.length <= 0) {
-        newL.push(elements);
-      } else {
-        // returning a list of all the elements in the menu that do not contain that particular allergen
-        newL = [...allergyList].filter(
-          (x) => x.allergen.indexOf(number) === -1
-        );
-      }
-      setAllergyList([...new Set(newL.flat())]);
-    } else {
-      const elemsToPush = iterablesAlerg.filter(
-        (el) => el.allergen.indexOf(number) !== -1
+    const iterablesAlerg = flattened.filter((x) => x.allergen);
+
+    if (a && !b) {
+      const elements = iterablesAlerg.filter(
+        (el) => el.allergen.indexOf(1) !== -1
       );
-      newL.push(elemsToPush);
-      setAllergyList([...new Set(newL.flat())]);
+      setAllergyList(elements);
     }
+    if (!a && b) {
+      const elements = iterablesAlerg.filter(
+        (el) => el.allergen.indexOf(2) !== -1
+      );
+      setAllergyList(elements);
+    }
+    if (a && b) {
+      const elements = iterablesAlerg.filter(
+        (el) => el.allergen.indexOf(1) === -1 
+      ).filter(x=>x.allergen.indexOf(2) === -1);
+
+      setAllergyList(elements);
+    }
+    if (!a && !b) {
+      setAllergyList(flattened);
+    }
+   
   };
 
   const switchLang = (parameter) => {
     const translations = {
       gluten: ["Sense gluten", "Gluten free", "Sin gluten"],
-      lactosa: ["Sense lactosa", "Lactose free", "Sin lactosa"]
-    }
+      lactosa: ["Sense lactosa", "Lactose free", "Sin lactosa"],
+    };
     switch (lang) {
       case "ca":
         return translations[parameter][0];
@@ -89,7 +90,7 @@ const SearchComponent = () => {
       case "es":
         return translations[parameter][2];
       default:
-        return translations[parameter][0]
+        return translations[parameter][0];
     }
   };
 
@@ -101,15 +102,22 @@ const SearchComponent = () => {
         lang={lang}
       />
       <div className="iconos-filter">
-        <div className={isGlutenChecked?"iconBoxContainerChecked":"iconBoxContainer"} onClick={() => handleGluten()}>
-          <img src={Tacc} className="icono-svg" alt=""/>
+        <div
+          className={
+            isGlutenChecked ? "iconBoxContainerChecked" : "iconBoxContainer"
+          }
+          onClick={() => handleGluten()}
+        >
+          <img src={Tacc} className="icono-svg" alt="" />
           {switchLang("gluten")}
         </div>
         <div
-          className={isLactoseChecked?"iconBoxContainerChecked":"iconBoxContainer"}
+          className={
+            isLactoseChecked ? "iconBoxContainerChecked" : "iconBoxContainer"
+          }
           onClick={() => handleLactose()}
         >
-          <img src={Lactosa} className="icono-svg" alt=""/>
+          <img src={Lactosa} className="icono-svg" alt="" />
           {switchLang("lactosa")}
         </div>
       </div>
