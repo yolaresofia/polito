@@ -415,14 +415,14 @@
         "descripcion_es": "",
         "precio": "2 p/u",
         "tags": "",
-        "allergen": [ 2]
+        "allergen": [2]
       }, {
-        "nombre": "Coulant de xocolata",
-        "nombre_en": "Chocolate coulant",
-        "nombre_es": "Coulant de chocolate",
-        "descripcion": "amb gelat de nata",
-        "descripcion_en": "with cream ice cream",
-        "descripcion_es": "con helado de nata",
+        "nombre": "Brownie",
+        "nombre_en": "Brownie",
+        "nombre_es": "Brownie",
+        "descripcion": "",
+        "descripcion_en": "",
+        "descripcion_es": "",
         "precio": "6",
         "tags": "",
         "allergen": [1, 2]

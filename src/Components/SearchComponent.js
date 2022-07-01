@@ -28,7 +28,7 @@ const SearchComponent = () => {
     setIsGlutenChecked(!isGlutenChecked);
     listHandler(isLactoseChecked, !isGlutenChecked);
   };
-// gluten 1, lactose 2
+  // gluten 1, lactose 2
 
   const filterOnChange = (e) => {
     setInputValue(e.target.value);
@@ -49,32 +49,30 @@ const SearchComponent = () => {
   };
 
   const listHandler = (a, b) => {
-
     const iterablesAlerg = flattened.filter((x) => x.allergen);
 
     if (a && !b) {
       const elements = iterablesAlerg.filter(
-        (el) => el.allergen.indexOf(1) !== -1
+        (el) => el.allergen.indexOf(2) === -1
       );
       setAllergyList(elements);
     }
     if (!a && b) {
       const elements = iterablesAlerg.filter(
-        (el) => el.allergen.indexOf(2) !== -1
+        (el) => el.allergen.indexOf(1) === -1
       );
       setAllergyList(elements);
     }
     if (a && b) {
-      const elements = iterablesAlerg.filter(
-        (el) => el.allergen.indexOf(1) === -1 
-      ).filter(x=>x.allergen.indexOf(2) === -1);
+      const elements = iterablesAlerg
+        .filter((el) => el.allergen.indexOf(1) === -1)
+        .filter((x) => x.allergen.indexOf(2) === -1);
 
       setAllergyList(elements);
     }
     if (!a && !b) {
       setAllergyList(flattened);
     }
-   
   };
 
   const switchLang = (parameter) => {
