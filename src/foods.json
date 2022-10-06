@@ -47,6 +47,26 @@
           "tags": "",
           "allergen": [2]
         }, {
+          "nombre": "Patata trinxada",
+          "nombre_en": "Smashed potato",
+          "nombre_es": "Patata trinchada",
+          "descripcion": "amb tirabecs i salmò fumat",
+          "descripcion_en": "with field peas and smoked salmon",
+          "descripcion_es": "con tirabeques y salmón ahumado",
+          "precio": "8",
+          "tags": "",
+          "allergen": []
+        }, {
+          "nombre": "Escabetx de musclos",
+          "nombre_en": "Pickled mussels",
+          "nombre_es": "Escabeche de mejillones",
+          "descripcion": "",
+          "descripcion_en": "",
+          "descripcion_es": "",
+          "precio": "5,50",
+          "tags": "",
+          "allergen": []
+        }, {
           "nombre": "Fingers de pollastre",
           "nombre_en": "Chicken fingers",
           "nombre_es": "Fingers de pollo",
@@ -106,7 +126,7 @@
           "descripcion_es": "con aceite de trufa",
           "precio": "9,50",
           "tags": "",
-          "allergen": [1,2]
+          "allergen": [1, 2]
         }, {
           "nombre": "Hummus",
           "nombre_en": "Hummus",
@@ -146,9 +166,9 @@
       "nombre_es": "Entrantes",
       "imagen": "",
       "data": [{
-        "nombre": "Arròs de verdures",
-        "nombre_en": "Veggie rice",
-        "nombre_es": "Arroz de verduras",
+        "nombre": "Arròs de verdures socarrat",
+        "nombre_en": "Shocked veggie rice",
+        "nombre_es": "Arroz de verduras 'socarrat'",
         "descripcion": "p/p",
         "descripcion_en": "p/p",
         "descripcion_es": "p/p",
@@ -156,13 +176,13 @@
         "tags": "",
         "allergen": []
       }, {
-        "nombre": "Arròs de mar del Jose",
-        "nombre_en": "José's sea rice",
-        "nombre_es": "Arroz de mar del Jose",
+        "nombre": "Arròs de mar socarrat",
+        "nombre_en": "Shocked sea rice",
+        "nombre_es": "Arroz de mar socarrat",
         "descripcion": "p/p",
         "descripcion_en": "p/p",
         "descripcion_es": "p/p",
-        "precio": "19",
+        "precio": "20",
         "tags": "",
         "allergen": []
       }, {
@@ -174,7 +194,17 @@
         "descripcion_es": "",
         "precio": "11",
         "tags": "",
-        "allergen": [1,2]
+        "allergen": [1, 2]
+      }, {
+        "nombre": "Carpaccio de carbassó",
+        "nombre_en": "Carpaccio de calabacín",
+        "nombre_es": "Zucchini carpaccio",
+        "descripcion": "amb vinagreta de llimona i parmesà",
+        "descripcion_en": "con vinagreta de limón y parmesano",
+        "descripcion_es": "with lemon vinaigrette and parmesan",
+        "precio": "6",
+        "tags": "",
+        "allergen": [2]
       }, {
         "nombre": "Ensaladilla rusa",
         "nombre_en": "Russian salad",
@@ -184,7 +214,7 @@
         "descripcion_es": "como le agrada al Joan",
         "precio": "6,25",
         "tags": "",
-        "allergen": [1,2]
+        "allergen": [1, 2]
       }, {
         "nombre": "Guacamole",
         "nombre_en": "Guacamole",
@@ -209,9 +239,9 @@
         "nombre": "Burrata",
         "nombre_en": "Burrata",
         "nombre_es": "Burrata",
-        "descripcion": "amb pesto, mel i tomàquets",
-        "descripcion_en": "with pesto, honey and tomatoes",
-        "descripcion_es": "con pesto, miel y tomatitos",
+        "descripcion": "amb escalivada fumada",
+        "descripcion_en": "with smoked escalivada",
+        "descripcion_es": "con escalivada ahumada",
         "precio": "11,50",
         "tags": "",
         "allergen": [2]
@@ -273,15 +303,15 @@
         "tags": "",
         "allergen": []
       }, {
-        "nombre": "Gambeta vermella de mercat",
-        "nombre_en": "Market red shrimp",
-        "nombre_es": "Gambita roja de mercado",
-        "descripcion": "fregida amb farina de cigrons",
-        "descripcion_en": "fried with chickpea flour",
-        "descripcion_es": "frita y rebozada con harina de garbanzos",
-        "precio": "10,75",
+        "nombre": "'Sevillanitos'",
+        "nombre_en": "'Sevillanitos'",
+        "nombre_es": "Sevillanitos",
+        "descripcion": "amb farina de cigrons i maionesa de citrics",
+        "descripcion_en": "fried with chickpea flour and citrus mayonnaise",
+        "descripcion_es": "con harina de garbanzos y mayonesa de cítricos",
+        "precio": "10,50",
         "tags": "",
-        "allergen": []
+        "allergen": [2]
       }, {
         "nombre": "'Closca a la planxa'",
         "nombre_en": "'Sauteed clams'",
@@ -293,13 +323,13 @@
         "tags": "",
         "allergen": []
       }, {
-        "nombre": "Ceviche de corbina",
-        "nombre_en": "Croaker ceviche",
-        "nombre_es": "Ceviche de corvina",
+        "nombre": "Ceviche de perca de Tanzania",
+        "nombre_en": "Tanzanian perch ceviche",
+        "nombre_es": "Ceviche de perca de Tanzania",
         "descripcion": "",
         "descripcion_en": "",
         "descripcion_es": "",
-        "precio": "16",
+        "precio": "14",
         "tags": "",
         "allergen": []
       }, {
@@ -313,25 +343,15 @@
         "tags": "",
         "allergen": []
       }, {
-        "nombre": "Fish & chips",
-        "nombre_en": "Fish & chips",
-        "nombre_es": "Fish & chips",
-        "descripcion": "només per a adults",
-        "descripcion_en": "only for adults",
-        "descripcion_es": "solo para adultos",
-        "precio": "13",
+        "nombre": "Bacallà",
+        "nombre_en": "Cod",
+        "nombre_es": "Bacalao",
+        "descripcion": "amb muselina de poma",
+        "descripcion_en": "Cod with apple mousseline",
+        "descripcion_es": "Bacalao con muselina de manzana",
+        "precio": "14,50",
         "tags": "",
-        "allergen": [1]
-      } ,{
-        "nombre": "Calamar a la barbacoa",
-        "nombre_en": "BBQ squid",
-        "nombre_es": "Calamar a la barbacoa",
-        "descripcion": "amb ruca i créixens",
-        "descripcion_en": "with arugula and watercress",
-        "descripcion_es": "con rúcula y berros",
-        "precio": "13",
-        "tags": "",
-        "allergen": []
+        "allergen": [2]
       }, {
         "nombre": "Turbot a la planxa",
         "nombre_en": "Grilled turbot",
@@ -339,7 +359,7 @@
         "descripcion": "amb meunière de tàperes (dues persones)",
         "descripcion_en": "with capers meunière (two people)",
         "descripcion_es": "con meunière de alcaparras (dos personas)",
-        "precio": "14 p/p",
+        "precio": "15 p/p",
         "tags": "",
         "allergen": [2]
       }]
@@ -379,7 +399,7 @@
         "precio": "11,50",
         "tags": "",
         "allergen": []
-      },{
+      }, {
         "nombre": "Carpaccio de lacón",
         "nombre_en": "Lacon carpaccio",
         "nombre_es": "Carpaccio de lacón",
@@ -387,6 +407,16 @@
         "descripcion_en": "",
         "descripcion_es": "",
         "precio": "11",
+        "tags": "",
+        "allergen": []
+      }, {
+        "nombre": "Tataki de vedella",
+        "nombre_en": "Veal tataki",
+        "nombre_es": "Tataki de ternera",
+        "descripcion": "",
+        "descripcion_en": "",
+        "descripcion_es": "",
+        "precio": "10,50",
         "tags": "",
         "allergen": []
       }]
@@ -467,13 +497,13 @@
         "tags": "",
         "allergen": [0]
       }, {
-        "nombre": "Saquets de vainilla",
-        "nombre_en": "Vanilla pockets",
-        "nombre_es": "Saquitos de vainilla",
+        "nombre": "\"Politos\" de vainilla",
+        "nombre_en": "Vanilla \"Politos\"",
+        "nombre_es": "\"Politos\" de vainilla",
         "descripcion": "amb xocolata negra fosa",
         "descripcion_en": "with molten black chocolate",
         "descripcion_es": "con chocolate negro fundido",
-        "precio": "2 p/u",
+        "precio": "2,25 p/u",
         "tags": "",
         "allergen": [1, 2]
       }, {
@@ -500,7 +530,7 @@
         "descripcion": "Chardonnay D.O Navarra",
         "descripcion_en": "Chardonnay D.O Navarra",
         "descripcion_es": "Chardonnay D.O Navarra",
-        "precio": "14,50",
+        "precio": "15,50",
         "tags": ""
       }, {
         "nombre": "Miranda D'Espiells ",
@@ -509,7 +539,7 @@
         "descripcion": "Chardonnay D.O Penedès",
         "descripcion_en": "Chardonnay D.O Penedés",
         "descripcion_es": "Chardonnay D.O Penedés",
-        "precio": "15",
+        "precio": "16",
         "tags": ""
       }, {
         "nombre": "Cantarranas",
@@ -518,7 +548,7 @@
         "descripcion": "Verdejo D.O Rueda",
         "descripcion_en": "Verdejo D.O Rueda",
         "descripcion_es": "Verdejo D.O Rueda",
-        "precio": "16",
+        "precio": "17",
         "tags": ""
       }, {
         "nombre": "La Camioneta Verdejo",
@@ -527,7 +557,7 @@
         "descripcion": "D.O Rueda",
         "descripcion_en": "D.O Rueda",
         "descripcion_es": "D.O Rueda",
-        "precio": "15",
+        "precio": "16",
         "tags": ""
       }, {
         "nombre": "Gregal Gewürztraminer",
@@ -536,7 +566,7 @@
         "descripcion": " i Muscat D.O Penedès",
         "descripcion_en": "D.O Penedés and Muscat",
         "descripcion_es": "D.O Penedés y Muscat",
-        "precio": "16,50",
+        "precio": "17,50",
         "tags": ""
       }, {
         "nombre": "Terra de Godos Albariño",
@@ -545,7 +575,7 @@
         "descripcion": "D.O Rias Baixas",
         "descripcion_en": "D.O Rias Baixas",
         "descripcion_es": "D.O Rias Baixas",
-        "precio": "17",
+        "precio": "18",
         "tags": ""
       }, {
         "nombre": "Pulpo Albariño",
@@ -555,6 +585,15 @@
         "descripcion_en": "D.O Rias Baixas",
         "descripcion_es": "D.O Rias Baixas",
         "precio": "21",
+        "tags": ""
+      }, {
+        "nombre": "Abulaga",
+        "nombre_en": "Abulaga",
+        "nombre_es": "Abulaga",
+        "descripcion": "Costa Gaditana",
+        "descripcion_en": "Costa Gaditana",
+        "descripcion_es": "Costa Gaditana",
+        "precio": "17",
         "tags": ""
       }]
     }, {
@@ -763,15 +802,6 @@
       "nombre_es": "Cocktails y combinados",
       "imagen": "",
       "data": [{
-        "nombre": "Copa sangría",
-        "nombre_en": "Glass sangría",
-        "nombre_es": "Copa sangría",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "6",
-        "tags": ""
-      }, {
         "nombre": "Copa tinto de verano",
         "nombre_en": "Glass tinto de verano",
         "nombre_es": "Copa tinto de verano",
@@ -907,22 +937,22 @@
         "precio": "10",
         "tags": ""
       }, {
-        "nombre": "Gerra Sangría",
-        "nombre_en": "Pitcher Sangría",
-        "nombre_es": "Jarra Sangría",
+        "nombre": "Sangría Lolea blanc",
+        "nombre_en": "Sangría Lolea white",
+        "nombre_es": "Sangría Lolea blanco",
         "descripcion": "",
         "descripcion_en": "",
         "descripcion_es": "",
         "precio": "16",
         "tags": ""
       }, {
-        "nombre": "Gerra Sangría Cava",
-        "nombre_en": "Pitcher Sangría Cava",
-        "nombre_es": "Jarra Sangría Cava",
+        "nombre": "Sangría Lolea negre",
+        "nombre_en": "Sangría Lolea red",
+        "nombre_es": "Sangría Lolea negro",
         "descripcion": "",
         "descripcion_en": "",
         "descripcion_es": "",
-        "precio": "18",
+        "precio": "16",
         "tags": ""
       }]
     }, {
