@@ -197,8 +197,8 @@
         "allergen": [1, 2]
       }, {
         "nombre": "Carpaccio de carbassó",
-        "nombre_en": "Carpaccio de calabacín",
-        "nombre_es": "Zucchini carpaccio",
+        "nombre_en": "Zucchini carpaccio",
+        "nombre_es": "Carpaccio de calabacín",
         "descripcion": "amb vinagreta de llimona i parmesà",
         "descripcion_en": "con vinagreta de limón y parmesano",
         "descripcion_es": "with lemon vinaigrette and parmesan",
