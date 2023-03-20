@@ -1,1127 +1,1218 @@
 {
-  "places": [{
-    "restaurant": "Polito",
-    "place": "polito",
-    "iso": "https://res.cloudinary.com/grountish/image/upload/v1598312516/logoPolito_yld1v4.png",
-    "backgroundColor": "#FFF",
-    "overlayColor": "rgba(0,0,0, 0.5)",
-    "borderButton": "1px solid #FFF",
-    "modalBackgroundColor": "#FFF",
-    "font": "Didot",
-    "color": "#02345d",
-    "divisiones": [{
-      "nombre": "per menjar",
-      "nombre_en": "to eat",
-      "url": "paracomer",
-      "nombre_es": "para comer"
-    }, {
-      "nombre": "per beure",
-      "url": "parabeber",
-      "nombre_es": "para beber",
-      "nombre_en": "to drink"
-    }],
-    "categorias": [{
-      "division": "paracomer",
-      "nombre": "Per picar",
-      "nombre_en": "To snack",
-      "nombre_es": "Para Picar",
-      "imagen": "",
-      "data": [{
-          "nombre": "Edamame de Ana",
-          "nombre_en": "Ana's edamame",
-          "nombre_es": "Edamame de Ana",
-          "descripcion": "amb sèsam i oli de tòfona",
-          "descripcion_en": "with sesame and truffle oil",
-          "descripcion_es": "con sésamo y aceite de trufa",
-          "precio": "7,25",
-          "tags": "",
-          "allergen": []
-        }, {
-          "nombre": "Braves",
-          "nombre_en": "Bravas",
-          "nombre_es": "Bravas",
-          "descripcion": "de muntanya, les pots demanar molt picants!",
-          "descripcion_en": "of the mountain, you can order them extra spicy!",
-          "descripcion_es": " de montaña, las puedes pedir muy picantes!",
-          "precio": "7,25",
-          "tags": "",
-          "allergen": [2]
-        }, {
-          "nombre": "Patata trinxada",
-          "nombre_en": "Smashed potato",
-          "nombre_es": "Patata trinchada",
-          "descripcion": "amb tirabecs i salmò fumat",
-          "descripcion_en": "with field peas and smoked salmon",
-          "descripcion_es": "con tirabeques y salmón ahumado",
-          "precio": "8",
-          "tags": "",
-          "allergen": []
-        }, {
-          "nombre": "Escabetx de musclos",
-          "nombre_en": "Pickled mussels",
-          "nombre_es": "Escabeche de mejillones",
-          "descripcion": "",
-          "descripcion_en": "",
-          "descripcion_es": "",
-          "precio": "5,50",
-          "tags": "",
-          "allergen": []
-        }, {
-          "nombre": "Fingers de pollastre",
-          "nombre_en": "Chicken fingers",
-          "nombre_es": "Fingers de pollo",
-          "descripcion": "per mullar en vinagreta provençal",
-          "descripcion_en": "to dip in provenzal vinaigrette",
-          "descripcion_es": "para mojar en vinagreta provenzal",
-          "precio": "9,50",
-          "tags": "",
-          "allergen": [1]
+  "places": [
+    {
+      "restaurant": "Polito",
+      "place": "polito",
+      "iso": "https://res.cloudinary.com/grountish/image/upload/v1598312516/logoPolito_yld1v4.png",
+      "backgroundColor": "#FFF",
+      "overlayColor": "rgba(0,0,0, 0.5)",
+      "borderButton": "1px solid #FFF",
+      "modalBackgroundColor": "#FFF",
+      "font": "Didot",
+      "color": "#02345d",
+      "divisiones": [
+        {
+          "nombre": "per menjar",
+          "nombre_en": "to eat",
+          "url": "paracomer",
+          "nombre_es": "para comer"
         },
         {
-          "nombre": "Steak tartar",
-          "nombre_en": "Steak tartar",
-          "nombre_es": "Steak tartar",
-          "descripcion": "acompanyat de patates de muntanya",
-          "descripcion_en": "with mountain potatoes",
-          "descripcion_es": "acompañado de patatas de montaña",
-          "precio": "12,50",
-          "tags": "",
-          "allergen": [1]
+          "nombre": "per beure",
+          "url": "parabeber",
+          "nombre_es": "para beber",
+          "nombre_en": "to drink"
+        }
+      ],
+      "categorias": [
+        {
+          "division": "paracomer",
+          "nombre": "Per picar",
+          "nombre_en": "To snack",
+          "nombre_es": "Para Picar",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Edamame de Ana",
+              "nombre_en": "Ana's edamame",
+              "nombre_es": "Edamame de Ana",
+              "descripcion": "amb sèsam i oli de tòfona",
+              "descripcion_en": "with sesame and truffle oil",
+              "descripcion_es": "con sésamo y aceite de trufa",
+              "precio": "7,25",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Braves",
+              "nombre_en": "Bravas",
+              "nombre_es": "Bravas",
+              "descripcion": "de muntanya, les pots demanar molt picants!",
+              "descripcion_en": "of the mountain, you can order them extra spicy!",
+              "descripcion_es": " de montaña, las puedes pedir muy picantes!",
+              "precio": "7,25",
+              "tags": "",
+              "allergen": [2]
+            },
+            {
+              "nombre": "Fingers de pollastre",
+              "nombre_en": "Chicken fingers",
+              "nombre_es": "Fingers de pollo",
+              "descripcion": "per mullar en vinagreta provençal",
+              "descripcion_en": "to dip in provenzal vinaigrette",
+              "descripcion_es": "para mojar en vinagreta provenzal",
+              "precio": "9,50",
+              "tags": "",
+              "allergen": [1]
+            },
+            {
+              "nombre": "Steak tartar",
+              "nombre_en": "Steak tartar",
+              "nombre_es": "Steak tartar",
+              "descripcion": "acompanyat de patates de muntanya",
+              "descripcion_en": "with mountain potatoes",
+              "descripcion_es": "acompañado de patatas de montaña",
+              "precio": "12,50",
+              "tags": "",
+              "allergen": [1]
+            },
+            {
+              "nombre": "Olives",
+              "nombre_en": "Olives",
+              "nombre_es": "Aceitunas",
+              "descripcion": "de les grosses",
+              "descripcion_en": "the big ones",
+              "descripcion_es": "de las gordas",
+              "precio": "3,25",
+              "tags": ""
+            },
+            {
+              "nombre": "Patates butan",
+              "nombre_en": "Butan potatoes",
+              "nombre_es": "Patatas butan",
+              "descripcion": "amb havarti, pebrot escalivat i caienas",
+              "descripcion_en": "with havarti, roasted pepper and cayennes",
+              "descripcion_es": "con havarti, pimiento escalivado y cayenas",
+              "precio": "11",
+              "tags": "",
+              "allergen": [2]
+            },
+            {
+              "nombre": "Provolone fos",
+              "nombre_en": "Molten Provolone",
+              "nombre_es": "Provolone fundido",
+              "descripcion": "amb orenga i pebre negre",
+              "descripcion_en": "with oregano and black pepper",
+              "descripcion_es": "con orégano y pimienta negra",
+              "precio": "7",
+              "tags": "",
+              "allergen": [2]
+            },
+            {
+              "nombre": "Hummus",
+              "nombre_en": "Hummus",
+              "nombre_es": "Hummus",
+              "descripcion": "amb remolatxa fresca, sèsam, paprika i oli de kalamata.",
+              "descripcion_en": "with fresh beet, sesame, paprika and kalamata oil",
+              "descripcion_es": "con remolacha fresca, sésamo, paprika y aceite de kalamata",
+              "precio": "7,25",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Coca de vidre",
+              "nombre_en": "Coca de vidre ",
+              "nombre_es": "Coca de vidre",
+              "descripcion": "del Mossèn, amb tomàquet",
+              "descripcion_en": "bread from Mossèn, with tomato",
+              "descripcion_es": " del Mossèn, con tomate",
+              "precio": "4",
+              "tags": "",
+              "allergen": [1]
+            },
+            {
+              "nombre": "Gyozas de llagostí",
+              "nombre_en": "Shrimp gyozas",
+              "nombre_es": "Gyozas de langostino",
+              "descripcion": "amb soja, ponzu i sèsam",
+              "descripcion_en": "with soy sauce, ponzu and sesame",
+              "descripcion_es": "con soja, ponzu y sésamo",
+              "precio": "7,25",
+              "tags": "",
+              "allergen": [1]
+            }
+          ]
         },
         {
-          "nombre": "Olives",
-          "nombre_en": "Olives",
-          "nombre_es": "Aceitunas",
-          "descripcion": "de les grosses",
-          "descripcion_en": "the big ones",
-          "descripcion_es": "de las gordas",
-          "precio": "3,25",
-          "tags": ""
-        }, {
-          "nombre": "Patates butan",
-          "nombre_en": "Butan potatoes",
-          "nombre_es": "Patatas butan",
-          "descripcion": "amb havarti, pebrot escalivat i caienas",
-          "descripcion_en": "with havarti, roasted pepper and cayennes",
-          "descripcion_es": "con havarti, pimiento escalivado y cayenas",
-          "precio": "11",
-          "tags": "",
-          "allergen": [2]
-        }, {
-          "nombre": "Provolone fos",
-          "nombre_en": "Molten Provolone",
-          "nombre_es": "Provolone fundido",
-          "descripcion": "amb orenga i pebre negre",
-          "descripcion_en": "with oregano and black pepper",
-          "descripcion_es": "con orégano y pimienta negra",
-          "precio": "7",
-          "tags": "",
-          "allergen": [2]
-        }, {
-          "nombre": "Ravioli de parma i ricotta",
-          "nombre_en": "Parmesan and ricotta ravioli",
-          "nombre_es": "Ravioli de parma y ricotta",
-          "descripcion": "amb oli de tòfona",
-          "descripcion_en": "with truffle oil",
-          "descripcion_es": "con aceite de trufa",
-          "precio": "9,50",
-          "tags": "",
-          "allergen": [1, 2]
-        }, {
-          "nombre": "Hummus",
-          "nombre_en": "Hummus",
-          "nombre_es": "Hummus",
-          "descripcion": "amb remolatxa fresca, sèsam, paprika i oli de kalamata.",
-          "descripcion_en": "with fresh beet, sesame, paprika and kalamata oil",
-          "descripcion_es": "con remolacha fresca, sésamo, paprika y aceite de kalamata",
-          "precio": "7,25",
-          "tags": "",
-          "allergen": []
-        }, {
-          "nombre": "Coca de vidre",
-          "nombre_en": "Coca de vidre ",
-          "nombre_es": "Coca de vidre",
-          "descripcion": "del Mossèn, amb tomàquet",
-          "descripcion_en": "bread from Mossèn, with tomato",
-          "descripcion_es": " del Mossèn, con tomate",
-          "precio": "4",
-          "tags": "",
-          "allergen": [1]
-        }, {
-          "nombre": "Gyozas de llagostí",
-          "nombre_en": "Shrimp gyozas",
-          "nombre_es": "Gyozas de langostino",
-          "descripcion": "amb soja, ponzu i sèsam",
-          "descripcion_en": "with soy sauce, ponzu and sesame",
-          "descripcion_es": "con soja, ponzu y sésamo",
-          "precio": "7,25",
-          "tags": "",
-          "allergen": [1]
+          "division": "paracomer",
+          "nombre": "Entrants",
+          "nombre_en": "Starters",
+          "nombre_es": "Entrantes",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Arròs de verdures socarrat",
+              "nombre_en": "Shocked veggie rice",
+              "nombre_es": "Arroz de verduras 'socarrat'",
+              "descripcion": "p/p",
+              "descripcion_en": "p/p",
+              "descripcion_es": "p/p",
+              "precio": "17",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Arròs de mar socarrat",
+              "nombre_en": "Shocked sea rice",
+              "nombre_es": "Arroz de mar socarrat",
+              "descripcion": "p/p",
+              "descripcion_en": "p/p",
+              "descripcion_es": "p/p",
+              "precio": "20",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Lasagna de muntanya gratinada",
+              "nombre_en": "Gratin mountain lasagna",
+              "nombre_es": "Lasagna de montaña gratinada",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "11",
+              "tags": "",
+              "allergen": [1, 2]
+            },
+            {
+              "nombre": "Carpaccio de carbassó",
+              "nombre_en": "Zucchini carpaccio",
+              "nombre_es": "Carpaccio de calabacín",
+              "descripcion": "amb vinagreta de llimona i parmesà",
+              "descripcion_en": "con vinagreta de limón y parmesano",
+              "descripcion_es": "with lemon vinaigrette and parmesan",
+              "precio": "6",
+              "tags": "",
+              "allergen": [2]
+            },
+            {
+              "nombre": "Ensaladilla rusa",
+              "nombre_en": "Russian salad",
+              "nombre_es": "Ensaladilla rusa",
+              "descripcion": "com li agrada al Joan",
+              "descripcion_en": "how Joan likes it",
+              "descripcion_es": "como le agrada al Joan",
+              "precio": "6,25",
+              "tags": "",
+              "allergen": [1, 2]
+            },
+            {
+              "nombre": "Guacamole",
+              "nombre_en": "Guacamole",
+              "nombre_es": "Guacamole",
+              "descripcion": "by Polito",
+              "descripcion_en": "by Polito",
+              "descripcion_es": "by Polito",
+              "precio": "7,25",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Truita de patates",
+              "nombre_en": "Spanish omelette",
+              "nombre_es": "Tortilla de patatas",
+              "descripcion": "al forn amb ceba trufada",
+              "descripcion_en": "baked with truffled onions",
+              "descripcion_es": "al horno con cebolla trufada",
+              "precio": "9",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Burrata",
+              "nombre_en": "Burrata",
+              "nombre_es": "Burrata",
+              "descripcion": "amb escalivada fumada",
+              "descripcion_en": "with smoked escalivada",
+              "descripcion_es": "con escalivada ahumada",
+              "precio": "11,50",
+              "tags": "",
+              "allergen": [2]
+            },
+            {
+              "nombre": "Amanida de tomàquet confitat",
+              "nombre_en": "Confit tomato salad",
+              "nombre_es": "Ensalada de tomate confitado",
+              "descripcion": "amb ventresca i ceba dolça",
+              "descripcion_en": "with tuna belly and sweet onions",
+              "descripcion_es": "con ventresca de atún y cebolla dulce",
+              "precio": "11",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Biquini",
+              "nombre_en": "Grilled cheese",
+              "nombre_es": "Bikini",
+              "descripcion": "amb salmó fumat, iogurt i tartufato",
+              "descripcion_en": "with smoked salmon, yogurt and tartufato",
+              "descripcion_es": "con salmón ahumado, yogurt y tartufato",
+              "precio": "7",
+              "tags": "",
+              "allergen": [1, 2]
+            },
+            {
+              "nombre": "Verdures",
+              "nombre_en": "Veggies",
+              "nombre_es": "Verduras",
+              "descripcion": "al dente saltejades en wok",
+              "descripcion_en": "sauteed and al dente",
+              "descripcion_es": "al dente salteadas en wok",
+              "precio": "9,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Aletes de pollastre",
+              "nombre_en": "Chicken wings",
+              "nombre_es": "Alitas de pollo",
+              "descripcion": "amb soja i mel",
+              "descripcion_en": "with honey and soy sauce",
+              "descripcion_es": "con soja y miel",
+              "precio": "8,50",
+              "tags": "",
+              "allergen": []
+            }
+          ]
+        },
+        {
+          "division": "paracomer",
+          "nombre": "Pescaitos",
+          "nombre_en": "Fish",
+          "nombre_es": "Pescaitos",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Tàrtar de salmó",
+              "nombre_en": "Salmon tartar",
+              "nombre_es": "Tartar de salmón",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "13,25",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "'Sevillanitos'",
+              "nombre_en": "'Sevillanitos'",
+              "nombre_es": "Sevillanitos",
+              "descripcion": "amb farina de cigrons i maionesa de citrics",
+              "descripcion_en": "fried with chickpea flour and citrus mayonnaise",
+              "descripcion_es": "con harina de garbanzos y mayonesa de cítricos",
+              "precio": "10,50",
+              "tags": "",
+              "allergen": [2]
+            },
+            {
+              "nombre": "'Closca a la planxa'",
+              "nombre_en": "'Sauteed clams'",
+              "nombre_es": "'Closca a la planxa'",
+              "descripcion": "...la del dia",
+              "descripcion_en": "from the day",
+              "descripcion_es": "...la del día",
+              "precio": "S/M",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Ceviche de perca de Tanzania",
+              "nombre_en": "Tanzanian perch ceviche",
+              "nombre_es": "Ceviche de perca de Tanzania",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "14",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Musclos al vapor",
+              "nombre_en": "Steamed mussels",
+              "nombre_es": "Mejillones al vapor",
+              "descripcion": "amb Mòdena i vi blanc",
+              "descripcion_en": "with Módena and white wine",
+              "descripcion_es": "con Módena y vino blanco",
+              "precio": "11,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Bacallà",
+              "nombre_en": "Cod",
+              "nombre_es": "Bacalao",
+              "descripcion": "amb muselina de poma",
+              "descripcion_en": "Cod with apple mousseline",
+              "descripcion_es": "Bacalao con muselina de manzana",
+              "precio": "14,50",
+              "tags": "",
+              "allergen": [2]
+            },
+            {
+              "nombre": "Turbot a la planxa",
+              "nombre_en": "Grilled turbot",
+              "nombre_es": "Rodaballo a la plancha",
+              "descripcion": "amb meunière de tàperes (dues persones)",
+              "descripcion_en": "with capers meunière (two people)",
+              "descripcion_es": "con meunière de alcaparras (dos personas)",
+              "precio": "15 p/p",
+              "tags": "",
+              "allergen": [2]
+            }
+          ]
+        },
+        {
+          "division": "paracomer",
+          "nombre": "Carns",
+          "nombre_en": "Beef",
+          "nombre_es": "Carnes",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Tagliata de vedella a la toscana (poc feta)",
+              "nombre_en": "Beef tagliata alla toscana (medium rare)",
+              "nombre_es": "Tagliata de ternera a la toscana (poco hecha)",
+              "descripcion": "amb rucula i parma",
+              "descripcion_en": "with arugula and parmesan",
+              "descripcion_es": "con rucula y parma",
+              "precio": "12",
+              "tags": "",
+              "allergen": [2]
+            },
+            {
+              "nombre": "Melòs Ibèric a la planxa",
+              "nombre_en": "Grilled Iberic tender",
+              "nombre_es": "Ibérico meloso a la plancha",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "11,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Costellam de porc amb salsa BBQ",
+              "nombre_en": "BBQ pork ribs",
+              "nombre_es": "Costillar de cerdo con salsa BBQ",
+              "descripcion": "patata a l'forn i puré de moniato",
+              "descripcion_en": "with bakes potatoes and sweet potato puree",
+              "descripcion_es": "patata al horno y puré de boniato",
+              "precio": "11,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Carpaccio de lacón",
+              "nombre_en": "Lacon carpaccio",
+              "nombre_es": "Carpaccio de lacón",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "11",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Tataki de vedella",
+              "nombre_en": "Veal tataki",
+              "nombre_es": "Tataki de ternera",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "10,50",
+              "tags": "",
+              "allergen": []
+            }
+          ]
+        },
+        {
+          "division": "paracomer",
+          "nombre": "Postres",
+          "nombre_en": "Desserts",
+          "nombre_es": "Postres",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Creps",
+              "nombre_en": "Crêpes",
+              "nombre_es": "Crêpes",
+              "descripcion": "amb nutella i gelat de dolç de llet",
+              "descripcion_en": "with nutella and dulce de leche ice cream",
+              "descripcion_es": "con nutella y helado de dulce de leche",
+              "precio": "5,50",
+              "tags": "",
+              "allergen": [1, 2]
+            },
+            {
+              "nombre": "Mocchi cream",
+              "nombre_en": "Mocchi cream",
+              "nombre_es": "Mocchi cream",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2 p/u",
+              "tags": "",
+              "allergen": [2]
+            },
+            {
+              "nombre": "Brownie",
+              "nombre_en": "Brownie",
+              "nombre_es": "Brownie",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "6",
+              "tags": "",
+              "allergen": [1, 2]
+            },
+            {
+              "nombre": "Yogurt cremòs",
+              "nombre_en": "Creamy yoghurt",
+              "nombre_es": "Yogurt cremoso",
+              "descripcion": "amb fruits vermells",
+              "descripcion_en": "with red fruits",
+              "descripcion_es": "con frutos rojos",
+              "precio": "5,50",
+              "tags": "",
+              "allergen": [1, 2]
+            },
+            {
+              "nombre": "Bescuit borratxo amb Baileys",
+              "nombre_en": "Baileys drunken cake",
+              "nombre_es": "Bizcocho borracho de Baileys",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "6",
+              "tags": "",
+              "allergen": [1, 2]
+            },
+            {
+              "nombre": "Pastis de formatge",
+              "nombre_en": "Cheescake",
+              "nombre_es": "Pastel de queso",
+              "descripcion": "amb fruits vermells",
+              "descripcion_en": "with red fruits",
+              "descripcion_es": "con frutos rojos",
+              "precio": "5",
+              "tags": "",
+              "allergen": [1, 2]
+            },
+            {
+              "nombre": "Sorbet de fruita de la passió",
+              "nombre_en": "Passion fruit sorbet",
+              "nombre_es": "Sorbete de fruta de la pasión",
+              "descripcion": "amb vodka",
+              "descripcion_en": "with vodka",
+              "descripcion_es": "con vodka",
+              "precio": "5,50",
+              "tags": "",
+              "allergen": [0]
+            },
+            {
+              "nombre": "\"Politos\" de vainilla",
+              "nombre_en": "Vanilla \"Politos\"",
+              "nombre_es": "\"Politos\" de vainilla",
+              "descripcion": "amb xocolata negra fosa",
+              "descripcion_en": "with molten black chocolate",
+              "descripcion_es": "con chocolate negro fundido",
+              "precio": "2,25 p/u",
+              "tags": "",
+              "allergen": [1, 2]
+            }
+          ]
+        },
+        {
+          "division": "parabeber",
+          "nombre": "Vi blanc",
+          "nombre_en": "White wine",
+          "nombre_es": "Vino blanco",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Només",
+              "nombre_en": "Només",
+              "nombre_es": "Només",
+              "descripcion": "D.O Empordà",
+              "descripcion_en": "D.O Empordà",
+              "descripcion_es": "D.O Empordà",
+              "precio": "15",
+              "tags": ""
+            },
+            {
+              "nombre": "Gran Feudo",
+              "nombre_en": "Gran Feudo",
+              "nombre_es": "Gran Feudo",
+              "descripcion": "Chardonnay D.O Navarra",
+              "descripcion_en": "Chardonnay D.O Navarra",
+              "descripcion_es": "Chardonnay D.O Navarra",
+              "precio": "15,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Miranda D'Espiells ",
+              "nombre_en": "Miranda D'Espiells ",
+              "nombre_es": "Miranda D'Espiells ",
+              "descripcion": "Chardonnay D.O Penedès",
+              "descripcion_en": "Chardonnay D.O Penedés",
+              "descripcion_es": "Chardonnay D.O Penedés",
+              "precio": "16",
+              "tags": ""
+            },
+            {
+              "nombre": "La Camioneta Verdejo",
+              "nombre_en": "La Camioneta Verdejo",
+              "nombre_es": "La Camioneta Verdejo",
+              "descripcion": "D.O Rueda",
+              "descripcion_en": "D.O Rueda",
+              "descripcion_es": "D.O Rueda",
+              "precio": "16",
+              "tags": ""
+            },
+            {
+              "nombre": "Gregal Gewürztraminer",
+              "nombre_en": "Gregal Gewürztraminer ",
+              "nombre_es": "Gregal Gewürztraminer ",
+              "descripcion": " i Muscat D.O Penedès",
+              "descripcion_en": "D.O Penedés and Muscat",
+              "descripcion_es": "D.O Penedés y Muscat",
+              "precio": "17,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Terra de Godos Albariño",
+              "nombre_en": "Terra de Godos Albariño",
+              "nombre_es": "Terra de Godos Albariño",
+              "descripcion": "D.O Rias Baixas",
+              "descripcion_en": "D.O Rias Baixas",
+              "descripcion_es": "D.O Rias Baixas",
+              "precio": "18",
+              "tags": ""
+            },
+            {
+              "nombre": "Pulpo Albariño",
+              "nombre_en": "Pulpo Albariño",
+              "nombre_es": "Pulpo Albariño",
+              "descripcion": "D.O Rias Baixas",
+              "descripcion_en": "D.O Rias Baixas",
+              "descripcion_es": "D.O Rias Baixas",
+              "precio": "21",
+              "tags": ""
+            },
+            {
+              "nombre": "Abulaga",
+              "nombre_en": "Abulaga",
+              "nombre_es": "Abulaga",
+              "descripcion": "Costa Gaditana",
+              "descripcion_en": "Costa Gaditana",
+              "descripcion_es": "Costa Gaditana",
+              "precio": "17",
+              "tags": ""
+            }
+          ]
+        },
+        {
+          "division": "parabeber",
+          "nombre": "Vi rosat",
+          "nombre_en": "Rosé wine",
+          "nombre_es": "Vino rosado",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Las Fincas Rosado",
+              "nombre_en": "Las Fincas Rosado",
+              "nombre_es": "Las Fincas Rosado",
+              "descripcion": "VT las 3 riberas",
+              "descripcion_en": "VT las 3 riberas",
+              "descripcion_es": "VT las 3 riberas",
+              "precio": "20,50",
+              "tags": ""
+            }
+          ]
+        },
+        {
+          "division": "parabeber",
+          "nombre": "Vi negre",
+          "nombre_en": "Red wine",
+          "nombre_es": "Vino tinto",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "5 Fincas",
+              "nombre_en": "5 Fincas",
+              "nombre_es": "5 Fincas",
+              "descripcion": "D.O Empordà",
+              "descripcion_en": "D.O Empordà",
+              "descripcion_es": "D.O Empordà",
+              "precio": "23,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Cucó",
+              "nombre_en": "Cucó",
+              "nombre_es": "Cucó",
+              "descripcion": "D.O Montsant",
+              "descripcion_en": "D.O Montsant",
+              "descripcion_es": "D.O Montsant",
+              "precio": "14",
+              "tags": ""
+            },
+            {
+              "nombre": "El Aviador",
+              "nombre_en": "El Aviador",
+              "nombre_es": "El Aviador",
+              "descripcion": "V.T Castilla i León",
+              "descripcion_en": "V.T Castilla y León",
+              "descripcion_es": "V.T Castilla y León",
+              "precio": "14,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Anima del Priorat",
+              "nombre_en": "Anima del Priorat",
+              "nombre_es": "Anima del Priorat",
+              "descripcion": "D.O.Ca Priorat",
+              "descripcion_en": "D.O.Ca Priorat",
+              "descripcion_es": "D.O.Ca Priorat",
+              "precio": "25",
+              "tags": ""
+            }
+          ]
+        },
+        {
+          "division": "parabeber",
+          "nombre": "Escumosos",
+          "nombre_en": "Sparkling wine",
+          "nombre_es": "Espumosos",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Cava Juvé Camps",
+              "nombre_en": "Cava Juvé Camps",
+              "nombre_es": "Cava Juvé Camps",
+              "descripcion": "D.O Cava Cinta Púrpura",
+              "descripcion_en": "D.O Cava Cinta Púrpura",
+              "descripcion_es": "D.O Cava Cinta Púrpura",
+              "precio": "20",
+              "tags": ""
+            },
+            {
+              "nombre": "Champagne Taittinger ",
+              "nombre_en": "Champagne Taittinger ",
+              "nombre_es": "Champagne Taittinger ",
+              "descripcion": "A.O.C Champagne 1/2 ampolla",
+              "descripcion_en": "A.O.C Champagne 1/2 bottle",
+              "descripcion_es": "A.O.C Champagne 1/2 botella",
+              "precio": "30",
+              "tags": ""
+            },
+            {
+              "nombre": "Champagne Taittinger",
+              "nombre_en": "Champagne Taittinger",
+              "nombre_es": "Champagne Taittinger",
+              "descripcion": "A.O.C Champagne",
+              "descripcion_en": "A.O.C Champagne",
+              "descripcion_es": "A.O.C Champagne",
+              "precio": "45",
+              "tags": ""
+            }
+          ]
+        },
+        {
+          "division": "parabeber",
+          "nombre": "Vins per copa",
+          "nombre_en": "Wines by the glass",
+          "nombre_es": "Vinos por copa",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Copa Chardonnay",
+              "nombre_en": "Glass Chardonnay",
+              "nombre_es": "Copa Chardonnay",
+              "descripcion": "blanc",
+              "descripcion_en": "white",
+              "descripcion_es": "blanco",
+              "precio": "3,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Copa Verdejo",
+              "nombre_en": "Glass Verdejo",
+              "nombre_es": "Copa Verdejo",
+              "descripcion": "blanc",
+              "descripcion_en": "white",
+              "descripcion_es": "blanco",
+              "precio": "3,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Copa Gewürztraminer",
+              "nombre_en": "Glass Gewürztraminer",
+              "nombre_es": "Copa Gewürztraminer",
+              "descripcion": "blanc",
+              "descripcion_en": "white",
+              "descripcion_es": "blanco",
+              "precio": "3,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Copa Montsant",
+              "nombre_en": "Glass Montsant",
+              "nombre_es": "Copa Montsant",
+              "descripcion": "negre",
+              "descripcion_en": "red",
+              "descripcion_es": "tinto",
+              "precio": "3",
+              "tags": ""
+            },
+            {
+              "nombre": "Copa Rioja",
+              "nombre_en": "Glass Rioja",
+              "nombre_es": "Copa Rioja",
+              "descripcion": "negre",
+              "descripcion_en": "red",
+              "descripcion_es": "tinto",
+              "precio": "3",
+              "tags": ""
+            },
+            {
+              "nombre": "Copa Ribera del Duero",
+              "nombre_en": "Glass Ribera del Duero",
+              "nombre_es": "Copa Ribera del Duero",
+              "descripcion": "negre",
+              "descripcion_en": "red",
+              "descripcion_es": "tinto",
+              "precio": "3,25",
+              "tags": ""
+            },
+            {
+              "nombre": "Copa Cava Brut Nature",
+              "nombre_en": "Glass Cava Brut Nature",
+              "nombre_es": "Copa Cava Brut Nature",
+              "descripcion": "Cava",
+              "descripcion_en": "Cava",
+              "descripcion_es": "Cava",
+              "precio": "4",
+              "tags": ""
+            }
+          ]
+        },
+        {
+          "division": "parabeber",
+          "nombre": "Cerveses",
+          "nombre_en": "Beers",
+          "nombre_es": "Cervezas",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Copa cervesa/clara",
+              "nombre_en": "Glass beer/clara",
+              "nombre_es": "Copa cerveza/clara",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "3",
+              "tags": ""
+            },
+            {
+              "nombre": "Canya",
+              "nombre_en": "Caña",
+              "nombre_es": "Caña",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2,25",
+              "tags": ""
+            },
+            {
+              "nombre": "Cervesa sense alcohol",
+              "nombre_en": "Non alcoholic beer",
+              "nombre_es": "Cerveza sin alcohol",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "3",
+              "tags": ""
+            },
+            {
+              "nombre": "1906",
+              "nombre_en": "1906",
+              "nombre_es": "1906",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "3,25",
+              "tags": ""
+            }
+          ]
+        },
+        {
+          "division": "parabeber",
+          "nombre": "Cóctels i combinats",
+          "nombre_en": "Cocktails and drinks",
+          "nombre_es": "Cocktails y combinados",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Copa tinto de verano",
+              "nombre_en": "Glass tinto de verano",
+              "nombre_es": "Copa tinto de verano",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "4,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Aperol Spritz",
+              "nombre_en": "Aperol Spritz",
+              "nombre_es": "Aperol Spritz",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "5,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Kir Royal",
+              "nombre_en": "Kir Royal",
+              "nombre_es": "Kir Royal",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "4,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Kir",
+              "nombre_en": "Kir",
+              "nombre_es": "Kir",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "4",
+              "tags": ""
+            },
+            {
+              "nombre": "Caipiroska",
+              "nombre_en": "Caipiroska",
+              "nombre_es": "Caipiroska",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "7,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Mojito",
+              "nombre_en": "Mojito",
+              "nombre_es": "Mojito",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "7,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Mojito de maduixa",
+              "nombre_en": "Strawberry mojito",
+              "nombre_es": "Mojito de fresa",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "7,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Virgin mojito",
+              "nombre_en": "Virgin mojito",
+              "nombre_es": "Virgin mojito",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "6",
+              "tags": ""
+            },
+            {
+              "nombre": "Gin Tònic Formentera",
+              "nombre_en": "Gin Tonic Formentera",
+              "nombre_es": "Gin Tonic Formentera",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "10",
+              "tags": ""
+            },
+            {
+              "nombre": "Gin Tònic Seagram's",
+              "nombre_en": "Gin Tonic Seagram's",
+              "nombre_es": "Gin Tonic Seagram's",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "8",
+              "tags": ""
+            },
+            {
+              "nombre": "Gin Tònic Nordes",
+              "nombre_en": "Gin Tonic Nordes",
+              "nombre_es": "Gin Tonic Nordes",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "10",
+              "tags": ""
+            },
+            {
+              "nombre": "Gin Tònic G Vine",
+              "nombre_en": "Gin Tonic G Vine",
+              "nombre_es": "Gin Tonic G Vine",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "10",
+              "tags": ""
+            },
+            {
+              "nombre": "Gin Tònic Puerto de Indias",
+              "nombre_en": "Gin Tonic Puerto de Indias",
+              "nombre_es": "Gin Tonic Puerto de Indias",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "8",
+              "tags": ""
+            },
+            {
+              "nombre": "Gin Tònic Beefeater's",
+              "nombre_en": "Gin Tonic Beefeater's",
+              "nombre_es": "Gin Tonic Beefeater's",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "8",
+              "tags": ""
+            },
+            {
+              "nombre": "Gin Tònic Bulldog",
+              "nombre_en": "Gin Tonic Bulldog",
+              "nombre_es": "Gin Tonic Bulldog",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "10",
+              "tags": ""
+            },
+            {
+              "nombre": "Sangría Lolea blanc",
+              "nombre_en": "Sangría Lolea white",
+              "nombre_es": "Sangría Lolea blanco",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "16",
+              "tags": ""
+            },
+            {
+              "nombre": "Sangría Lolea negre",
+              "nombre_en": "Sangría Lolea red",
+              "nombre_es": "Sangría Lolea negro",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "16",
+              "tags": ""
+            }
+          ]
+        },
+        {
+          "division": "parabeber",
+          "nombre": "Soft Drinks",
+          "nombre_en": "Soft Drinks",
+          "nombre_es": "Soft Drinks",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Pepsi",
+              "nombre_en": "Pepsi",
+              "nombre_es": "Pepsi",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Pepsi Zero",
+              "nombre_en": "Pepsi Zero",
+              "nombre_es": "Pepsi Zero",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Nestea",
+              "nombre_en": "Nestea",
+              "nombre_es": "Nestea",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Schweppes taronja",
+              "nombre_en": "Schweppes orange",
+              "nombre_es": "Schweppes naranja",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Schweppes llimona",
+              "nombre_en": "Schweppes lemon",
+              "nombre_es": "Schweppes limón",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Tònica",
+              "nombre_en": "Tónica",
+              "nombre_es": "Tónica",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Seven Up",
+              "nombre_en": "Seven Up",
+              "nombre_es": "Seven Up",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Aigua mineral 1,25L",
+              "nombre_en": "Still water 1,25L",
+              "nombre_es": "Agua mineral 1,25L",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "3,25",
+              "tags": ""
+            },
+            {
+              "nombre": "Aigua amb gas 0,5L",
+              "nombre_en": "Sparkling water 0,5L",
+              "nombre_es": "Agua con gas 0,5L",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "3,25",
+              "tags": ""
+            },
+            {
+              "nombre": "Aigua mineral 0,50L",
+              "nombre_en": "Still water 0,50L",
+              "nombre_es": "Agua mineral 0,50L",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "1,80",
+              "tags": ""
+            }
+          ]
+        },
+        {
+          "division": "parabeber",
+          "nombre": "Cafè i infusions",
+          "nombre_en": "Coffee and tea",
+          "nombre_es": "Café e infusiones",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Cafè",
+              "nombre_en": "Espresso",
+              "nombre_es": "Café",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "1,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Tallat",
+              "nombre_en": "Cortado",
+              "nombre_es": "Cortado",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "1,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Cafè amb llet",
+              "nombre_en": "Coffee with milk",
+              "nombre_es": "Café con leche",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2",
+              "tags": ""
+            },
+            {
+              "nombre": "Cigaló",
+              "nombre_en": "Coffee with licquor",
+              "nombre_es": "Carajillo",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "3",
+              "tags": ""
+            },
+            {
+              "nombre": "Infusió",
+              "nombre_en": "Tea",
+              "nombre_es": "Infusión",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2",
+              "tags": ""
+            },
+            {
+              "nombre": "Cafè frappé",
+              "nombre_en": "Coffee frappé",
+              "nombre_es": "Café frappé",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "2",
+              "tags": ""
+            }
+          ]
         }
       ]
-    }, {
-      "division": "paracomer",
-      "nombre": "Entrants",
-      "nombre_en": "Starters",
-      "nombre_es": "Entrantes",
-      "imagen": "",
-      "data": [{
-        "nombre": "Arròs de verdures socarrat",
-        "nombre_en": "Shocked veggie rice",
-        "nombre_es": "Arroz de verduras 'socarrat'",
-        "descripcion": "p/p",
-        "descripcion_en": "p/p",
-        "descripcion_es": "p/p",
-        "precio": "17",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Arròs de mar socarrat",
-        "nombre_en": "Shocked sea rice",
-        "nombre_es": "Arroz de mar socarrat",
-        "descripcion": "p/p",
-        "descripcion_en": "p/p",
-        "descripcion_es": "p/p",
-        "precio": "20",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Lasagna de muntanya gratinada",
-        "nombre_en": "Gratin mountain lasagna",
-        "nombre_es": "Lasagna de montaña gratinada",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "11",
-        "tags": "",
-        "allergen": [1, 2]
-      }, {
-        "nombre": "Carpaccio de carbassó",
-        "nombre_en": "Zucchini carpaccio",
-        "nombre_es": "Carpaccio de calabacín",
-        "descripcion": "amb vinagreta de llimona i parmesà",
-        "descripcion_en": "con vinagreta de limón y parmesano",
-        "descripcion_es": "with lemon vinaigrette and parmesan",
-        "precio": "6",
-        "tags": "",
-        "allergen": [2]
-      }, {
-        "nombre": "Ensaladilla rusa",
-        "nombre_en": "Russian salad",
-        "nombre_es": "Ensaladilla rusa",
-        "descripcion": "com li agrada al Joan",
-        "descripcion_en": "how Joan likes it",
-        "descripcion_es": "como le agrada al Joan",
-        "precio": "6,25",
-        "tags": "",
-        "allergen": [1, 2]
-      }, {
-        "nombre": "Guacamole",
-        "nombre_en": "Guacamole",
-        "nombre_es": "Guacamole",
-        "descripcion": "by Polito",
-        "descripcion_en": "by Polito",
-        "descripcion_es": "by Polito",
-        "precio": "7,25",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Truita de patates",
-        "nombre_en": "Spanish omelette",
-        "nombre_es": "Tortilla de patatas",
-        "descripcion": "al forn amb ceba trufada",
-        "descripcion_en": "baked with truffled onions",
-        "descripcion_es": "al horno con cebolla trufada",
-        "precio": "9",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Burrata",
-        "nombre_en": "Burrata",
-        "nombre_es": "Burrata",
-        "descripcion": "amb escalivada fumada",
-        "descripcion_en": "with smoked escalivada",
-        "descripcion_es": "con escalivada ahumada",
-        "precio": "11,50",
-        "tags": "",
-        "allergen": [2]
-      }, {
-        "nombre": "Amanida de tomàquet confitat",
-        "nombre_en": "Confit tomato salad",
-        "nombre_es": "Ensalada de tomate confitado",
-        "descripcion": "amb ventresca i ceba dolça",
-        "descripcion_en": "with tuna belly and sweet onions",
-        "descripcion_es": "con ventresca de atún y cebolla dulce",
-        "precio": "11",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Biquini",
-        "nombre_en": "Grilled cheese",
-        "nombre_es": "Bikini",
-        "descripcion": "amb salmó fumat, iogurt i tartufato",
-        "descripcion_en": "with smoked salmon, yogurt and tartufato",
-        "descripcion_es": "con salmón ahumado, yogurt y tartufato",
-        "precio": "7",
-        "tags": "",
-        "allergen": [1, 2]
-      }, {
-        "nombre": "Verdures",
-        "nombre_en": "Veggies",
-        "nombre_es": "Verduras",
-        "descripcion": "al dente saltejades en wok",
-        "descripcion_en": "sauteed and al dente",
-        "descripcion_es": "al dente salteadas en wok",
-        "precio": "9,50",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Aletes de pollastre",
-        "nombre_en": "Chicken wings",
-        "nombre_es": "Alitas de pollo",
-        "descripcion": "amb soja i mel",
-        "descripcion_en": "with honey and soy sauce",
-        "descripcion_es": "con soja y miel",
-        "precio": "8,50",
-        "tags": "",
-        "allergen": []
-      }]
-    }, {
-      "division": "paracomer",
-      "nombre": "Pescaitos",
-      "nombre_en": "Fish",
-      "nombre_es": "Pescaitos",
-      "imagen": "",
-      "data": [{
-        "nombre": "Tàrtar de salmó",
-        "nombre_en": "Salmon tartar",
-        "nombre_es": "Tartar de salmón",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "13,25",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "'Sevillanitos'",
-        "nombre_en": "'Sevillanitos'",
-        "nombre_es": "Sevillanitos",
-        "descripcion": "amb farina de cigrons i maionesa de citrics",
-        "descripcion_en": "fried with chickpea flour and citrus mayonnaise",
-        "descripcion_es": "con harina de garbanzos y mayonesa de cítricos",
-        "precio": "10,50",
-        "tags": "",
-        "allergen": [2]
-      }, {
-        "nombre": "'Closca a la planxa'",
-        "nombre_en": "'Sauteed clams'",
-        "nombre_es": "'Closca a la planxa'",
-        "descripcion": "...la del dia",
-        "descripcion_en": "from the day",
-        "descripcion_es": "...la del día",
-        "precio": "S/M",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Ceviche de perca de Tanzania",
-        "nombre_en": "Tanzanian perch ceviche",
-        "nombre_es": "Ceviche de perca de Tanzania",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "14",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Musclos al vapor",
-        "nombre_en": "Steamed mussels",
-        "nombre_es": "Mejillones al vapor",
-        "descripcion": "amb Mòdena i vi blanc",
-        "descripcion_en": "with Módena and white wine",
-        "descripcion_es": "con Módena y vino blanco",
-        "precio": "11,50",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Bacallà",
-        "nombre_en": "Cod",
-        "nombre_es": "Bacalao",
-        "descripcion": "amb muselina de poma",
-        "descripcion_en": "Cod with apple mousseline",
-        "descripcion_es": "Bacalao con muselina de manzana",
-        "precio": "14,50",
-        "tags": "",
-        "allergen": [2]
-      }, {
-        "nombre": "Turbot a la planxa",
-        "nombre_en": "Grilled turbot",
-        "nombre_es": "Rodaballo a la plancha",
-        "descripcion": "amb meunière de tàperes (dues persones)",
-        "descripcion_en": "with capers meunière (two people)",
-        "descripcion_es": "con meunière de alcaparras (dos personas)",
-        "precio": "15 p/p",
-        "tags": "",
-        "allergen": [2]
-      }]
-    }, {
-      "division": "paracomer",
-      "nombre": "Carns",
-      "nombre_en": "Beef",
-      "nombre_es": "Carnes",
-      "imagen": "",
-      "data": [{
-        "nombre": "Tagliata de vedella a la toscana (poc feta)",
-        "nombre_en": "Beef tagliata alla toscana (medium rare)",
-        "nombre_es": "Tagliata de ternera a la toscana (poco hecha)",
-        "descripcion": "amb rucula i parma",
-        "descripcion_en": "with arugula and parmesan",
-        "descripcion_es": "con rucula y parma",
-        "precio": "12",
-        "tags": "",
-        "allergen": [2]
-      }, {
-        "nombre": "Melòs Ibèric a la planxa",
-        "nombre_en": "Grilled Iberic tender",
-        "nombre_es": "Ibérico meloso a la plancha",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "11,50",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Costellam de porc amb salsa BBQ",
-        "nombre_en": "BBQ pork ribs",
-        "nombre_es": "Costillar de cerdo con salsa BBQ",
-        "descripcion": "patata a l'forn i puré de moniato",
-        "descripcion_en": "with bakes potatoes and sweet potato puree",
-        "descripcion_es": "patata al horno y puré de boniato",
-        "precio": "11,50",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Carpaccio de lacón",
-        "nombre_en": "Lacon carpaccio",
-        "nombre_es": "Carpaccio de lacón",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "11",
-        "tags": "",
-        "allergen": []
-      }, {
-        "nombre": "Tataki de vedella",
-        "nombre_en": "Veal tataki",
-        "nombre_es": "Tataki de ternera",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "10,50",
-        "tags": "",
-        "allergen": []
-      }]
-    }, {
-      "division": "paracomer",
-      "nombre": "Postres",
-      "nombre_en": "Desserts",
-      "nombre_es": "Postres",
-      "imagen": "",
-      "data": [{
-        "nombre": "Creps",
-        "nombre_en": "Crêpes",
-        "nombre_es": "Crêpes",
-        "descripcion": "amb nutella i gelat de dolç de llet",
-        "descripcion_en": "with nutella and dulce de leche ice cream",
-        "descripcion_es": "con nutella y helado de dulce de leche",
-        "precio": "5,50",
-        "tags": "",
-        "allergen": [1, 2]
-      }, {
-        "nombre": "Mocchi cream",
-        "nombre_en": "Mocchi cream",
-        "nombre_es": "Mocchi cream",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2 p/u",
-        "tags": "",
-        "allergen": [2]
-      }, {
-        "nombre": "Brownie",
-        "nombre_en": "Brownie",
-        "nombre_es": "Brownie",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "6",
-        "tags": "",
-        "allergen": [1, 2]
-      }, {
-        "nombre": "Yogurt cremòs",
-        "nombre_en": "Creamy yoghurt",
-        "nombre_es": "Yogurt cremoso",
-        "descripcion": "amb fruits vermells",
-        "descripcion_en": "with red fruits",
-        "descripcion_es": "con frutos rojos",
-        "precio": "5,50",
-        "tags": "",
-        "allergen": [1, 2]
-      }, {
-        "nombre": "Bescuit borratxo amb Baileys",
-        "nombre_en": "Baileys drunken cake",
-        "nombre_es": "Bizcocho borracho de Baileys",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "6",
-        "tags": "",
-        "allergen": [1, 2]
-      }, {
-        "nombre": "Pastis de formatge",
-        "nombre_en": "Cheescake",
-        "nombre_es": "Pastel de queso",
-        "descripcion": "amb fruits vermells",
-        "descripcion_en": "with red fruits",
-        "descripcion_es": "con frutos rojos",
-        "precio": "5",
-        "tags": "",
-        "allergen": [1, 2]
-      }, {
-        "nombre": "Sorbet de fruita de la passió",
-        "nombre_en": "Passion fruit sorbet",
-        "nombre_es": "Sorbete de fruta de la pasión",
-        "descripcion": "amb vodka",
-        "descripcion_en": "with vodka",
-        "descripcion_es": "con vodka",
-        "precio": "5,50",
-        "tags": "",
-        "allergen": [0]
-      }, {
-        "nombre": "\"Politos\" de vainilla",
-        "nombre_en": "Vanilla \"Politos\"",
-        "nombre_es": "\"Politos\" de vainilla",
-        "descripcion": "amb xocolata negra fosa",
-        "descripcion_en": "with molten black chocolate",
-        "descripcion_es": "con chocolate negro fundido",
-        "precio": "2,25 p/u",
-        "tags": "",
-        "allergen": [1, 2]
-      }, {
-        "nombre": "Llaminadures",
-        "nombre_en": "Candy",
-        "nombre_es": "Chuches",
-        "descripcion": "per acompanyar el gin tònic",
-        "descripcion_en": "for your gin and tonic",
-        "descripcion_es": "para acompañar el gin tonic",
-        "precio": "3",
-        "tags": "",
-        "allergen": []
-      }]
-    }, {
-      "division": "parabeber",
-      "nombre": "Vi blanc",
-      "nombre_en": "White wine",
-      "nombre_es": "Vino blanco",
-      "imagen": "",
-      "data": [{
-        "nombre": "Gran Feudo",
-        "nombre_en": "Gran Feudo",
-        "nombre_es": "Gran Feudo",
-        "descripcion": "Chardonnay D.O Navarra",
-        "descripcion_en": "Chardonnay D.O Navarra",
-        "descripcion_es": "Chardonnay D.O Navarra",
-        "precio": "15,50",
-        "tags": ""
-      }, {
-        "nombre": "Miranda D'Espiells ",
-        "nombre_en": "Miranda D'Espiells ",
-        "nombre_es": "Miranda D'Espiells ",
-        "descripcion": "Chardonnay D.O Penedès",
-        "descripcion_en": "Chardonnay D.O Penedés",
-        "descripcion_es": "Chardonnay D.O Penedés",
-        "precio": "16",
-        "tags": ""
-      }, {
-        "nombre": "Cantarranas",
-        "nombre_en": "Cantarranas",
-        "nombre_es": "Cantarranas",
-        "descripcion": "Verdejo D.O Rueda",
-        "descripcion_en": "Verdejo D.O Rueda",
-        "descripcion_es": "Verdejo D.O Rueda",
-        "precio": "17",
-        "tags": ""
-      }, {
-        "nombre": "La Camioneta Verdejo",
-        "nombre_en": "La Camioneta Verdejo",
-        "nombre_es": "La Camioneta Verdejo",
-        "descripcion": "D.O Rueda",
-        "descripcion_en": "D.O Rueda",
-        "descripcion_es": "D.O Rueda",
-        "precio": "16",
-        "tags": ""
-      }, {
-        "nombre": "Gregal Gewürztraminer",
-        "nombre_en": "Gregal Gewürztraminer ",
-        "nombre_es": "Gregal Gewürztraminer ",
-        "descripcion": " i Muscat D.O Penedès",
-        "descripcion_en": "D.O Penedés and Muscat",
-        "descripcion_es": "D.O Penedés y Muscat",
-        "precio": "17,50",
-        "tags": ""
-      }, {
-        "nombre": "Terra de Godos Albariño",
-        "nombre_en": "Terra de Godos Albariño",
-        "nombre_es": "Terra de Godos Albariño",
-        "descripcion": "D.O Rias Baixas",
-        "descripcion_en": "D.O Rias Baixas",
-        "descripcion_es": "D.O Rias Baixas",
-        "precio": "18",
-        "tags": ""
-      }, {
-        "nombre": "Pulpo Albariño",
-        "nombre_en": "Pulpo Albariño",
-        "nombre_es": "Pulpo Albariño",
-        "descripcion": "D.O Rias Baixas",
-        "descripcion_en": "D.O Rias Baixas",
-        "descripcion_es": "D.O Rias Baixas",
-        "precio": "21",
-        "tags": ""
-      }, {
-        "nombre": "Abulaga",
-        "nombre_en": "Abulaga",
-        "nombre_es": "Abulaga",
-        "descripcion": "Costa Gaditana",
-        "descripcion_en": "Costa Gaditana",
-        "descripcion_es": "Costa Gaditana",
-        "precio": "17",
-        "tags": ""
-      }]
-    }, {
-      "division": "parabeber",
-      "nombre": "Vi negre",
-      "nombre_en": "Red wine",
-      "nombre_es": "Vino tinto",
-      "imagen": "",
-      "data": [{
-        "nombre": "Indispensable",
-        "nombre_en": "Indispensable",
-        "nombre_es": "Indispensable",
-        "descripcion": "D.O Empordà",
-        "descripcion_en": "D.O Empordà",
-        "descripcion_es": "D.O Empordà",
-        "precio": "14",
-        "tags": ""
-      }, {
-        "nombre": "El Aviador",
-        "nombre_en": "El Aviador",
-        "nombre_es": "El Aviador",
-        "descripcion": "V.T Castilla i León",
-        "descripcion_en": "V.T Castilla y León",
-        "descripcion_es": "V.T Castilla y León",
-        "precio": "14,50",
-        "tags": ""
-      }, {
-        "nombre": "XII Lunas",
-        "nombre_en": "XII Lunas",
-        "nombre_es": "XII Lunas",
-        "descripcion": "D.O Rioja",
-        "descripcion_en": "D.O Rioja",
-        "descripcion_es": "D.O Rioja",
-        "precio": "14",
-        "tags": ""
-      }, {
-        "nombre": "Cantamañanas Roble",
-        "nombre_en": "Cantamañanas Roble",
-        "nombre_es": "Cantamañanas Roble",
-        "descripcion": "D.O Ribera del Duero",
-        "descripcion_en": "D.O Ribera del Duero",
-        "descripcion_es": "D.O Ribera del Duero",
-        "precio": "14,50",
-        "tags": ""
-      }, {
-        "nombre": "Condominio Roble",
-        "nombre_en": "Condominio Roble",
-        "nombre_es": "Condominio Roble",
-        "descripcion": "D.O Ribera del Duero",
-        "descripcion_en": "D.O Ribera del Duero",
-        "descripcion_es": "D.O Ribera del Duero",
-        "precio": "16",
-        "tags": ""
-      }]
-    }, {
-      "division": "parabeber",
-      "nombre": "Escumosos",
-      "nombre_en": "Sparkling wine",
-      "nombre_es": "Espumosos",
-      "imagen": "",
-      "data": [{
-        "nombre": "Cava Juvé Camps",
-        "nombre_en": "Cava Juvé Camps",
-        "nombre_es": "Cava Juvé Camps",
-        "descripcion": "D.O Cava Cinta Púrpura",
-        "descripcion_en": "D.O Cava Cinta Púrpura",
-        "descripcion_es": "D.O Cava Cinta Púrpura",
-        "precio": "20",
-        "tags": ""
-      }, {
-        "nombre": "Champagne Taittinger ",
-        "nombre_en": "Champagne Taittinger ",
-        "nombre_es": "Champagne Taittinger ",
-        "descripcion": "A.O.C Champagne 1/2 ampolla",
-        "descripcion_en": "A.O.C Champagne 1/2 bottle",
-        "descripcion_es": "A.O.C Champagne 1/2 botella",
-        "precio": "30",
-        "tags": ""
-      }, {
-        "nombre": "Champagne Taittinger",
-        "nombre_en": "Champagne Taittinger",
-        "nombre_es": "Champagne Taittinger",
-        "descripcion": "A.O.C Champagne",
-        "descripcion_en": "A.O.C Champagne",
-        "descripcion_es": "A.O.C Champagne",
-        "precio": "45",
-        "tags": ""
-      }]
-    }, {
-      "division": "parabeber",
-      "nombre": "Vins per copa",
-      "nombre_en": "Wines by the glass",
-      "nombre_es": "Vinos por copa",
-      "imagen": "",
-      "data": [{
-        "nombre": "Copa Chardonnay",
-        "nombre_en": "Glass Chardonnay",
-        "nombre_es": "Copa Chardonnay",
-        "descripcion": "blanc",
-        "descripcion_en": "white",
-        "descripcion_es": "blanco",
-        "precio": "3,75",
-        "tags": ""
-      }, {
-        "nombre": "Copa Verdejo",
-        "nombre_en": "Glass Verdejo",
-        "nombre_es": "Copa Verdejo",
-        "descripcion": "blanc",
-        "descripcion_en": "white",
-        "descripcion_es": "blanco",
-        "precio": "3,75",
-        "tags": ""
-      }, {
-        "nombre": "Copa Gewürztraminer",
-        "nombre_en": "Glass Gewürztraminer",
-        "nombre_es": "Copa Gewürztraminer",
-        "descripcion": "blanc",
-        "descripcion_en": "white",
-        "descripcion_es": "blanco",
-        "precio": "3,75",
-        "tags": ""
-      }, {
-        "nombre": "Copa Empordà",
-        "nombre_en": "Glass Empordà",
-        "nombre_es": "Copa Empordà",
-        "descripcion": "negre",
-        "descripcion_en": "red",
-        "descripcion_es": "tinto",
-        "precio": "3",
-        "tags": ""
-      }, {
-        "nombre": "Copa Rioja",
-        "nombre_en": "Glass Rioja",
-        "nombre_es": "Copa Rioja",
-        "descripcion": "negre",
-        "descripcion_en": "red",
-        "descripcion_es": "tinto",
-        "precio": "3",
-        "tags": ""
-      }, {
-        "nombre": "Copa Ribera del Duero",
-        "nombre_en": "Glass Ribera del Duero",
-        "nombre_es": "Copa Ribera del Duero",
-        "descripcion": "negre",
-        "descripcion_en": "red",
-        "descripcion_es": "tinto",
-        "precio": "3,25",
-        "tags": ""
-      }, {
-        "nombre": "Copa Cava Brut Nature",
-        "nombre_en": "Glass Cava Brut Nature",
-        "nombre_es": "Copa Cava Brut Nature",
-        "descripcion": "Cava",
-        "descripcion_en": "Cava",
-        "descripcion_es": "Cava",
-        "precio": "4",
-        "tags": ""
-      }]
-    }, {
-      "division": "parabeber",
-      "nombre": "Cerveses",
-      "nombre_en": "Beers",
-      "nombre_es": "Cervezas",
-      "imagen": "",
-      "data": [{
-        "nombre": "Copa cervesa/clara",
-        "nombre_en": "Glass beer/clara",
-        "nombre_es": "Copa cerveza/clara",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "3",
-        "tags": ""
-      }, {
-        "nombre": "Canya",
-        "nombre_en": "Caña",
-        "nombre_es": "Caña",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2,25",
-        "tags": ""
-      }, {
-        "nombre": "Cervesa sense alcohol",
-        "nombre_en": "Non alcoholic beer",
-        "nombre_es": "Cerveza sin alcohol",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "3",
-        "tags": ""
-      }, {
-        "nombre": "1906",
-        "nombre_en": "1906",
-        "nombre_es": "1906",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "3,25",
-        "tags": ""
-      }]
-    }, {
-      "division": "parabeber",
-      "nombre": "Cóctels i combinats",
-      "nombre_en": "Cocktails and drinks",
-      "nombre_es": "Cocktails y combinados",
-      "imagen": "",
-      "data": [{
-        "nombre": "Copa tinto de verano",
-        "nombre_en": "Glass tinto de verano",
-        "nombre_es": "Copa tinto de verano",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "4,50",
-        "tags": ""
-      }, {
-        "nombre": "Aperol Spritz",
-        "nombre_en": "Aperol Spritz",
-        "nombre_es": "Aperol Spritz",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "5,50",
-        "tags": ""
-      }, {
-        "nombre": "Kir Royal",
-        "nombre_en": "Kir Royal",
-        "nombre_es": "Kir Royal",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "4,50",
-        "tags": ""
-      }, {
-        "nombre": "Kir",
-        "nombre_en": "Kir",
-        "nombre_es": "Kir",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "4",
-        "tags": ""
-      }, {
-        "nombre": "Caipiroska",
-        "nombre_en": "Caipiroska",
-        "nombre_es": "Caipiroska",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "7,50",
-        "tags": ""
-      }, {
-        "nombre": "Mojito",
-        "nombre_en": "Mojito",
-        "nombre_es": "Mojito",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "7,50",
-        "tags": ""
-      }, {
-        "nombre": "Mojito de maduixa",
-        "nombre_en": "Strawberry mojito",
-        "nombre_es": "Mojito de fresa",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "7,50",
-        "tags": ""
-      }, {
-        "nombre": "Virgin mojito",
-        "nombre_en": "Virgin mojito",
-        "nombre_es": "Virgin mojito",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "6",
-        "tags": ""
-      }, {
-        "nombre": "Gin Tònic Formentera",
-        "nombre_en": "Gin Tonic Formentera",
-        "nombre_es": "Gin Tonic Formentera",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "10",
-        "tags": ""
-      }, {
-        "nombre": "Gin Tònic Seagram's",
-        "nombre_en": "Gin Tonic Seagram's",
-        "nombre_es": "Gin Tonic Seagram's",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "8",
-        "tags": ""
-      }, {
-        "nombre": "Gin Tònic Nordes",
-        "nombre_en": "Gin Tonic Nordes",
-        "nombre_es": "Gin Tonic Nordes",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "10",
-        "tags": ""
-      }, {
-        "nombre": "Gin Tònic G Vine",
-        "nombre_en": "Gin Tonic G Vine",
-        "nombre_es": "Gin Tonic G Vine",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "10",
-        "tags": ""
-      }, {
-        "nombre": "Gin Tònic Puerto de Indias",
-        "nombre_en": "Gin Tonic Puerto de Indias",
-        "nombre_es": "Gin Tonic Puerto de Indias",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "8",
-        "tags": ""
-      }, {
-        "nombre": "Gin Tònic Beefeater's",
-        "nombre_en": "Gin Tonic Beefeater's",
-        "nombre_es": "Gin Tonic Beefeater's",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "8",
-        "tags": ""
-      }, {
-        "nombre": "Gin Tònic Bulldog",
-        "nombre_en": "Gin Tonic Bulldog",
-        "nombre_es": "Gin Tonic Bulldog",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "10",
-        "tags": ""
-      }, {
-        "nombre": "Sangría Lolea blanc",
-        "nombre_en": "Sangría Lolea white",
-        "nombre_es": "Sangría Lolea blanco",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "16",
-        "tags": ""
-      }, {
-        "nombre": "Sangría Lolea negre",
-        "nombre_en": "Sangría Lolea red",
-        "nombre_es": "Sangría Lolea negro",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "16",
-        "tags": ""
-      }]
-    }, {
-      "division": "parabeber",
-      "nombre": "Soft Drinks",
-      "nombre_en": "Soft Drinks",
-      "nombre_es": "Soft Drinks",
-      "imagen": "",
-      "data": [{
-        "nombre": "Coca Cola",
-        "nombre_en": "Coca Cola",
-        "nombre_es": "Coca Cola",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2,75",
-        "tags": ""
-      }, {
-        "nombre": "Coca Cola Zero",
-        "nombre_en": "Coca Cola Zero",
-        "nombre_es": "Coca Cola Zero",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2,75",
-        "tags": ""
-      }, {
-        "nombre": "Nestea",
-        "nombre_en": "Nestea",
-        "nombre_es": "Nestea",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2,75",
-        "tags": ""
-      }, {
-        "nombre": "Fanta taronja",
-        "nombre_en": "Fanta orange",
-        "nombre_es": "Fanta naranja",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2,75",
-        "tags": ""
-      }, {
-        "nombre": "Fanta llimona",
-        "nombre_en": "Fanta lemon",
-        "nombre_es": "Fanta limón",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2,75",
-        "tags": ""
-      }, {
-        "nombre": "Tònica",
-        "nombre_en": "Tónica",
-        "nombre_es": "Tónica",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2,75",
-        "tags": ""
-      }, {
-        "nombre": "Sprite",
-        "nombre_en": "Sprite",
-        "nombre_es": "Sprite",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2,75",
-        "tags": ""
-      }, {
-        "nombre": "Suc de taronja",
-        "nombre_en": "Orange juice",
-        "nombre_es": "Zumo de Naranja",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2,75",
-        "tags": ""
-      }, {
-        "nombre": "Aigua mineral 1,25L",
-        "nombre_en": "Still water 1,25L",
-        "nombre_es": "Agua mineral 1,25L",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "3,25",
-        "tags": ""
-      }, {
-        "nombre": "Aigua amb gas 0,5L",
-        "nombre_en": "Sparkling water 0,5L",
-        "nombre_es": "Agua con gas 0,5L",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "3,25",
-        "tags": ""
-      }, {
-        "nombre": "Aigua mineral 0,50L",
-        "nombre_en": "Still water 0,50L",
-        "nombre_es": "Agua mineral 0,50L",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "1,80",
-        "tags": ""
-      }]
-    }, {
-      "division": "parabeber",
-      "nombre": "Cafè i infusions",
-      "nombre_en": "Coffee and tea",
-      "nombre_es": "Café e infusiones",
-      "imagen": "",
-      "data": [{
-        "nombre": "Cafè",
-        "nombre_en": "Espresso",
-        "nombre_es": "Café",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "1,50",
-        "tags": ""
-      }, {
-        "nombre": "Tallat",
-        "nombre_en": "Cortado",
-        "nombre_es": "Cortado",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "1,75",
-        "tags": ""
-      }, {
-        "nombre": "Cafè amb llet",
-        "nombre_en": "Coffee with milk",
-        "nombre_es": "Café con leche",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2",
-        "tags": ""
-      }, {
-        "nombre": "Cigaló",
-        "nombre_en": "Coffee with licquor",
-        "nombre_es": "Carajillo",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "3",
-        "tags": ""
-      }, {
-        "nombre": "Infusió",
-        "nombre_en": "Tea",
-        "nombre_es": "Infusión",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2",
-        "tags": ""
-      }, {
-        "nombre": "Cafè frappé",
-        "nombre_en": "Coffee frappé",
-        "nombre_es": "Café frappé",
-        "descripcion": "",
-        "descripcion_en": "",
-        "descripcion_es": "",
-        "precio": "2",
-        "tags": ""
-      }]
-    }]
-  }]
+    }
+  ]
 }
