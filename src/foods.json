@@ -217,12 +217,12 @@
               "allergen": []
             },
             {
-              "nombre": "Truita de patates",
-              "nombre_en": "Spanish omelette",
-              "nombre_es": "Tortilla de patatas",
-              "descripcion": "al forn amb ceba trufada",
-              "descripcion_en": "baked with truffled onions",
-              "descripcion_es": "al horno con cebolla trufada",
+              "nombre": "Truita de patates soufflé",
+              "nombre_en": "Soufflé tortilla",
+              "nombre_es": "Tortilla de patatas soufflé",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
               "precio": "9",
               "tags": "",
               "allergen": []
@@ -231,9 +231,9 @@
               "nombre": "Burrata",
               "nombre_en": "Burrata",
               "nombre_es": "Burrata",
-              "descripcion": "amb escalivada fumada",
-              "descripcion_en": "with smoked escalivada",
-              "descripcion_es": "con escalivada ahumada",
+              "descripcion": "amb pesto ruca i espinacs baby",
+              "descripcion_en": "with arugula pesto and baby spinach",
+              "descripcion_es": "con pesto rúcula y espiacas baby",
               "precio": "11,50",
               "tags": "",
               "allergen": [2]
@@ -312,17 +312,6 @@
               "precio": "10,50",
               "tags": "",
               "allergen": [2]
-            },
-            {
-              "nombre": "'Closca a la planxa'",
-              "nombre_en": "'Sauteed clams'",
-              "nombre_es": "'Closca a la planxa'",
-              "descripcion": "...la del dia",
-              "descripcion_en": "from the day",
-              "descripcion_es": "...la del día",
-              "precio": "S/M",
-              "tags": "",
-              "allergen": []
             },
             {
               "nombre": "Ceviche de perca de Tanzania",
@@ -500,9 +489,9 @@
               "nombre": "Pastis de formatge",
               "nombre_en": "Cheescake",
               "nombre_es": "Pastel de queso",
-              "descripcion": "amb fruits vermells",
-              "descripcion_en": "with red fruits",
-              "descripcion_es": "con frutos rojos",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
               "precio": "5",
               "tags": "",
               "allergen": [1, 2]
@@ -526,6 +515,17 @@
               "descripcion_en": "with molten black chocolate",
               "descripcion_es": "con chocolate negro fundido",
               "precio": "2,25 p/u",
+              "tags": "",
+              "allergen": [1, 2]
+            },
+            {
+              "nombre": "Gelats Momocho",
+              "nombre_en": "Momocho ice cream",
+              "nombre_es": "Helados Momocho",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "5",
               "tags": "",
               "allergen": [1, 2]
             }
