@@ -74,7 +74,7 @@ const SearchComponent = () => {
       setAllergyList(flattened);
     }
   };
-
+// a
   const switchLang = (parameter) => {
     const translations = {
       gluten: ["Sense gluten", "Gluten free", "Sin gluten"],
