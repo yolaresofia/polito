@@ -157,7 +157,7 @@
               "descripcion": "p/p",
               "descripcion_en": "p/p",
               "descripcion_es": "p/p",
-              "precio": "17",
+              "precio": "18",
               "tags": "",
               "allergen": []
             },
@@ -168,7 +168,7 @@
               "descripcion": "p/p",
               "descripcion_en": "p/p",
               "descripcion_es": "p/p",
-              "precio": "20",
+              "precio": "21",
               "tags": "",
               "allergen": []
             },
@@ -464,12 +464,12 @@
               "allergen": [1, 2]
             },
             {
-              "nombre": "Yogurt cremòs",
-              "nombre_en": "Creamy yoghurt",
-              "nombre_es": "Yogurt cremoso",
-              "descripcion": "amb fruits vermells",
+              "nombre": "Perles de tapioca",
+              "nombre_en": "Tapioca pearls",
+              "nombre_es": "Perlas de tapioca",
+              "descripcion": "infusionades en llet de coco",
               "descripcion_en": "with red fruits",
-              "descripcion_es": "con frutos rojos",
+              "descripcion_es": "infusioned with coconut milk",
               "precio": "5,50",
               "tags": "",
               "allergen": [1, 2]
