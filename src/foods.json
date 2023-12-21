@@ -39,7 +39,7 @@
               "descripcion": "amb sèsam i oli de tòfona",
               "descripcion_en": "with sesame and truffle oil",
               "descripcion_es": "con sésamo y aceite de trufa",
-              "precio": "7,25",
+              "precio": "8",
               "tags": "",
               "allergen": []
             },
@@ -61,7 +61,7 @@
               "descripcion": "per mullar en vinagreta provençal",
               "descripcion_en": "to dip in provenzal vinaigrette",
               "descripcion_es": "para mojar en vinagreta provenzal",
-              "precio": "9,50",
+              "precio": "10",
               "tags": "",
               "allergen": [1]
             },
@@ -93,7 +93,7 @@
               "descripcion": "amb havarti, pebrot escalivat i caienas",
               "descripcion_en": "with havarti, roasted pepper and cayennes",
               "descripcion_es": "con havarti, pimiento escalivado y cayenas",
-              "precio": "11",
+              "precio": "12",
               "tags": "",
               "allergen": [2]
             },
@@ -104,7 +104,7 @@
               "descripcion": "amb orenga i pebre negre",
               "descripcion_en": "with oregano and black pepper",
               "descripcion_es": "con orégano y pimienta negra",
-              "precio": "7",
+              "precio": "8,50",
               "tags": "",
               "allergen": [2]
             },
@@ -115,7 +115,7 @@
               "descripcion": "amb remolatxa fresca, sèsam, paprika i oli de kalamata.",
               "descripcion_en": "with fresh beet, sesame, paprika and kalamata oil",
               "descripcion_es": "con remolacha fresca, sésamo, paprika y aceite de kalamata",
-              "precio": "7,25",
+              "precio": "7,50",
               "tags": "",
               "allergen": []
             },
@@ -137,7 +137,7 @@
               "descripcion": "amb soja, ponzu i sèsam",
               "descripcion_en": "with soy sauce, ponzu and sesame",
               "descripcion_es": "con soja, ponzu y sésamo",
-              "precio": "7,25",
+              "precio": "8,50",
               "tags": "",
               "allergen": [1]
             }
@@ -151,13 +151,13 @@
           "imagen": "",
           "data": [
             {
-              "nombre": "Arròs de verdures socarrat",
-              "nombre_en": "Shocked veggie rice",
-              "nombre_es": "Arroz de verduras 'socarrat'",
+              "nombre": "Arròs de muntanya",
+              "nombre_en": "Mountain rice",
+              "nombre_es": "Arroz de montaña'",
               "descripcion": "p/p",
               "descripcion_en": "p/p",
               "descripcion_es": "p/p",
-              "precio": "18",
+              "precio": "25",
               "tags": "",
               "allergen": []
             },
@@ -168,7 +168,7 @@
               "descripcion": "p/p",
               "descripcion_en": "p/p",
               "descripcion_es": "p/p",
-              "precio": "21",
+              "precio": "22",
               "tags": "",
               "allergen": []
             },
@@ -190,7 +190,7 @@
               "descripcion": "amb vinagreta de llimona i parmesà",
               "descripcion_en": "con vinagreta de limón y parmesano",
               "descripcion_es": "with lemon vinaigrette and parmesan",
-              "precio": "6",
+              "precio": "8",
               "tags": "",
               "allergen": [2]
             },
@@ -201,7 +201,7 @@
               "descripcion": "com li agrada al Joan",
               "descripcion_en": "how Joan likes it",
               "descripcion_es": "como le agrada al Joan",
-              "precio": "6,25",
+              "precio": "7,50",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -212,7 +212,7 @@
               "descripcion": "by Polito",
               "descripcion_en": "by Polito",
               "descripcion_es": "by Polito",
-              "precio": "7,25",
+              "precio": "7,50",
               "tags": "",
               "allergen": []
             },
@@ -223,7 +223,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "9",
+              "precio": "11",
               "tags": "",
               "allergen": []
             },
@@ -234,7 +234,7 @@
               "descripcion": "amb pesto ruca i espinacs baby",
               "descripcion_en": "with arugula pesto and baby spinach",
               "descripcion_es": "con pesto rúcula y espiacas baby",
-              "precio": "11,50",
+              "precio": "13",
               "tags": "",
               "allergen": [2]
             },
@@ -256,7 +256,7 @@
               "descripcion": "amb salmó fumat, iogurt i tartufato",
               "descripcion_en": "with smoked salmon, yogurt and tartufato",
               "descripcion_es": "con salmón ahumado, yogurt y tartufato",
-              "precio": "7",
+              "precio": "8,50",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -267,7 +267,7 @@
               "descripcion": "al dente saltejades en wok",
               "descripcion_en": "sauteed and al dente",
               "descripcion_es": "al dente salteadas en wok",
-              "precio": "9,50",
+              "precio": "10",
               "tags": "",
               "allergen": []
             },
@@ -278,7 +278,7 @@
               "descripcion": "amb soja i mel",
               "descripcion_en": "with honey and soy sauce",
               "descripcion_es": "con soja y miel",
-              "precio": "8,50",
+              "precio": "9",
               "tags": "",
               "allergen": []
             }
@@ -298,7 +298,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "13,25",
+              "precio": "13,50",
               "tags": "",
               "allergen": []
             },
@@ -309,7 +309,7 @@
               "descripcion": "amb farina de cigrons i maionesa de citrics",
               "descripcion_en": "fried with chickpea flour and citrus mayonnaise",
               "descripcion_es": "con harina de garbanzos y mayonesa de cítricos",
-              "precio": "10,50",
+              "precio": "12",
               "tags": "",
               "allergen": [2]
             },
@@ -342,7 +342,7 @@
               "descripcion": "amb muselina de poma",
               "descripcion_en": "Cod with apple mousseline",
               "descripcion_es": "Bacalao con muselina de manzana",
-              "precio": "14,50",
+              "precio": "15",
               "tags": "",
               "allergen": [2]
             },
@@ -353,7 +353,7 @@
               "descripcion": "amb meunière de tàperes (dues persones)",
               "descripcion_en": "with capers meunière (two people)",
               "descripcion_es": "con meunière de alcaparras (dos personas)",
-              "precio": "15 p/p",
+              "precio": "18 p/p",
               "tags": "",
               "allergen": [2]
             }
@@ -373,7 +373,7 @@
               "descripcion": "amb rucula i parma",
               "descripcion_en": "with arugula and parmesan",
               "descripcion_es": "con rucula y parma",
-              "precio": "12",
+              "precio": "13,50",
               "tags": "",
               "allergen": [2]
             },
@@ -384,7 +384,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "11,50",
+              "precio": "14",
               "tags": "",
               "allergen": []
             },
@@ -395,7 +395,7 @@
               "descripcion": "patata a l'forn i puré de moniato",
               "descripcion_en": "with bakes potatoes and sweet potato puree",
               "descripcion_es": "patata al horno y puré de boniato",
-              "precio": "11,50",
+              "precio": "13",
               "tags": "",
               "allergen": []
             },
@@ -417,7 +417,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "10,50",
+              "precio": "11",
               "tags": "",
               "allergen": []
             }
@@ -545,7 +545,7 @@
               "descripcion": "D.O Empordà",
               "descripcion_en": "D.O Empordà",
               "descripcion_es": "D.O Empordà",
-              "precio": "15",
+              "precio": "16",
               "tags": ""
             },
             {
@@ -555,7 +555,7 @@
               "descripcion": "Chardonnay D.O Navarra",
               "descripcion_en": "Chardonnay D.O Navarra",
               "descripcion_es": "Chardonnay D.O Navarra",
-              "precio": "15,50",
+              "precio": "16,50",
               "tags": ""
             },
             {
@@ -565,7 +565,7 @@
               "descripcion": "Chardonnay D.O Penedès",
               "descripcion_en": "Chardonnay D.O Penedés",
               "descripcion_es": "Chardonnay D.O Penedés",
-              "precio": "16",
+              "precio": "17",
               "tags": ""
             },
             {
@@ -575,7 +575,7 @@
               "descripcion": "D.O Rueda",
               "descripcion_en": "D.O Rueda",
               "descripcion_es": "D.O Rueda",
-              "precio": "16",
+              "precio": "17",
               "tags": ""
             },
             {
@@ -585,7 +585,7 @@
               "descripcion": " i Muscat D.O Penedès",
               "descripcion_en": "D.O Penedés and Muscat",
               "descripcion_es": "D.O Penedés y Muscat",
-              "precio": "17,50",
+              "precio": "18,50",
               "tags": ""
             },
             {
@@ -595,7 +595,7 @@
               "descripcion": "D.O Rias Baixas",
               "descripcion_en": "D.O Rias Baixas",
               "descripcion_es": "D.O Rias Baixas",
-              "precio": "18",
+              "precio": "19",
               "tags": ""
             },
             {
@@ -605,7 +605,7 @@
               "descripcion": "D.O Rias Baixas",
               "descripcion_en": "D.O Rias Baixas",
               "descripcion_es": "D.O Rias Baixas",
-              "precio": "21",
+              "precio": "22",
               "tags": ""
             },
             {
@@ -615,7 +615,7 @@
               "descripcion": "Costa Gaditana",
               "descripcion_en": "Costa Gaditana",
               "descripcion_es": "Costa Gaditana",
-              "precio": "17",
+              "precio": "18",
               "tags": ""
             }
           ]
@@ -634,7 +634,7 @@
               "descripcion": "VT las 3 riberas",
               "descripcion_en": "VT las 3 riberas",
               "descripcion_es": "VT las 3 riberas",
-              "precio": "20,50",
+              "precio": "21,50",
               "tags": ""
             }
           ]
@@ -653,7 +653,27 @@
               "descripcion": "D.O Empordà",
               "descripcion_en": "D.O Empordà",
               "descripcion_es": "D.O Empordà",
-              "precio": "23,50",
+              "precio": "24,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Cantamañanas",
+              "nombre_en": "Cantamañanas",
+              "nombre_es": "Cantamañanas",
+              "descripcion": "Ribera del Duero",
+              "descripcion_en": "Ribera del Duero",
+              "descripcion_es": "Ribera del Duero",
+              "precio": "15,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Chateau Lafitte",
+              "nombre_en": "Chateau Lafitte",
+              "nombre_es": "Chateau Lafitte",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "34",
               "tags": ""
             },
             {
@@ -663,7 +683,7 @@
               "descripcion": "D.O Montsant",
               "descripcion_en": "D.O Montsant",
               "descripcion_es": "D.O Montsant",
-              "precio": "14",
+              "precio": "15",
               "tags": ""
             },
             {
@@ -673,7 +693,7 @@
               "descripcion": "V.T Castilla i León",
               "descripcion_en": "V.T Castilla y León",
               "descripcion_es": "V.T Castilla y León",
-              "precio": "14,50",
+              "precio": "15,50",
               "tags": ""
             },
             {
@@ -683,7 +703,7 @@
               "descripcion": "D.O.Ca Priorat",
               "descripcion_en": "D.O.Ca Priorat",
               "descripcion_es": "D.O.Ca Priorat",
-              "precio": "25",
+              "precio": "26",
               "tags": ""
             }
           ]
@@ -830,7 +850,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2,25",
+              "precio": "2,50",
               "tags": ""
             },
             {
@@ -869,7 +889,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "4,50",
+              "precio": "5",
               "tags": ""
             },
             {
@@ -909,7 +929,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "7,50",
+              "precio": "8",
               "tags": ""
             },
             {
@@ -919,7 +939,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "7,50",
+              "precio": "8",
               "tags": ""
             },
             {
@@ -929,7 +949,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "7,50",
+              "precio": "8",
               "tags": ""
             },
             {
@@ -939,7 +959,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "6",
+              "precio": "8",
               "tags": ""
             },
             {
@@ -1031,6 +1051,36 @@
               "descripcion_es": "",
               "precio": "16",
               "tags": ""
+            },
+            {
+              "nombre": "Ron Barceló",
+              "nombre_en": "Ron Barceló",
+              "nombre_es": "Ron Barceló",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "8",
+              "tags": ""
+            },
+            {
+              "nombre": "Vermouth",
+              "nombre_en": "Vermouth",
+              "nombre_es": "Vermouth",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "4,50",
+              "tags": ""
+            },
+            {
+              "nombre": "Chupito",
+              "nombre_en": "Shot",
+              "nombre_es": "Chupito",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "3",
+              "tags": ""
             }
           ]
         },
@@ -1048,7 +1098,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2,75",
+              "precio": "3",
               "tags": ""
             },
             {
@@ -1058,7 +1108,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2,75",
+              "precio": "3",
               "tags": ""
             },
             {
@@ -1068,7 +1118,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2,75",
+              "precio": "3",
               "tags": ""
             },
             {
@@ -1078,7 +1128,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2,75",
+              "precio": "3",
               "tags": ""
             },
             {
@@ -1088,7 +1138,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2,75",
+              "precio": "3",
               "tags": ""
             },
             {
@@ -1098,7 +1148,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2,75",
+              "precio": "3",
               "tags": ""
             },
             {
@@ -1108,7 +1158,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2,75",
+              "precio": "3",
               "tags": ""
             },
             {
@@ -1207,7 +1257,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2",
+              "precio": "4",
               "tags": ""
             }
           ]
