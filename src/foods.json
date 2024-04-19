@@ -206,17 +206,6 @@
               "allergen": [1, 2]
             },
             {
-              "nombre": "Guacamole",
-              "nombre_en": "Guacamole",
-              "nombre_es": "Guacamole",
-              "descripcion": "by Polito",
-              "descripcion_en": "by Polito",
-              "descripcion_es": "by Polito",
-              "precio": "7,50",
-              "tags": "",
-              "allergen": []
-            },
-            {
               "nombre": "Truita de patates soufflé",
               "nombre_en": "Soufflé tortilla",
               "nombre_es": "Tortilla de patatas soufflé",
@@ -278,7 +267,7 @@
               "descripcion": "amb soja i mel",
               "descripcion_en": "with honey and soy sauce",
               "descripcion_es": "con soja y miel",
-              "precio": "9",
+              "precio": "10",
               "tags": "",
               "allergen": []
             }
@@ -298,7 +287,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "13,50",
+              "precio": "14,50",
               "tags": "",
               "allergen": []
             },
@@ -309,7 +298,7 @@
               "descripcion": "amb farina de cigrons i maionesa de citrics",
               "descripcion_en": "fried with chickpea flour and citrus mayonnaise",
               "descripcion_es": "con harina de garbanzos y mayonesa de cítricos",
-              "precio": "12",
+              "precio": "14",
               "tags": "",
               "allergen": [2]
             },
@@ -342,7 +331,7 @@
               "descripcion": "amb muselina de poma",
               "descripcion_en": "Cod with apple mousseline",
               "descripcion_es": "Bacalao con muselina de manzana",
-              "precio": "15",
+              "precio": "16",
               "tags": "",
               "allergen": [2]
             },
@@ -353,7 +342,7 @@
               "descripcion": "amb meunière de tàperes (dues persones)",
               "descripcion_en": "with capers meunière (two people)",
               "descripcion_es": "con meunière de alcaparras (dos personas)",
-              "precio": "18 p/p",
+              "precio": "19 p/p",
               "tags": "",
               "allergen": [2]
             }
@@ -373,7 +362,7 @@
               "descripcion": "amb rucula i parma",
               "descripcion_en": "with arugula and parmesan",
               "descripcion_es": "con rucula y parma",
-              "precio": "13,50",
+              "precio": "14",
               "tags": "",
               "allergen": [2]
             },
@@ -384,18 +373,18 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "14",
+              "precio": "14,50",
               "tags": "",
               "allergen": []
             },
             {
               "nombre": "Costellam de porc amb salsa BBQ",
               "nombre_en": "BBQ pork ribs",
-              "nombre_es": "Costillar de cerdo con salsa BBQ",
+              "nombre_es": "Costilla de cerdo con salsa BBQ",
               "descripcion": "patata a l'forn i puré de moniato",
               "descripcion_en": "with bakes potatoes and sweet potato puree",
               "descripcion_es": "patata al horno y puré de boniato",
-              "precio": "13",
+              "precio": "14",
               "tags": "",
               "allergen": []
             },
@@ -437,7 +426,7 @@
               "descripcion": "amb nutella i gelat de dolç de llet",
               "descripcion_en": "with nutella and dulce de leche ice cream",
               "descripcion_es": "con nutella y helado de dulce de leche",
-              "precio": "5,50",
+              "precio": "6",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -448,7 +437,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2 p/u",
+              "precio": "3 p/u",
               "tags": "",
               "allergen": [2]
             },
@@ -492,7 +481,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "5",
+              "precio": "5,50",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -503,7 +492,7 @@
               "descripcion": "amb vodka",
               "descripcion_en": "with vodka",
               "descripcion_es": "con vodka",
-              "precio": "5,50",
+              "precio": "6,50",
               "tags": "",
               "allergen": [0]
             },
@@ -514,7 +503,7 @@
               "descripcion": "amb xocolata negra fosa",
               "descripcion_en": "with molten black chocolate",
               "descripcion_es": "con chocolate negro fundido",
-              "precio": "2,25 p/u",
+              "precio": "3 p/u",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -545,7 +534,7 @@
               "descripcion": "D.O Empordà",
               "descripcion_en": "D.O Empordà",
               "descripcion_es": "D.O Empordà",
-              "precio": "16",
+              "precio": "17",
               "tags": ""
             },
             {
@@ -555,7 +544,7 @@
               "descripcion": "Chardonnay D.O Navarra",
               "descripcion_en": "Chardonnay D.O Navarra",
               "descripcion_es": "Chardonnay D.O Navarra",
-              "precio": "16,50",
+              "precio": "17,50",
               "tags": ""
             },
             {
@@ -565,7 +554,7 @@
               "descripcion": "Chardonnay D.O Penedès",
               "descripcion_en": "Chardonnay D.O Penedés",
               "descripcion_es": "Chardonnay D.O Penedés",
-              "precio": "17",
+              "precio": "17,50",
               "tags": ""
             },
             {
@@ -575,7 +564,7 @@
               "descripcion": "D.O Rueda",
               "descripcion_en": "D.O Rueda",
               "descripcion_es": "D.O Rueda",
-              "precio": "17",
+              "precio": "19",
               "tags": ""
             },
             {
@@ -595,7 +584,7 @@
               "descripcion": "D.O Rias Baixas",
               "descripcion_en": "D.O Rias Baixas",
               "descripcion_es": "D.O Rias Baixas",
-              "precio": "19",
+              "precio": "20",
               "tags": ""
             },
             {
@@ -653,7 +642,7 @@
               "descripcion": "D.O Empordà",
               "descripcion_en": "D.O Empordà",
               "descripcion_es": "D.O Empordà",
-              "precio": "24,50",
+              "precio": "25",
               "tags": ""
             },
             {
@@ -663,17 +652,7 @@
               "descripcion": "Ribera del Duero",
               "descripcion_en": "Ribera del Duero",
               "descripcion_es": "Ribera del Duero",
-              "precio": "19",
-              "tags": ""
-            },
-            {
-              "nombre": "Chateau Lafitte",
-              "nombre_en": "Chateau Lafitte",
-              "nombre_es": "Chateau Lafitte",
-              "descripcion": "",
-              "descripcion_en": "",
-              "descripcion_es": "",
-              "precio": "34",
+              "precio": "22",
               "tags": ""
             },
             {
@@ -683,7 +662,7 @@
               "descripcion": "D.O Montsant",
               "descripcion_en": "D.O Montsant",
               "descripcion_es": "D.O Montsant",
-              "precio": "17",
+              "precio": "18,50",
               "tags": ""
             },
             {
@@ -693,7 +672,7 @@
               "descripcion": "V.T Castilla i León",
               "descripcion_en": "V.T Castilla y León",
               "descripcion_es": "V.T Castilla y León",
-              "precio": "15,50",
+              "precio": "17",
               "tags": ""
             },
             {
@@ -722,7 +701,7 @@
               "descripcion": "D.O Cava Cinta Púrpura",
               "descripcion_en": "D.O Cava Cinta Púrpura",
               "descripcion_es": "D.O Cava Cinta Púrpura",
-              "precio": "20",
+              "precio": "22",
               "tags": ""
             },
             {
@@ -742,7 +721,7 @@
               "descripcion": "A.O.C Champagne",
               "descripcion_en": "A.O.C Champagne",
               "descripcion_es": "A.O.C Champagne",
-              "precio": "45",
+              "precio": "48",
               "tags": ""
             }
           ]
@@ -761,7 +740,7 @@
               "descripcion": "blanc",
               "descripcion_en": "white",
               "descripcion_es": "blanco",
-              "precio": "3,75",
+              "precio": "4",
               "tags": ""
             },
             {
@@ -771,7 +750,7 @@
               "descripcion": "blanc",
               "descripcion_en": "white",
               "descripcion_es": "blanco",
-              "precio": "3,75",
+              "precio": "4",
               "tags": ""
             },
             {
@@ -791,7 +770,7 @@
               "descripcion": "negre",
               "descripcion_en": "red",
               "descripcion_es": "tinto",
-              "precio": "3,60",
+              "precio": "3,75",
               "tags": ""
             },
             {
@@ -801,7 +780,7 @@
               "descripcion": "negre",
               "descripcion_en": "red",
               "descripcion_es": "tinto",
-              "precio": "3,25",
+              "precio": "3,50",
               "tags": ""
             },
             {
@@ -811,7 +790,7 @@
               "descripcion": "negre",
               "descripcion_en": "red",
               "descripcion_es": "tinto",
-              "precio": "4",
+              "precio": "4,50",
               "tags": ""
             },
             {
@@ -821,7 +800,7 @@
               "descripcion": "Cava",
               "descripcion_en": "Cava",
               "descripcion_es": "Cava",
-              "precio": "4",
+              "precio": "4,50",
               "tags": ""
             }
           ]
@@ -840,7 +819,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "3",
+              "precio": "3,25",
               "tags": ""
             },
             {
@@ -850,7 +829,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2,50",
+              "precio": "2,75",
               "tags": ""
             },
             {
@@ -860,7 +839,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "3",
+              "precio": "3,50",
               "tags": ""
             },
             {
@@ -870,7 +849,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "3,25",
+              "precio": "3,75",
               "tags": ""
             }
           ]
@@ -899,7 +878,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "5,50",
+              "precio": "6,50",
               "tags": ""
             },
             {
@@ -909,7 +888,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "4,50",
+              "precio": "5,50",
               "tags": ""
             },
             {
@@ -919,7 +898,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "4",
+              "precio": "5",
               "tags": ""
             },
             {
@@ -929,33 +908,53 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "8",
+              "precio": "9",
               "tags": ""
             },
             {
-              "nombre": "Frozen Mojito",
-              "nombre_en": "Frozen Mojito",
-              "nombre_es": "Frozen Mojito",
+              "nombre": "Pinya colada frozen",
+              "nombre_en": "Frozen piña colada",
+              "nombre_es": "Piña Colada Frozen",
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "8",
+              "precio": "9",
               "tags": ""
             },
             {
-              "nombre": "Frozen Mojito de maduixa",
-              "nombre_en": "Frozen Strawberry mojito",
+              "nombre": "Margarita frozen",
+              "nombre_en": "Frozen margarita",
+              "nombre_es": "Margarita Frozen",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "9",
+              "tags": ""
+            },
+            {
+              "nombre": "Mojito",
+              "nombre_en": "Mojito",
+              "nombre_es": "Mojito",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "9",
+              "tags": ""
+            },
+            {
+              "nombre": "Mojito de maduixa",
+              "nombre_en": "Strawberry mojito",
               "nombre_es": "Mojito de fresa",
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "8",
+              "precio": "9",
               "tags": ""
             },
             {
-              "nombre": "Frozen Virgin mojito",
-              "nombre_en": "Frozen Virgin mojito",
-              "nombre_es": "Frozen Virgin mojito",
+              "nombre": "Virgin mojito",
+              "nombre_en": "Virgin mojito",
+              "nombre_es": "Virgin mojito",
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
@@ -1069,7 +1068,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "4,50",
+              "precio": "5,50",
               "tags": ""
             },
             {
@@ -1207,7 +1206,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "1,50",
+              "precio": "1,75",
               "tags": ""
             },
             {
@@ -1217,7 +1216,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "1,75",
+              "precio": "2",
               "tags": ""
             },
             {
@@ -1227,7 +1226,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2",
+              "precio": "2,50",
               "tags": ""
             },
             {
@@ -1237,7 +1236,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "3",
+              "precio": "3,50",
               "tags": ""
             },
             {
@@ -1247,7 +1246,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "2",
+              "precio": "3",
               "tags": ""
             },
             {
@@ -1257,7 +1256,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "4",
+              "precio": "5,50",
               "tags": ""
             }
           ]
