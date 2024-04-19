@@ -378,7 +378,7 @@
               "allergen": []
             },
             {
-              "nombre": "Costellam de porc amb salsa BBQ",
+              "nombre": "Costella de porc amb salsa BBQ",
               "nombre_en": "BBQ pork ribs",
               "nombre_es": "Costilla de cerdo con salsa BBQ",
               "descripcion": "patata a l'forn i puré de moniato",
@@ -1161,16 +1161,6 @@
               "tags": ""
             },
             {
-              "nombre": "Aigua mineral 1,25L",
-              "nombre_en": "Still water 1,25L",
-              "nombre_es": "Agua mineral 1,25L",
-              "descripcion": "",
-              "descripcion_en": "",
-              "descripcion_es": "",
-              "precio": "3,25",
-              "tags": ""
-            },
-            {
               "nombre": "Aigua amb gas 0,5L",
               "nombre_en": "Sparkling water 0,5L",
               "nombre_es": "Agua con gas 0,5L",
@@ -1187,7 +1177,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "1,80",
+              "precio": "2",
               "tags": ""
             }
           ]
