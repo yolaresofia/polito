@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { useParams } from "react-router-dom";
 import { DataContext } from "./../Context/Context";
 import Foodbox from "./Foodbox";
 import "./../App.css";
@@ -6,7 +7,7 @@ import "./../App.css";
 const FoodList = ({ lang, match }) => {
   const { foundPlace } = useContext(DataContext);
 
-  const categoryFoods = match.params.categoryName;
+  const { categoryName: categoryFoods } = useParams();
   const foundCategory = foundPlace.categorias.find(
     (category) => categoryFoods === category.nombre
   );
@@ -27,7 +28,9 @@ const FoodList = ({ lang, match }) => {
     <div className="centered fadeIn">
       <div className="list-add">
         <ul className="list-food list-food2">
-          <h4 className="title-category" style={{color: foundPlace.color}}>{nameFood()}</h4>
+          <h4 className="title-category" style={{ color: foundPlace.color }}>
+            {nameFood()}
+          </h4>
           {foundCategory.data.map((oneFood, index) => {
             return <Foodbox {...oneFood} key={index} lang={lang} />;
           })}
