@@ -115,7 +115,7 @@
               "descripcion": "amb remolatxa fresca, sèsam, paprika i oli de kalamata.",
               "descripcion_en": "with fresh beet, sesame, paprika and kalamata oil",
               "descripcion_es": "con remolacha fresca, sésamo, paprika y aceite de kalamata",
-              "precio": "7,50",
+              "precio": "9",
               "tags": "",
               "allergen": []
             },
@@ -154,9 +154,9 @@
               "nombre": "Arròs de muntanya",
               "nombre_en": "Mountain rice",
               "nombre_es": "Arroz de montaña'",
-              "descripcion": "p/p",
-              "descripcion_en": "p/p",
-              "descripcion_es": "p/p",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
               "precio": "26",
               "tags": "",
               "allergen": []
@@ -672,7 +672,7 @@
               "descripcion": "V.T Castilla i León",
               "descripcion_en": "V.T Castilla y León",
               "descripcion_es": "V.T Castilla y León",
-              "precio": "17",
+              "precio": "18",
               "tags": ""
             },
             {
@@ -701,7 +701,7 @@
               "descripcion": "D.O Cava Cinta Púrpura",
               "descripcion_en": "D.O Cava Cinta Púrpura",
               "descripcion_es": "D.O Cava Cinta Púrpura",
-              "precio": "22",
+              "precio": "23",
               "tags": ""
             },
             {
