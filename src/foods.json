@@ -39,7 +39,7 @@
               "descripcion": "amb sèsam i oli de tòfona",
               "descripcion_en": "with sesame and truffle oil",
               "descripcion_es": "con sésamo y aceite de trufa",
-              "precio": "8",
+              "precio": "9,50",
               "tags": "",
               "allergen": []
             },
@@ -50,7 +50,7 @@
               "descripcion": "de muntanya, les pots demanar molt picants!",
               "descripcion_en": "of the mountain, you can order them extra spicy!",
               "descripcion_es": " de montaña, las puedes pedir muy picantes!",
-              "precio": "7,25",
+              "precio": "8",
               "tags": "",
               "allergen": [2]
             },
@@ -83,7 +83,7 @@
               "descripcion": "de les grosses",
               "descripcion_en": "the big ones",
               "descripcion_es": "de las gordas",
-              "precio": "3,25",
+              "precio": "3,50",
               "tags": ""
             },
             {
@@ -104,7 +104,7 @@
               "descripcion": "amb orenga i pebre negre",
               "descripcion_en": "with oregano and black pepper",
               "descripcion_es": "con orégano y pimienta negra",
-              "precio": "8,50",
+              "precio": "9",
               "tags": "",
               "allergen": [2]
             },
@@ -137,7 +137,7 @@
               "descripcion": "amb soja, ponzu i sèsam",
               "descripcion_en": "with soy sauce, ponzu and sesame",
               "descripcion_es": "con soja, ponzu y sésamo",
-              "precio": "8,50",
+              "precio": "9,50",
               "tags": "",
               "allergen": [1]
             }
@@ -157,7 +157,7 @@
               "descripcion": "p/p",
               "descripcion_en": "p/p",
               "descripcion_es": "p/p",
-              "precio": "25",
+              "precio": "26",
               "tags": "",
               "allergen": []
             },
@@ -168,7 +168,7 @@
               "descripcion": "p/p",
               "descripcion_en": "p/p",
               "descripcion_es": "p/p",
-              "precio": "22",
+              "precio": "23",
               "tags": "",
               "allergen": []
             },
@@ -190,7 +190,7 @@
               "descripcion": "amb vinagreta de llimona i parmesà",
               "descripcion_en": "con vinagreta de limón y parmesano",
               "descripcion_es": "with lemon vinaigrette and parmesan",
-              "precio": "8",
+              "precio": "10",
               "tags": "",
               "allergen": [2]
             },
@@ -201,7 +201,7 @@
               "descripcion": "com li agrada al Joan",
               "descripcion_en": "how Joan likes it",
               "descripcion_es": "como le agrada al Joan",
-              "precio": "7,50",
+              "precio": "10",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -223,7 +223,7 @@
               "descripcion": "amb pesto ruca i espinacs baby",
               "descripcion_en": "with arugula pesto and baby spinach",
               "descripcion_es": "con pesto rúcula y espiacas baby",
-              "precio": "13",
+              "precio": "14",
               "tags": "",
               "allergen": [2]
             },
@@ -234,7 +234,7 @@
               "descripcion": "amb ventresca i ceba dolça",
               "descripcion_en": "with tuna belly and sweet onions",
               "descripcion_es": "con ventresca de atún y cebolla dulce",
-              "precio": "11",
+              "precio": "14",
               "tags": "",
               "allergen": []
             },
@@ -245,7 +245,7 @@
               "descripcion": "amb salmó fumat, iogurt i tartufato",
               "descripcion_en": "with smoked salmon, yogurt and tartufato",
               "descripcion_es": "con salmón ahumado, yogurt y tartufato",
-              "precio": "8,50",
+              "precio": "9",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -267,7 +267,7 @@
               "descripcion": "amb soja i mel",
               "descripcion_en": "with honey and soy sauce",
               "descripcion_es": "con soja y miel",
-              "precio": "10",
+              "precio": "11",
               "tags": "",
               "allergen": []
             }
@@ -309,7 +309,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "14",
+              "precio": "15,50",
               "tags": "",
               "allergen": []
             },
@@ -320,7 +320,7 @@
               "descripcion": "amb Mòdena i vi blanc",
               "descripcion_en": "with Módena and white wine",
               "descripcion_es": "con Módena y vino blanco",
-              "precio": "11,50",
+              "precio": "12",
               "tags": "",
               "allergen": []
             },
@@ -342,7 +342,7 @@
               "descripcion": "amb meunière de tàperes (dues persones)",
               "descripcion_en": "with capers meunière (two people)",
               "descripcion_es": "con meunière de alcaparras (dos personas)",
-              "precio": "19 p/p",
+              "precio": "20 p/p",
               "tags": "",
               "allergen": [2]
             }
@@ -362,7 +362,7 @@
               "descripcion": "amb rucula i parma",
               "descripcion_en": "with arugula and parmesan",
               "descripcion_es": "con rucula y parma",
-              "precio": "14",
+              "precio": "15",
               "tags": "",
               "allergen": [2]
             },
@@ -426,7 +426,7 @@
               "descripcion": "amb nutella i gelat de dolç de llet",
               "descripcion_en": "with nutella and dulce de leche ice cream",
               "descripcion_es": "con nutella y helado de dulce de leche",
-              "precio": "6",
+              "precio": "6,50",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -470,7 +470,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "6",
+              "precio": "6,50",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -481,7 +481,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "5,50",
+              "precio": "6,50",
               "tags": "",
               "allergen": [1, 2]
             },
@@ -514,7 +514,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "6",
+              "precio": "6,50",
               "tags": "",
               "allergen": [1, 2]
             }
