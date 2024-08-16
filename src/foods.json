@@ -292,12 +292,12 @@
               "allergen": []
             },
             {
-              "nombre": "'Sevillanitos'",
+              "nombre": "Calamarcitos",
               "nombre_en": "Fried calamari",
               "nombre_es": "Sevillanitos",
-              "descripcion": "amb farina de cigrons i maionesa de citrics",
-              "descripcion_en": "with chickpea flour and citrus mayonnaise",
-              "descripcion_es": "con harina de garbanzos y mayonesa de cítricos",
+              "descripcion": "arrebossat amb farina de cigrons i maionesa de citrics",
+              "descripcion_en": "breaded with chickpea flour and citrus mayonnaise",
+              "descripcion_es": "rebozados con harina de garbanzos y mayonesa de cítricos",
               "precio": "14",
               "tags": "",
               "allergen": [2]
@@ -457,8 +457,8 @@
               "nombre_en": "Tapioca pearls",
               "nombre_es": "Perlas de tapioca",
               "descripcion": "infusionades en llet de coco",
-              "descripcion_en": "with red fruits",
-              "descripcion_es": "infusioned with coconut milk",
+              "descripcion_en": "infusioned with coconut milk",
+              "descripcion_es": "infusionadas con leche de coco",
               "precio": "5,50",
               "tags": "",
               "allergen": [1, 2]
