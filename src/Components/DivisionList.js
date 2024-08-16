@@ -1,11 +1,17 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { DataContext } from "../Context/Context";
 import Division from "./Division";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import olita from "./../Assets/olita.png";
 
 const DivisionList = () => {
   const { foundPlace, lang } = useContext(DataContext);
+  // redirect to homepage
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  useEffect(() => {
+    navigate("/"); // Redirect to the homepage
+  }, [navigate]);
 
   const divisions = foundPlace.divisiones;
   return (
