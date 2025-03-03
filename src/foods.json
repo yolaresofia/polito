@@ -3,7 +3,7 @@
     {
       "restaurant": "Polito",
       "place": "polito",
-      "iso": "https://res.cloudinary.com/grountish/image/upload/v1598312516/logoPolito_yld1v4.png",
+      "iso": "https://res.cloudinary.com/grountish/image/upload/v1740990898/polito-logo-platja_ap2bem.png",
       "backgroundColor": "#FFF",
       "overlayColor": "rgba(0,0,0, 0.5)",
       "borderButton": "1px solid #FFF",
@@ -33,102 +33,147 @@
           "imagen": "",
           "data": [
             {
-              "nombre": "Edamame de Ana",
-              "nombre_en": "Ana's edamame",
-              "nombre_es": "Edamame de Ana",
-              "descripcion": "amb sèsam i oli de tòfona",
-              "descripcion_en": "with sesame and truffle oil",
-              "descripcion_es": "con sésamo y aceite de trufa",
-              "precio": "9,50",
+              "nombre": "Pernil ibèric de gla",
+              "nombre_en": "Iberian acorn-fed ham",
+              "nombre_es": "Jamón ibérico de bellota",
+              "descripcion": "80g",
+              "descripcion_en": "80g",
+              "descripcion_es": "80g",
+              "precio": "24",
               "tags": "",
               "allergen": []
             },
             {
-              "nombre": "Braves",
-              "nombre_en": "Bravas",
-              "nombre_es": "Bravas",
-              "descripcion": "de muntanya, les pots demanar molt picants!",
-              "descripcion_en": "of the mountain, you can order them extra spicy!",
-              "descripcion_es": " de montaña, las puedes pedir muy picantes!",
-              "precio": "8",
+              "nombre": "\"Paquitas\"",
+              "nombre_en": "\"Paquitas\"",
+              "nombre_es": "\"Paquitas\"",
+              "descripcion": "croquetes de gamba vermella - 4 unitats",
+              "descripcion_en": "red prawn croquettes - 4 pieces",
+              "descripcion_es": "croquetas de gamba roja - 4 unidades",
+              "precio": "12",
               "tags": "",
-              "allergen": [2]
+              "allergen": []
+            },
+            {
+              "nombre": "\"Paquitas\"",
+              "nombre_en": "\"Paquitas\"",
+              "nombre_es": "\"Paquitas\"",
+              "descripcion": "croquetes de rostit de carn - 4 unitats",
+              "descripcion_en": "slow-cooked meat croquettes - 4 pieces",
+              "descripcion_es": "croquetas de rustido de carne - 4 unidades",
+              "precio": "10,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Gambes a l'all",
+              "nombre_en": "Garlic prawns",
+              "nombre_es": "Gambas al ajillo",
+              "descripcion": "by Polito",
+              "descripcion_en": "by Polito",
+              "descripcion_es": "by Polito",
+              "precio": "16",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Tallarines",
+              "nombre_en": "Clams",
+              "nombre_es": "Tallarinas",
+              "descripcion": "saltades i flamejades amb xerès",
+              "descripcion_en": "sautéed and flambéed with sherry",
+              "descripcion_es": "salteadas y flambeadas con jerez",
+              "precio": "15",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Ensaladilla rusa",
+              "nombre_en": "Russian salad",
+              "nombre_es": "Ensaladilla rusa",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "10,25",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Calamarsets arrebossats",
+              "nombre_en": "Calamari",
+              "nombre_es": "Calamarcitos rebozados",
+              "descripcion": "en farina de cigrons i maionesa de cítrics",
+              "descripcion_en": "coated in chickpea flour with citrus mayo",
+              "descripcion_es": "en harina de garbanzos y mayonesa de cítricos",
+              "precio": "16",
+              "tags": "",
+              "allergen": []
+            }, 
+            {
+              "nombre": "Musclos",
+              "nombre_en": "Steamed mussels",
+              "nombre_es": "Mejillones",
+              "descripcion": "al vapor amb Mòdena, romaní i vi blanc",
+              "descripcion_en": "with Modena vinegar, rosemary, and white wine",
+              "descripcion_es": "al vapor con Módena, romero y vino blanco",
+              "precio": "13",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Musclos Thai",
+              "nombre_en": "Thai mussels",
+              "nombre_es": "Mejillones Thai",
+              "descripcion": "amb llet de coco, una mica picants",
+              "descripcion_en": "with coconut milk, slightly spicy",
+              "descripcion_es": "con leche de coco un poco picantes",
+              "precio": "14",
+              "tags": "",
+              "allergen": []
             },
             {
               "nombre": "Fingers de pollastre",
               "nombre_en": "Chicken fingers",
               "nombre_es": "Fingers de pollo",
-              "descripcion": "per mullar en vinagreta provençal",
-              "descripcion_en": "to dip in provenzal vinaigrette",
-              "descripcion_es": "para mojar en vinagreta provenzal",
-              "precio": "10",
+              "descripcion": "amb dip de vinagreta provençal",
+              "descripcion_en": "with Provençal vinaigrette dip",
+              "descripcion_es": "con dip de vinagreta provenzal",
+              "precio": "10,25",
               "tags": "",
-              "allergen": [1]
+              "allergen": []
             },
             {
-              "nombre": "Steak tartar",
-              "nombre_en": "Steak tartar",
-              "nombre_es": "Steak tartar",
-              "descripcion": "acompanyat de patates de muntanya",
-              "descripcion_en": "with mountain potatoes",
-              "descripcion_es": "acompañado de patatas de montaña",
-              "precio": "12,50",
+              "nombre": "Braves picants",
+              "nombre_en": "Spicy bravas",
+              "nombre_es": "Bravas picantes",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "8,25",
               "tags": "",
-              "allergen": [1]
-            },
-            {
-              "nombre": "Olives",
-              "nombre_en": "Olives",
-              "nombre_es": "Aceitunas",
-              "descripcion": "de les grosses",
-              "descripcion_en": "the big ones",
-              "descripcion_es": "de las gordas",
-              "precio": "3,50",
-              "tags": ""
+              "allergen": []
             },
             {
               "nombre": "Patates butan",
               "nombre_en": "Butan potatoes",
               "nombre_es": "Patatas butan",
-              "descripcion": "amb havarti, pebrot escalivat i caienas",
-              "descripcion_en": "with havarti, roasted pepper and cayennes",
-              "descripcion_es": "con havarti, pimiento escalivado y cayenas",
-              "precio": "12",
+              "descripcion": "amb havarti, pebrot escalivat i caienas picants",
+              "descripcion_en": "with havarti, roasted pepper and spicy cayennes",
+              "descripcion_es": "con havarti, pimiento escalivado y cayena picante",
+              "precio": "12,50",
               "tags": "",
-              "allergen": [2]
+              "allergen": []
             },
             {
               "nombre": "Provolone fos",
               "nombre_en": "Molten Provolone",
               "nombre_es": "Provolone fundido",
-              "descripcion": "amb orenga i pebre negre",
-              "descripcion_en": "with oregano and black pepper",
-              "descripcion_es": "con orégano y pimienta negra",
-              "precio": "9",
-              "tags": "",
-              "allergen": [2]
-            },
-            {
-              "nombre": "Hummus",
-              "nombre_en": "Hummus",
-              "nombre_es": "Hummus",
-              "descripcion": "amb remolatxa fresca, sèsam, paprika i oli de kalamata.",
-              "descripcion_en": "with fresh beet, sesame, paprika and kalamata oil",
-              "descripcion_es": "con remolacha fresca, sésamo, paprika y aceite de kalamata",
-              "precio": "9",
+              "descripcion": "amb orenga, tomàquet i pebre negre",
+              "descripcion_en": "with oregano, tomato and black pepper",
+              "descripcion_es": "con orégano, tomate y pimienta negra",
+              "precio": "9,50",
               "tags": "",
               "allergen": []
-            },
-            {
-              "nombre": "Coca de vidre",
-              "nombre_en": "Coca de vidre ",
-              "nombre_es": "Coca de vidre",
-              "descripcion": "del Mossèn, amb tomàquet",
-              "descripcion_en": "bread from Mossèn, with tomato",
-              "descripcion_es": " del Mossèn, con tomate",
-              "precio": "4",
-              "tags": "",
-              "allergen": [1]
             },
             {
               "nombre": "Gyozas de llagostí",
@@ -137,9 +182,52 @@
               "descripcion": "amb soja, ponzu i sèsam",
               "descripcion_en": "with soy sauce, ponzu and sesame",
               "descripcion_es": "con soja, ponzu y sésamo",
-              "precio": "9,50",
+              "precio": "9,75",
               "tags": "",
               "allergen": [1]
+            },
+            {
+              "nombre": "Edamame cruixents",
+              "nombre_en": "Crispy edamame",
+              "nombre_es": " Edamame crujientes",
+              "descripcion": "amb ajonjolí, espècies i oli de tòfona negra",
+              "descripcion_en": "with sesame, spices, and black truffle oil",
+              "descripcion_es": "con ajonjolí, especias y aceite de trufa negra",
+              "precio": "9,75",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Hummus",
+              "nombre_en": "Hummus",
+              "nombre_es": "Hummus",
+              "descripcion": "amb remolatxa fresca, sèsam, paprika i oli de kalamata.",
+              "descripcion_en": "with fresh beet, sesame, paprika and kalamata oil",
+              "descripcion_es": "con remolacha fresca, sésamo, paprika y aceite de kalamata",
+              "precio": "9,25",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Olives",
+              "nombre_en": "Olives",
+              "nombre_es": "Aceitunas",
+              "descripcion": "de les grosses",
+              "descripcion_en": "the big ones",
+              "descripcion_es": "de las gordas",
+              "precio": "3,75",
+              "tags": ""
+            },
+            {
+              "nombre": "Coca de vidre del Mossèn",
+              "nombre_en": "Coca de vidre from Mossèn",
+              "nombre_es": "Coca de vidre del Mossèn",
+              "descripcion": "amb tomàquet",
+              "descripcion_en": "with tomato",
+              "descripcion_es": "con tomate",
+              "precio": "4,50",
+              "tags": "",
+              "allergen": []
             }
           ]
         },
@@ -151,37 +239,15 @@
           "imagen": "",
           "data": [
             {
-              "nombre": "Arròs de muntanya",
-              "nombre_en": "Mountain rice",
-              "nombre_es": "Arroz de montaña'",
-              "descripcion": "",
-              "descripcion_en": "",
-              "descripcion_es": "",
-              "precio": "26",
+              "nombre": "Burrata",
+              "nombre_en": "Burrata",
+              "nombre_es": "Burrata",
+              "descripcion": "amb pesto ruca i espinacs baby",
+              "descripcion_en": "with arugula pesto and baby spinach",
+              "descripcion_es": "con pesto rúcula y espiacas baby",
+              "precio": "14,50",
               "tags": "",
               "allergen": []
-            },
-            {
-              "nombre": "Arròs de mar socarrat",
-              "nombre_en": "Shocked sea rice",
-              "nombre_es": "Arroz de mar socarrat",
-              "descripcion": "p/p",
-              "descripcion_en": "p/p",
-              "descripcion_es": "p/p",
-              "precio": "23",
-              "tags": "",
-              "allergen": []
-            },
-            {
-              "nombre": "Lasagna de muntanya gratinada",
-              "nombre_en": "Gratin mountain lasagna",
-              "nombre_es": "Lasagna de montaña gratinada",
-              "descripcion": "",
-              "descripcion_en": "",
-              "descripcion_es": "",
-              "precio": "11",
-              "tags": "",
-              "allergen": [1, 2]
             },
             {
               "nombre": "Carpaccio de carbassó",
@@ -190,40 +256,7 @@
               "descripcion": "amb vinagreta de llimona i parmesà",
               "descripcion_en": "with lemon vinaigrette and parmesan",
               "descripcion_es": "con vinagreta de limón y parmesano",
-              "precio": "10",
-              "tags": "",
-              "allergen": [2]
-            },
-            {
-              "nombre": "Ensaladilla rusa",
-              "nombre_en": "Russian salad",
-              "nombre_es": "Ensaladilla rusa",
-              "descripcion": "com li agrada al Joan",
-              "descripcion_en": "how Joan likes it",
-              "descripcion_es": "como le agrada al Joan",
-              "precio": "10",
-              "tags": "",
-              "allergen": [1, 2]
-            },
-            {
-              "nombre": "Truita de patates soufflé",
-              "nombre_en": "Soufflé tortilla",
-              "nombre_es": "Tortilla de patatas soufflé",
-              "descripcion": "amb oli de tòfona negra",
-              "descripcion_en": "with black truffle oil",
-              "descripcion_es": "con aceite de trufa negra",
-              "precio": "11",
-              "tags": "",
-              "allergen": []
-            },
-            {
-              "nombre": "Burrata",
-              "nombre_en": "Burrata",
-              "nombre_es": "Burrata",
-              "descripcion": "amb pesto ruca i espinacs baby",
-              "descripcion_en": "with arugula pesto and baby spinach",
-              "descripcion_es": "con pesto rúcula y espiacas baby",
-              "precio": "14",
+              "precio": "10,50",
               "tags": "",
               "allergen": [2]
             },
@@ -234,7 +267,29 @@
               "descripcion": "amb ventresca i ceba dolça",
               "descripcion_en": "with tuna belly and sweet onions",
               "descripcion_es": "con ventresca de atún y cebolla dulce",
-              "precio": "14",
+              "precio": "14,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Verdures al dente",
+              "nombre_en": "Al dente veggies",
+              "nombre_es": "Verduras al dente",
+              "descripcion": "saltejades en wok",
+              "descripcion_en": "sauteed",
+              "descripcion_es": "salteadas en wok",
+              "precio": "10,25",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Truita de patates soufflé",
+              "nombre_en": "Soufflé tortilla",
+              "nombre_es": "Tortilla de patatas soufflé",
+              "descripcion": "cuinada al forn amb oli de tòfona negra",
+              "descripcion_en": "baked with black truffle oil",
+              "descripcion_es": "cocinada al horno con aceite de trufa negra",
+              "precio": "11,50",
               "tags": "",
               "allergen": []
             },
@@ -245,17 +300,6 @@
               "descripcion": "amb salmó fumat, iogurt i tartufato",
               "descripcion_en": "with smoked salmon, yogurt and tartufato",
               "descripcion_es": "con salmón ahumado, yogurt y tartufato",
-              "precio": "9",
-              "tags": "",
-              "allergen": [1, 2]
-            },
-            {
-              "nombre": "Verdures",
-              "nombre_en": "Veggies",
-              "nombre_es": "Verduras",
-              "descripcion": "al dente saltejades en wok",
-              "descripcion_en": "sauteed and al dente",
-              "descripcion_es": "al dente salteadas en wok",
               "precio": "10",
               "tags": "",
               "allergen": []
@@ -267,7 +311,190 @@
               "descripcion": "amb soja i mel",
               "descripcion_en": "with honey and soy sauce",
               "descripcion_es": "con soja y miel",
-              "precio": "11",
+              "precio": "11,80",
+              "tags": "",
+              "allergen": []
+            }
+          ]
+        },
+        {
+          "division": "paracomer",
+          "nombre": "Arrossos i pastes",
+          "nombre_en": "Rice and pasta",
+          "nombre_es": "Arroces y pastas",
+          "imagen": "",
+          "data": [
+            {
+              "nombre": "Arròs melós",
+              "nombre_en": "Creamy rice",
+              "nombre_es": "Arroz melozo",
+              "descripcion": "de gamba i calamar - p/p",
+              "descripcion_en": "with prawns and squid - p/p",
+              "descripcion_es": "de gamba y calamar - p/p",
+              "precio": "23",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Arròs de mar",
+              "nombre_en": "Sea rice",
+              "nombre_es": "Arroz de mar",
+              "descripcion": "socarrat - p/p",
+              "descripcion_en": "shocked - p/p",
+              "descripcion_es": "socarrat - p/p",
+              "precio": "23,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Arròs negre",
+              "nombre_en": "Black rice",
+              "nombre_es": "Arroz negro",
+              "descripcion": "amb all i oli cítric - p/p",
+              "descripcion_en": "with citric all i oli - p/p",
+              "descripcion_es": "con all i oli cítrico - p/p",
+              "precio": "20",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Arròs caldós",
+              "nombre_en": "Lobster rice",
+              "nombre_es": "Arroz caldoso",
+              "descripcion": "de llamàntol - p/p",
+              "descripcion_en": "p/p",
+              "descripcion_es": "de bogavante - p/p",
+              "precio": "28",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Arròs de muntanya",
+              "nombre_en": "Mountain rice",
+              "nombre_es": "Arroz de montaña'",
+              "descripcion": "per a 2 persones - preu per cassola",
+              "descripcion_en": "for 2 people - price per dish",
+              "descripcion_es": "para 2 personas - precio por cazuela",
+              "precio": "28",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Lasagna de muntanya gratinada",
+              "nombre_en": "Gratin mountain lasagna",
+              "nombre_es": "Lasagna de montaña gratinada",
+              "descripcion": "",
+              "descripcion_en": "",
+              "descripcion_es": "",
+              "precio": "11,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Fettuccine",
+              "nombre_en": "Fettuccine",
+              "nombre_es": "Fettuccine",
+              "descripcion": "amb cremòs de gamba vermella",
+              "descripcion_en": "with red prawns creamy sauce",
+              "descripcion_es": "con cremoso de gamba roja",
+              "precio": "20",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Ravioli",
+              "nombre_en": "Ravioli",
+              "nombre_es": "Ravioli",
+              "descripcion": "farcits de ricotta i burrata amb pinyons torrats en mantega de sàlvia",
+              "descripcion_en": "farcits de ricotta i burrata amb pinyons torrats en mantega de sàlvia",
+              "descripcion_es": "filled with ricotta and burrata, with pine nuts toasted in sage butter",
+              "precio": "14",
+              "tags": "",
+              "allergen": []
+            }
+          ]
+        },
+        {
+          "division": "paracomer",
+          "nombre": "Carns",
+          "nombre_en": "Beef",
+          "nombre_es": "Carnes",
+          "imagen": "",
+          "data": [
+            {
+            "nombre": "Filet de vedella",
+            "nombre_en": "Beef tenderloin",
+            "nombre_es": "Solomillo de ternera",
+            "descripcion": "de 180g, pebrots del padró i patates fregides",
+            "descripcion_en": "180g - with padrón peppers and fries",
+            "descripcion_es": "de 180g, pimientos del padrón y patatas fritas",
+            "precio": "23",
+            "tags": "",
+            "allergen": []
+          },
+          {
+            "nombre": "Entrecot",
+            "nombre_en": "Ribeye steak",
+            "nombre_es": "Entrecot",
+            "descripcion": "de 250g amb pebrots del padró i patates fregides",
+            "descripcion_en": "250g - with padrón peppers and fries",
+            "descripcion_es": "de 250g, pimientos del padrón y patatas fritas",
+            "precio": "22",
+            "tags": "",
+            "allergen": []
+          },
+          {
+            "nombre": "Tagliata de vedella a la toscana (poc feta)",
+            "nombre_en": "Beef tagliata alla toscana (medium rare)",
+            "nombre_es": "Tagliata de ternera a la toscana (poco hecha)",
+            "descripcion": "amb rucula i parma",
+            "descripcion_en": "with arugula and parmesan",
+            "descripcion_es": "con rucula y parma",
+            "precio": "16",
+            "tags": "",
+            "allergen": []
+          },
+          {
+            "nombre": "Steak tartar",
+            "nombre_en": "Steak tartar",
+            "nombre_es": "Steak tartar",
+            "descripcion": "120g",
+            "descripcion_en": "120g",
+            "descripcion_es": "120g",
+            "precio": "22",
+            "tags": "",
+            "allergen": []
+          },
+          {
+            "nombre": "Secret Ibèric a la planxa",
+            "nombre_en": "Grilled Iberian pork “secreto”",
+            "nombre_es": "Secreto Ibérico a la plancha",
+            "descripcion": "de 180g, pebrots del padró i patates fregides",
+            "descripcion_en": "180g - with padrón peppers and fries",
+            "descripcion_es": "de 180g, pimientos del padrón y patatas fritas",
+            "precio": "18",
+            "tags": "",
+            "allergen": []
+          },
+            {
+              "nombre": "Melòs Ibèric",
+              "nombre_en": "Iberian tender",
+              "nombre_es": "Meloso ibérico",
+              "descripcion": "cuinat a baixa temperatura",
+              "descripcion_en": "slow cooked",
+              "descripcion_es": "cocinado a baja temperatura",
+              "precio": "15,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Costella de porc amb salsa BBQ",
+              "nombre_en": "BBQ pork ribs",
+              "nombre_es": "Costilla de cerdo con salsa BBQ",
+              "descripcion": "patata a l'forn i puré de moniato",
+              "descripcion_en": "with bakes potatoes and sweet potato puree",
+              "descripcion_es": "patata al horno y puré de boniato",
+              "precio": "14,50",
               "tags": "",
               "allergen": []
             }
@@ -281,26 +508,81 @@
           "imagen": "",
           "data": [
             {
-              "nombre": "Tàrtar de salmó",
-              "nombre_en": "Salmon tartar",
-              "nombre_es": "Tartar de salmón",
-              "descripcion": "",
-              "descripcion_en": "",
-              "descripcion_es": "",
-              "precio": "14,50",
+              "nombre": "Pot de pop en dues coccions",
+              "nombre_en": "Octopus leg cooked two ways",
+              "nombre_es": "Pata de pulpo en dos cocciones",
+              "descripcion": "amb cremós de patata i pebre vermell de la Vera fumat",
+              "descripcion_en": "with creamy potato and smoked paprika",
+              "descripcion_es": "con cremoso de patata y pimentón de la vera ahumado",
+              "precio": "22",
               "tags": "",
               "allergen": []
             },
             {
-              "nombre": "Calamarcitos",
-              "nombre_en": "Fried calamari",
-              "nombre_es": "Sevillanitos",
-              "descripcion": "arrebossat amb farina de cigrons i maionesa de citrics",
-              "descripcion_en": "breaded with chickpea flour and citrus mayonnaise",
-              "descripcion_es": "rebozados con harina de garbanzos y mayonesa de cítricos",
-              "precio": "14",
+              "nombre": "Turbot al forn",
+              "nombre_en": "Grilled turbot",
+              "nombre_es": "Rodaballo al horno",
+              "descripcion": "amb meunière de tàperes (min dues persones)",
+              "descripcion_en": "with capers meunière (min two people)",
+              "descripcion_es": "con meunière de alcaparras (min dos personas)",
+              "precio": "24",
               "tags": "",
-              "allergen": [2]
+              "allergen": []
+            },
+            {
+              "nombre": "Suprema de lluç",
+              "nombre_en": "Hake supreme",
+              "nombre_es": "Suprema de merluza",
+              "descripcion": "amb escates de patata i beurre blanc de ous royal",
+              "descripcion_en": "with potato scales and royal roe beurre blanc",
+              "descripcion_es": "con escamas de patata y beurre blanc de huevas royal",
+              "precio": "24",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Llobarro de 400g",
+              "nombre_en": "400g oven-baked sea bass",
+              "nombre_es": "Lubina de 400g al horno",
+              "descripcion": "al forn amb patates, ceba i tomàquet",
+              "descripcion_en": "with potatoes, onion, and tomato",
+              "descripcion_es": "con patatas, cebolla y tomate",
+              "precio": "22",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Bacallà",
+              "nombre_en": "Cod",
+              "nombre_es": "Bacalao",
+              "descripcion": "amb patata, pebrot escalivat i muselina de poma",
+              "descripcion_en": "with potato, roasted bell pepper, and apple mousseline",
+              "descripcion_es": "con patata, pimiento escalivado y muselina de manzana",
+              "precio": "16,25",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Calamar sencer de potera",
+              "nombre_en": "Whole grilled squid",
+              "nombre_es": "Calamar entero de potera",
+              "descripcion": "a la planxa amb rúcula i sal fumada",
+              "descripcion_en": "with arugula and smoked salt",
+              "descripcion_es": "a la plancha con rúcula y sal ahumada",
+              "precio": "19",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Tàrtar de salmó",
+              "nombre_en": "Salmon tartar",
+              "nombre_es": "Tartar de salmón",
+              "descripcion": "amb guacamole",
+              "descripcion_en": "with guacamole",
+              "descripcion_es": "con guacamole",
+              "precio": "15",
+              "tags": "",
+              "allergen": []
             },
             {
               "nombre": "Ceviche de perca de Tanzania",
@@ -309,104 +591,7 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "15,50",
-              "tags": "",
-              "allergen": []
-            },
-            {
-              "nombre": "Musclos al vapor",
-              "nombre_en": "Steamed mussels",
-              "nombre_es": "Mejillones al vapor",
-              "descripcion": "amb Mòdena i vi blanc",
-              "descripcion_en": "with Módena and white wine",
-              "descripcion_es": "con Módena y vino blanco",
-              "precio": "12",
-              "tags": "",
-              "allergen": []
-            },
-            {
-              "nombre": "Bacallà",
-              "nombre_en": "Cod",
-              "nombre_es": "Bacalao",
-              "descripcion": "amb muselina de poma",
-              "descripcion_en": "Cod with apple mousseline",
-              "descripcion_es": "Bacalao con muselina de manzana",
-              "precio": "16",
-              "tags": "",
-              "allergen": [2]
-            },
-            {
-              "nombre": "Turbot a la planxa",
-              "nombre_en": "Grilled turbot",
-              "nombre_es": "Rodaballo a la plancha",
-              "descripcion": "amb meunière de tàperes (dues persones)",
-              "descripcion_en": "with capers meunière (two people)",
-              "descripcion_es": "con meunière de alcaparras (dos personas)",
-              "precio": "20 p/p",
-              "tags": "",
-              "allergen": [2]
-            }
-          ]
-        },
-        {
-          "division": "paracomer",
-          "nombre": "Carns",
-          "nombre_en": "Beef",
-          "nombre_es": "Carnes",
-          "imagen": "",
-          "data": [
-            {
-              "nombre": "Tagliata de vedella a la toscana (poc feta)",
-              "nombre_en": "Beef tagliata alla toscana (medium rare)",
-              "nombre_es": "Tagliata de ternera a la toscana (poco hecha)",
-              "descripcion": "amb rucula i parma",
-              "descripcion_en": "with arugula and parmesan",
-              "descripcion_es": "con rucula y parma",
-              "precio": "15",
-              "tags": "",
-              "allergen": [2]
-            },
-            {
-              "nombre": "Melòs Ibèric a la planxa",
-              "nombre_en": "Grilled Iberic tender",
-              "nombre_es": "Ibérico meloso a la plancha",
-              "descripcion": "",
-              "descripcion_en": "",
-              "descripcion_es": "",
-              "precio": "14,50",
-              "tags": "",
-              "allergen": []
-            },
-            {
-              "nombre": "Costella de porc amb salsa BBQ",
-              "nombre_en": "BBQ pork ribs",
-              "nombre_es": "Costilla de cerdo con salsa BBQ",
-              "descripcion": "patata a l'forn i puré de moniato",
-              "descripcion_en": "with bakes potatoes and sweet potato puree",
-              "descripcion_es": "patata al horno y puré de boniato",
-              "precio": "14",
-              "tags": "",
-              "allergen": []
-            },
-            {
-              "nombre": "Carpaccio de lacón",
-              "nombre_en": "Lacon carpaccio",
-              "nombre_es": "Carpaccio de lacón",
-              "descripcion": "",
-              "descripcion_en": "",
-              "descripcion_es": "",
-              "precio": "11",
-              "tags": "",
-              "allergen": []
-            },
-            {
-              "nombre": "Tataki de vedella",
-              "nombre_en": "Veal tataki",
-              "nombre_es": "Tataki de ternera",
-              "descripcion": "",
-              "descripcion_en": "",
-              "descripcion_es": "",
-              "precio": "11",
+              "precio": "15,75",
               "tags": "",
               "allergen": []
             }
@@ -420,48 +605,48 @@
           "imagen": "",
           "data": [
             {
+              "nombre": "\"Politos\" de vainilla",
+              "nombre_en": "Vanilla \"Politos\"",
+              "nombre_es": "\"Politos\" de vainilla",
+              "descripcion": "amb xocolata negra fosa",
+              "descripcion_en": "with molten black chocolate",
+              "descripcion_es": "con chocolate negro fundido",
+              "precio": "3,50 c/u",
+              "tags": "",
+              "allergen": []
+            },
+            {
               "nombre": "Creps",
               "nombre_en": "Crêpes",
               "nombre_es": "Crêpes",
               "descripcion": "amb nutella i gelat de dolç de llet",
               "descripcion_en": "with nutella and dulce de leche ice cream",
               "descripcion_es": "con nutella y helado de dulce de leche",
-              "precio": "6,50",
+              "precio": "7",
               "tags": "",
-              "allergen": [1, 2]
+              "allergen": []
             },
             {
-              "nombre": "Mocchi cream",
-              "nombre_en": "Mocchi cream",
-              "nombre_es": "Mocchi cream",
+              "nombre": "Lemon Pie",
+              "nombre_en": "Lemon Pie",
+              "nombre_es": "Lemon Pie",
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "3 p/u",
+              "precio": "7",
               "tags": "",
-              "allergen": [2]
+              "allergen": []
             },
             {
-              "nombre": "Brownie",
-              "nombre_en": "Brownie",
-              "nombre_es": "Brownie",
+              "nombre": "Pastís Sacher",
+              "nombre_en": "Sacher cake",
+              "nombre_es": "Tarta Sacher",
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "6",
+              "precio": "7",
               "tags": "",
-              "allergen": [1, 2]
-            },
-            {
-              "nombre": "Perles de tapioca",
-              "nombre_en": "Tapioca pearls",
-              "nombre_es": "Perlas de tapioca",
-              "descripcion": "infusionades en llet de coco",
-              "descripcion_en": "infusioned with coconut milk",
-              "descripcion_es": "infusionadas con leche de coco",
-              "precio": "5,50",
-              "tags": "",
-              "allergen": [1, 2]
+              "allergen": []
             },
             {
               "nombre": "Bescuit borratxo amb Baileys",
@@ -470,20 +655,31 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "6,50",
+              "precio": "7",
               "tags": "",
-              "allergen": [1, 2]
+              "allergen": []
             },
             {
-              "nombre": "Pastis de formatge",
-              "nombre_en": "Cheescake",
+              "nombre": "Brownie",
+              "nombre_en": "Brownie",
+              "nombre_es": "Brownie",
+              "descripcion": "amb nous, gelat de galeta i xocolata",
+              "descripcion_en": "with walnuts, cookie ice cream, and chocolate",
+              "descripcion_es": "con nueces, helado de galleta y choco",
+              "precio": "6,50",
+              "tags": "",
+              "allergen": []
+            },
+            {
+              "nombre": "Pastís de formatge",
+              "nombre_en": "Cheesecake",
               "nombre_es": "Pastel de queso",
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "6,50",
+              "precio": "7",
               "tags": "",
-              "allergen": [1, 2]
+              "allergen": []
             },
             {
               "nombre": "Sorbet de fruita de la passió",
@@ -492,20 +688,9 @@
               "descripcion": "amb vodka",
               "descripcion_en": "with vodka",
               "descripcion_es": "con vodka",
-              "precio": "6,50",
+              "precio": "7",
               "tags": "",
               "allergen": [0]
-            },
-            {
-              "nombre": "\"Politos\" de vainilla",
-              "nombre_en": "Vanilla \"Politos\"",
-              "nombre_es": "\"Politos\" de vainilla",
-              "descripcion": "amb xocolata negra fosa",
-              "descripcion_en": "with molten black chocolate",
-              "descripcion_es": "con chocolate negro fundido",
-              "precio": "3 p/u",
-              "tags": "",
-              "allergen": [1, 2]
             },
             {
               "nombre": "Gelats Momocho",
@@ -514,9 +699,9 @@
               "descripcion": "",
               "descripcion_en": "",
               "descripcion_es": "",
-              "precio": "6,50",
+              "precio": "7",
               "tags": "",
-              "allergen": [1, 2]
+              "allergen": []
             }
           ]
         },
