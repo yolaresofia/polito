@@ -6,9 +6,8 @@ import DividedFoodlist from "../Components/DividedFoodList";
 import { DataContext } from "./../Context/Context";
 import SearchComponent from "../Components/SearchComponent";
 import foods from "../foods.json";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import Glass from "./../Assets/search-outline.svg";
+import LeftArrow from "./../Assets/left-arrow.svg";
 import "./../App.css";
 import home from "./../Assets/home.svg";
 
@@ -119,7 +118,7 @@ function Places() {
                   >
                     {buscar ? (
                       <div className="buscador">
-                        <FontAwesomeIcon icon={faAngleLeft} color="white" />
+                        <img src={LeftArrow} className="search-glass" alt="" />
                         <p>{lang === "en" ? "Back" : "Volver"}</p>
                       </div>
                     ) : (

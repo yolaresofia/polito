@@ -93,37 +93,15 @@ const SearchComponent = () => {
   };
 
   return (
-    <div className="centered fadeIn">
+    <div className="fadeIn">
       <Searchbar
         filterOnChange={filterOnChange}
         inputValue={inputValue}
         lang={lang}
       />
-      <div className="iconos-filter">
-        <div
-          className={
-            isGlutenChecked ? "iconBoxContainerChecked" : "iconBoxContainer"
-          }
-          onClick={() => handleGluten()}
-        >
-          <img src={Tacc} className="icono-svg" alt="" />
-          {switchLang("gluten")}
-        </div>
-        <div
-          className={
-            isLactoseChecked ? "iconBoxContainerChecked" : "iconBoxContainer"
-          }
-          onClick={() => handleLactose()}
-        >
-          <img src={Lactosa} className="icono-svg" alt="" />
-          {switchLang("lactosa")}
-        </div>
-      </div>
       <div className="list-add">
         <ul className="list-food">
-          {displayAllergList
-            ? allergyList.map((e, i) => <Foodbox {...e} lang={lang} key={i} />)
-            : filterFoods.map((e, i) => <Foodbox {...e} lang={lang} key={i} />)}
+          {filterFoods.map((e, i) => <Foodbox {...e} lang={lang} key={i} />)}
         </ul>
       </div>
     </div>
