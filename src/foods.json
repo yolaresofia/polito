@@ -522,9 +522,9 @@
               "nombre": "Turbot al forn",
               "nombre_en": "Grilled turbot",
               "nombre_es": "Rodaballo al horno",
-              "descripcion": "amb meunière de tàperes (min dues persones)",
-              "descripcion_en": "with capers meunière (min two people)",
-              "descripcion_es": "con meunière de alcaparras (min dos personas)",
+              "descripcion": "amb meunière de tàperes - p/p (min 2 persones)",
+              "descripcion_en": "with capers meunière - p/p (min two people)",
+              "descripcion_es": "con meunière de alcaparras - p/p (min dos personas)",
               "precio": "24",
               "tags": "",
               "allergen": []
