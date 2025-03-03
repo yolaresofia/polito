@@ -409,3 +409,9 @@ a:visited {
 @media only screen and (device-width : 375px) {}
 
 @media only screen and (max-width : 360px) {}
+
+.separator {
+    border-bottom: 1px solid #022358;
+    width: 50%;
+    margin: 0 auto;
+}

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { DataContext } from "../Context/Context";
 import Division from "./Division";
-import { Link,useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const DivisionList = () => {
   const { foundPlace, lang } = useContext(DataContext);
@@ -19,13 +19,31 @@ const DivisionList = () => {
         <ul className="list-food categoria">
           {divisions.map((division, index) => {
             return (
-              <Link
-                style={{ color: foundPlace.color }}
+              <div
                 key={index}
-                to={`${foundPlace.place}/division/${division.url}`}
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
               >
-                <Division {...division} lang={lang} />
-              </Link>
+                <Link
+                  style={{ color: foundPlace.color }}
+                  key={index}
+                  to={`${foundPlace.place}/division/${division.url}`}
+                >
+                  <Division {...division} lang={lang} />
+                </Link>
+                <div
+                  style={{
+                    border: ".5px solid #00487f",
+                    borderRadius: "100%",
+                    width: "3px",
+                    height: "3px",
+                    background: "#00487f",
+                  }}
+                />
+              </div>
             );
           })}
         </ul>

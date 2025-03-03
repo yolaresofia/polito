@@ -16,13 +16,30 @@ const DividedFoodList = ({ lang, match }) => {
         <ul className="list-food division">
           {selectedCategories.map((category, index) => {
             return (
-              <Link
-                style={{ color: foundPlace.color }}
+              <div
                 key={index}
-                to={`category/${category.nombre}`}
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
               >
-                <FoodCategory {...category} lang={lang} />
-              </Link>
+                <Link
+                  style={{ color: foundPlace.color }}
+                  to={`category/${category.nombre}`}
+                >
+                  <FoodCategory {...category} lang={lang} />
+                </Link>
+                <div
+                  style={{
+                    border: ".5px solid #00487f",
+                    borderRadius: "100%",
+                    width: "3px",
+                    height: "3px",
+                    background: "#00487f",
+                  }}
+                />
+              </div>
             );
           })}
         </ul>
