@@ -55,9 +55,9 @@
               "allergen": []
             },
             {
-              "nombre": "\"Paquitas\"",
-              "nombre_en": "\"Paquitas\"",
-              "nombre_es": "\"Paquitas\"",
+              "nombre": "\"Paquitas\" de rostit",
+              "nombre_en": "\"Paquitas\" de rostit",
+              "nombre_es": "\"Paquitas\" de rostit",
               "descripcion": "croquetes de rostit de carn - 4 unitats",
               "descripcion_en": "slow-cooked meat croquettes - 4 pieces",
               "descripcion_es": "croquetas de rustido de carne - 4 unidades",
@@ -66,7 +66,7 @@
               "allergen": []
             },
             {
-              "nombre": "Gambes a l'all",
+              "nombre": "Gambes a l'allet",
               "nombre_en": "Garlic prawns",
               "nombre_es": "Gambas al ajillo",
               "descripcion": "by Polito",
@@ -157,7 +157,7 @@
               "nombre": "Patates butan",
               "nombre_en": "Butan potatoes",
               "nombre_es": "Patatas butan",
-              "descripcion": "amb havarti, pebrot escalivat i caienas picants",
+              "descripcion": "amb havarti, pebrot escalivat i caienes picants",
               "descripcion_en": "with havarti, roasted pepper and spicy cayennes",
               "descripcion_es": "con havarti, pimiento escalivado y cayena picante",
               "precio": "12,50",
@@ -168,9 +168,9 @@
               "nombre": "Provolone fos",
               "nombre_en": "Molten Provolone",
               "nombre_es": "Provolone fundido",
-              "descripcion": "amb orenga, tomàquet i pebre negre",
-              "descripcion_en": "with oregano, tomato and black pepper",
-              "descripcion_es": "con orégano, tomate y pimienta negra",
+              "descripcion": "amb orenga, tomàquet i pebre vermell",
+              "descripcion_en": "with oregano, tomato and red pepper",
+              "descripcion_es": "con orégano, tomate y pimienta roja",
               "precio": "9,50",
               "tags": "",
               "allergen": []
@@ -244,7 +244,7 @@
               "nombre_es": "Burrata",
               "descripcion": "amb pesto ruca i espinacs baby",
               "descripcion_en": "with arugula pesto and baby spinach",
-              "descripcion_es": "con pesto rúcula y espiacas baby",
+              "descripcion_es": "con pesto rúcula y espinacas baby",
               "precio": "14,50",
               "tags": "",
               "allergen": []
@@ -327,7 +327,7 @@
             {
               "nombre": "Arròs melós",
               "nombre_en": "Creamy rice",
-              "nombre_es": "Arroz melozo",
+              "nombre_es": "Arroz meloso",
               "descripcion": "de gamba i calamar - p/p",
               "descripcion_en": "with prawns and squid - p/p",
               "descripcion_es": "de gamba y calamar - p/p",
@@ -371,7 +371,7 @@
             {
               "nombre": "Arròs de muntanya",
               "nombre_en": "Mountain rice",
-              "nombre_es": "Arroz de montaña'",
+              "nombre_es": "Arroz de montaña",
               "descripcion": "per a 2 persones - preu per cassola",
               "descripcion_en": "for 2 people - price per dish",
               "descripcion_es": "para 2 personas - precio por cazuela",
@@ -406,8 +406,8 @@
               "nombre_en": "Ravioli",
               "nombre_es": "Ravioli",
               "descripcion": "farcits de ricotta i burrata amb pinyons torrats en mantega de sàlvia",
-              "descripcion_en": "farcits de ricotta i burrata amb pinyons torrats en mantega de sàlvia",
-              "descripcion_es": "filled with ricotta and burrata, with pine nuts toasted in sage butter",
+              "descripcion_en": "filled with ricotta and burrata, with pine nuts toasted in sage butter",
+              "descripcion_es": "rellenos de ricotta y burrata, con piñones tostados en mantequilla de salvia",
               "precio": "14",
               "tags": "",
               "allergen": []
@@ -492,7 +492,7 @@
               "nombre_en": "BBQ pork ribs",
               "nombre_es": "Costilla de cerdo con salsa BBQ",
               "descripcion": "patata a l'forn i puré de moniato",
-              "descripcion_en": "with bakes potatoes and sweet potato puree",
+              "descripcion_en": "with baked potatoes and sweet potato puree",
               "descripcion_es": "patata al horno y puré de boniato",
               "precio": "14,50",
               "tags": "",
@@ -508,7 +508,7 @@
           "imagen": "",
           "data": [
             {
-              "nombre": "Pot de pop en dues coccions",
+              "nombre": "Pota de pop en dues coccions",
               "nombre_en": "Octopus leg cooked two ways",
               "nombre_es": "Pata de pulpo en dos cocciones",
               "descripcion": "amb cremós de patata i pebre vermell de la Vera fumat",
@@ -533,7 +533,7 @@
               "nombre": "Suprema de lluç",
               "nombre_en": "Hake supreme",
               "nombre_es": "Suprema de merluza",
-              "descripcion": "amb escates de patata i beurre blanc de ous royal",
+              "descripcion": "amb escates de patata i beurre blanc d'ous royal",
               "descripcion_en": "with potato scales and royal roe beurre blanc",
               "descripcion_es": "con escamas de patata y beurre blanc de huevas royal",
               "precio": "24",
